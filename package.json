@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-css": "tailwindcss build styles/globals.css -o styles/styles.css "
   },
   "dependencies": {
     "autoprefixer": "^10.3.6",
@@ -17,6 +18,7 @@
     "tailwindcss": "^2.2.16"
   },
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   }
