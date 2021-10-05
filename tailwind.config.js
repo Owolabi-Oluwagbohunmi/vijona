@@ -19,7 +19,9 @@ module.exports = {
       },
       fontSize: {
         'primary': ['1rem', '3.125rem'],
-        'hero': ['3.75rem', '3.125rem']
+        'hero': ['3.75rem', '3.125rem'],
+        'sectionhead':['2.8125rem', '3.125rem'],
+        'quotetext':['1.5625rem', '3.125rem']
       },
     },
   },
