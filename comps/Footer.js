@@ -31,7 +31,7 @@ const Footer = () => {
                     through your donations and or your partnerships we can bring the dreams of every child to life
                 </div>
                 <div className=' flex flex-row mt-5'>
-                    <div class = 'flex flex-row align-center justi'>
+                    <div className = 'flex flex-row align-center justi'>
                         <Link href=''>
                             <a className='h-10 w-24 bg-vijyellow px-4 py-2 font-medium rounded-lg'>
                                 Ask How
