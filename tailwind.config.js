@@ -9,7 +9,14 @@ module.exports = {
         "v-black":"#000000",
         "bg-cta": '#D3E5E4',
         "v-bg": '#F5F8FD'
-      } 
+      }, 
+      fontFamily:{
+        'openSans': ['Open Sans', 'sans-serif']
+      },
+      fontSize: {
+        'primary': ['1rem', '3.125rem'],
+        'hero': ['3.75rem', '3.125rem']
+      }
     },
   },
   variants: {
