@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Layout = ({children}) => {
     return (
-        <div className="px-5 md:px-16 lg:px-18">
+        <div className=" font-openSans px-5 md:px-16 lg:px-18">
             <Navbar />
             {children}
             <Footer />
