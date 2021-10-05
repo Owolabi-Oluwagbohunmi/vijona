@@ -5,7 +5,7 @@ const Pledge = () => {
   return (
     <section className="bg-white pt-20 xl:px-16">
       <h3 className="text-sectionhead font-semibold py-14">Our Pledge</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 my-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 my-24">
         <div className="order-last md:order-first">
           <Image src={pledgeImage} alt="pledge-image" />
         </div>
