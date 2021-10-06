@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import VijonaPeople from "../public/assets/vijonapple.jpg";
 import Relindis from "../public/assets/relindis.jpg";
 
