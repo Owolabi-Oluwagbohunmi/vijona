@@ -15,14 +15,16 @@ module.exports = {
         'gcols': '2rem'
       }, 
       fontFamily:{
-        'openSans': ['Open Sans', 'sans-serif']
+        'openSans': ['Mulish', 'sans-serif']
       },
       fontSize: {
         'primary': ['1rem', '3.125rem'],
         'hero': ['3.75rem', '3.125rem'],
         'sectionhead':['2.8125rem', '3.125rem'],
         'quotetext':['1.5625rem', '3.125rem'],
-        'insectionHeading':['1.875rem', '3.125rem']
+        'insectionHeading':['1.875rem', '3.125rem'],
+        'cardHead':['2.5rem', '3.125rem'],
+        'cardtext':['1.25rem', '3.125rem']
       },
     },
   },
