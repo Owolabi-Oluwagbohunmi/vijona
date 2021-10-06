@@ -9,7 +9,7 @@ module.exports = {
         "v-green":"#0D4D4D",
         "v-black":"#000000",
         "bg-cta": '#D3E5E4',
-        "v-bg": '#F5F8FD'
+        "v-bg": '#FAFAFB'
       },
       gridAutoColumns: {
         'gcols': '2rem'
@@ -21,7 +21,8 @@ module.exports = {
         'primary': ['1rem', '3.125rem'],
         'hero': ['3.75rem', '3.125rem'],
         'sectionhead':['2.8125rem', '3.125rem'],
-        'quotetext':['1.5625rem', '3.125rem']
+        'quotetext':['1.5625rem', '3.125rem'],
+        'insectionHeading':['1.875rem', '3.125rem']
       },
     },
   },
