@@ -3,7 +3,7 @@ import HeroImage from '../public/assets/hero.png'
 
 const Hero = () => {
   return (
-    <section className="flex flex-col xl:flex-row mt-5 ">
+    <section className="flex flex-col xl:flex-row pt-5 ">
     <div className="xl:px-16 xl:w-2/4">
       <h1 className=" text-5xl md:text-6xl my-6 font-semibold ">Who am I?</h1>
       <h2 className=" text-5xl md:text-6xl my-6 font-semibold ">What can I do?</h2>
@@ -18,9 +18,9 @@ const Hero = () => {
         relies on who they are and what they can do.
       </p>
       <div className="flex mt-8 flex-col w-max sm:flex-row ">
-        <a className="bg-black py-3 px-4 mr-4 rounded shadow-md text-white">Ignite Experience</a>
-        <a className="bg-v-yellow py-3 px-4 mr-4 rounded shadow-md text-white">Incubator Hubs</a>
-        <a className="bg-v-green py-3 mr-4 px-4 rounded shadow-md text-white">Pathway Programs</a>
+        <a className="bg-black py-4 px-6 mr-4 rounded shadow-md text-white">Ignite Experience</a>
+        <a className="bg-v-yellow py-4 px-6 mr-4 rounded shadow-md text-white">Incubator Hubs</a>
+        <a className="bg-v-green py-4 px-6 mr-4 px-4 rounded shadow-md text-white">Pathway Programs</a>
       </div>
     </div>
     <div className="mx-auto mt-10 mr-10 w-3/4  xl:w-5/12 ml-12">
