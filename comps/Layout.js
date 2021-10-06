@@ -1,22 +1,16 @@
 import React from "react";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
+import Howitworks from "./Howitworks";
 import Navbar from "./Navbar";
+import Partner from "./Partner";
 import Pledge from "./pledge";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-v-bg">
-        <Navbar />
-        {children}
-      </div>
-      <div className="font-openSans px-5 md:px-16 lg:px-18">
-        <Pledge />
-
-        <Aboutus />
-      </div>
-
+      <Navbar />
+      {children}
       <Footer />
     </>
   );
