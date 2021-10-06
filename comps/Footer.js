@@ -4,7 +4,8 @@ import Logo_white from "../public/assets/logo-white.png";
 
 const Footer = () => {
   return (
-    <div className="bg-black grid grid-cols-1 md:grid-cols-2 md:gap-12 lg:grid-cols-4 text-white pt-10 px-6 gap-6 w-full">
+    <div className="font-openSans px-5 md:px-16 bg-black lg:px-18">
+    <section className=" grid grid-cols-1 md:grid-cols-2 md:gap-12 lg:grid-cols-4 text-white pt-10 px-6 gap-6 w-full">
       <div className=" h-28 w-28 object-cover lg:row-span-3">
         <Image
           src={Logo_white}
@@ -51,13 +52,13 @@ const Footer = () => {
         <div className=" flex flex-row mt-5">
           <div className="flex flex-row align-center justi">
             <Link href="">
-              <a className="h-10 w-24 bg-vijyellow px-4 py-2 font-medium rounded-lg">
+              <a className="w-max bg-vijyellow px-4 py-2 font-medium rounded-sm">
                 Ask How
               </a>
             </Link>
           </div>
 
-          <div className="h-10 w-24 bg-white px-5 py-2 ml-6 font-medium text-gray-900 rounded-lg">
+          <div className=" w-max bg-white px-5 py-2 ml-6 font-medium text-gray-900 rounded-sm">
             <Link href="">
               <a>Donate</a>
             </Link>
@@ -130,6 +131,7 @@ const Footer = () => {
       <div className="flex flex-row justify-center md:col-span-2 lg:justify-start">
         &copy;2021, Vijona Africa
       </div>
+    </section>
     </div>
   );
 };
