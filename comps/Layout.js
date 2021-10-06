@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Howitworks from "./Howitworks";
 import Navbar from "./Navbar";
 import Partner from "./Partner";
-import Pledge from "./pledge";
+import Pledge from "./Pledge";
 
 const Layout = ({ children }) => {
   return (
