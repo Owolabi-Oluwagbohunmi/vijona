@@ -11,17 +11,17 @@ const Navbar = () => {
         </div>
 
         <div className="hidden xl:flex font-medium">
-          <a className="cursor-pointer mx-8 ">About Us</a>
-          <a className="cursor-pointer mx-8 ">What we Do</a>
-          <a className="cursor-pointer mx-8 ">Events&amp;Stories</a>
-          <a className="cursor-pointer mx-8">Alumni Community</a>
+          <a className="navbar-link">About Us</a>
+          <a className="navbar-link ">What we Do</a>
+          <a className="navbar-link ">Events &amp; Stories</a>
+          <a className="navbar-link">Alumni Community</a>
         </div>
 
         <div className="hidden xl:flex">
-          <a className="bg-v-yellow mr-14 px-6 py-3 rounded-sm shadow-md text-white">
+          <a className="navbar-btn bg-v-yellow mr-14  ">
             Donate
           </a>
-          <a className="bg-v-black px-6 py-3 rounded-sm shadow-md  text-white">
+          <a className="navbar-btn bg-v-black ">
             Join Us
           </a>
         </div>
