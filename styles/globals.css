@@ -29,3 +29,7 @@
 .footer-links-header-link {
   @apply my-1;
 }
+
+.hero-links {
+  @apply py-4 px-6 mr-4 rounded shadow-md text-white;
+}

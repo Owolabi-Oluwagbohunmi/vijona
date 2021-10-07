@@ -18,9 +18,9 @@ const Hero = () => {
         relies on who they are and what they can do.
       </p>
       <div className="flex mt-8 flex-col w-max sm:flex-row ">
-        <a className="bg-black py-4 px-6 mr-4 rounded shadow-md text-white">Ignite Experience</a>
-        <a className="bg-v-yellow py-4 px-6 mr-4 rounded shadow-md text-white">Incubator Hubs</a>
-        <a className="bg-v-green py-4 px-6 mr-4 px-4 rounded shadow-md text-white">Pathway Programs</a>
+        <a className="bg-black hero-links">Ignite Experience</a>
+        <a className="bg-v-yellow hero-links">Incubator Hubs</a>
+        <a className="bg-v-green px-4 hero-links">Pathway Programs</a>
       </div>
     </div>
     <div className="mx-auto mt-10 mr-10 w-3/4  xl:w-5/12 ml-12">
