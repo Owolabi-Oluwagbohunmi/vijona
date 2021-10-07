@@ -17,13 +17,13 @@ const Footer = () => {
 
       <div className="flex flex-col font-light w-72">
         <div className="font-bold py-3">Engagement Channels</div>
-        <Link href="">
+        <Link href="/">
           <a className=" my-1">Ignite Experience</a>
         </Link>
-        <Link href="">
+        <Link href="/">
           <a className=" my-1">Incubator Hubs</a>
         </Link>
-        <Link href="">
+        <Link href="/">
           <a className=" my-1">Pathway Programs</a>
         </Link>
       </div>
@@ -33,13 +33,13 @@ const Footer = () => {
         <Link href="/">
           <a className=" my-1">Home</a>
         </Link>
-        <Link href="/">
+        <Link href="/what-we-do">
           <a className=" my-1">What we do</a>
         </Link>
-        <Link href="/">
+        <Link href="/events">
           <a className=" my-1">Events&amp;Stories</a>
         </Link>
-        <Link href="/">
+        <Link href="/alunmi">
           <a className=" my-1">Alumni Community</a>
         </Link>
       </div>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         <div className=" flex flex-row mt-5">
           <div className="flex flex-row align-center justi">
-            <Link href="">
+            <Link href="/ask-how">
               <a className="w-max bg-vijyellow px-4 py-2 font-medium rounded-sm">
                 Ask How
               </a>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
 
           <div className=" w-max bg-white px-5 py-2 ml-6 font-medium text-gray-900 rounded-sm">
-            <Link href="">
+            <Link href="/donate">
               <a>Donate</a>
             </Link>
           </div>

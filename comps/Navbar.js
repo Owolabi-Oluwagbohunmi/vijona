@@ -11,19 +11,23 @@ const Navbar = () => {
         </div>
 
         <div className="hidden xl:flex font-medium">
-          <a className="navbar-link">About Us</a>
-          <a className="navbar-link ">What we Do</a>
-          <a className="navbar-link ">Events &amp; Stories</a>
-          <a className="navbar-link">Alumni Community</a>
+          <Link href="/">
+            <a className="navbar-link">About Us</a>
+          </Link>
+          <Link href="/what-we-do">
+            <a className="navbar-link ">What we Do</a>
+          </Link>
+          <Link href="/events">
+            <a className="navbar-link ">Events &amp; Stories</a>
+          </Link>
+          <Link href="/alumni">
+            <a className="navbar-link">Alumni Community</a>
+          </Link>
         </div>
 
         <div className="hidden xl:flex">
-          <a className="navbar-btn bg-v-yellow mr-14  ">
-            Donate
-          </a>
-          <a className="navbar-btn bg-v-black ">
-            Join Us
-          </a>
+          <a className="navbar-btn bg-v-yellow mr-14  ">Donate</a>
+          <a className="navbar-btn bg-v-black ">Join Us</a>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
