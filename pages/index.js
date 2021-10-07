@@ -14,19 +14,19 @@ export default function Home() {
       <Head>
         <title>Vijona | Home</title>
       </Head>
-      <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-v-bg">
+      <div className=" index-components  lg:px-18 bg-v-bg">
         <Hero />
       </div>
-      <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-white">
+      <div className=" index-components  lg:px-18 bg-white">
         <Pledge />
         <Aboutus />
         
       </div>
-      <div className="font-openSans px-5 md:px-16 bg-v-bg lg:px-18">
+      <div className="index-components  lg:px-18 bg-v-bg">
         <Howitworks/>
         <Partner/>
       </div>
-      <div className="font-openSans px-5 md:px-16 bg-white lg:px-18">
+      <div className="index-components lg:px-18 bg-white">
 
       <Counter/>
       </div>

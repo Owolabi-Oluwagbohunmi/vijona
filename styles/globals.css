@@ -33,3 +33,7 @@
 .hero-links {
   @apply py-4 px-6 mr-4 rounded shadow-md text-white;
 }
+
+.index-components {
+  @apply font-openSans px-5 md:px-16;
+}
