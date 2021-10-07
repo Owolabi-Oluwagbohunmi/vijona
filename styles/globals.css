@@ -17,3 +17,15 @@
 .counter-p {
   @apply text-v-green w-7/12 sm:w-9/12 mx-auto my-6;
 }
+
+.footer-links {
+  @apply flex flex-col font-light w-72;
+}
+
+.footer-links-header {
+  @apply font-bold py-3;
+}
+
+.footer-links-header-link {
+  @apply my-1;
+}

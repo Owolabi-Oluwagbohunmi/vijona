@@ -15,36 +15,36 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col font-light w-72">
-        <div className="font-bold py-3">Engagement Channels</div>
+      <div className="footer-links">
+        <div className="footer-links-header">Engagement Channels</div>
         <Link href="">
-          <a className=" my-1">Ignite Experience</a>
+          <a className=" footer-links-header-link">Ignite Experience</a>
         </Link>
         <Link href="">
-          <a className=" my-1">Incubator Hubs</a>
+          <a className=" footer-links-header-link">Incubator Hubs</a>
         </Link>
         <Link href="">
-          <a className=" my-1">Pathway Programs</a>
+          <a className=" footer-links-header-link">Pathway Programs</a>
         </Link>
       </div>
 
-      <div className="flex flex-col font-light w-72">
-        <div className="font-bold py-3">Sitemap</div>
+      <div className="footer-links">
+        <div className="footer-links-header">Sitemap</div>
         <Link href="/">
-          <a className=" my-1">Home</a>
+          <a className=" footer-links-header-link">Home</a>
         </Link>
         <Link href="/">
-          <a className=" my-1">What we do</a>
+          <a className=" footer-links-header-link">What we do</a>
         </Link>
         <Link href="/">
-          <a className=" my-1">Events&amp;Stories</a>
+          <a className=" footer-links-header-link">Events&amp;Stories</a>
         </Link>
         <Link href="/">
-          <a className=" my-1">Alumni Community</a>
+          <a className=" footer-links-header-link">Alumni Community</a>
         </Link>
       </div>
-      <div className="flex flex-col font-light w-72 h-auto">
-        <div className="font-bold py-3">You can help shape the future</div>
+      <div className="footer-links h-auto">
+        <div className="footer-links-header">You can help shape the future</div>
         <div>
           through your donations and or your partnerships we can bring the
           dreams of every child to life
@@ -66,9 +66,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col font-light w-72">
-        <div className="font-bold py-3">Contacts</div>
-        <div className=" my-1">info@vijona.com</div>
+      <div className="footer-links">
+        <div className="footer-links-header">Contacts</div>
+        <div className=" footer-links-header-link">info@vijona.com</div>
       </div>
 
       <div className="w-60 py-3 flex flex-row justify-between lg:justify-evenly lg:-mx-5">
