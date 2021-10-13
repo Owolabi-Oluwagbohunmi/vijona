@@ -3,7 +3,7 @@ import HeroImage from '../public/assets/hero.png'
 
 const Hero = () => {
   return (
-    <section className="flex flex-col xl:flex-row pt-5 ">
+    <section className="flex flex-col xl:flex-row pt-5 mt-24 ">
     <div className="xl:px-16 xl:w-2/4">
       <h1 className=" text-5xl md:text-6xl my-6 font-semibold ">Who am I?</h1>
       <h2 className=" text-5xl md:text-6xl my-6 font-semibold ">What can I do?</h2>

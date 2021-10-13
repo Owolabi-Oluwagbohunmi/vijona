@@ -5,13 +5,18 @@ import Howitworks from "./Howitworks";
 import Navbar from "./Navbar";
 import Partner from "./Partner";
 import Pledge from "./Pledge";
+import { useRouter } from "next/router";
+import Wwwdonav from "./Wwwnav";
 
 const Layout = ({ children }) => {
+  const router = useRouter();
+  const WwwdoPage = router.pathname === "/what-we-do" ? false : true;
+
   return (
     <>
-      <Navbar />
+      {WwwdoPage === false ? <Wwwdonav /> : <Navbar />}
       {children}
-      <Footer />
+      {WwwdoPage && <Footer />}
     </>
   );
 };

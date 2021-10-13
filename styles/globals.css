@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  position: relative;
+}
+
 .navbar-link {
   @apply cursor-pointer mx-8;
 }

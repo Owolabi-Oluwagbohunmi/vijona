@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/assets/vijona-black.jpg";
 
-const Navbar = () => {
+const Wwwdonav = () => {
   return (
-    <div className=" fixed z-10  top-0 left-0 right-0 font-openSans px-5 md:px-16 lg:px-18  bg-v-bg">
+    <div className=" fixed z-10  top-0 left-0 right-0 font-openSans px-5 md:px-16 lg:px-18  bg-transparent">
       <nav className="flex justify-between py-8 items-center font-medium">
         <div className=" w-28 md:w-36 cursor-pointer border p-0 ">
           <Image className="w-full" src={Logo} alt="vijona-logo" />
@@ -12,16 +12,16 @@ const Navbar = () => {
 
         <div className="hidden xl:flex font-medium">
           <Link href="/">
-            <a className="navbar-link">About Us</a>
+            <a className="navbar-link text-white">About Us</a>
           </Link>
           <Link href="/what-we-do">
-            <a className="navbar-link ">What we Do</a>
+            <a className="navbar-link text-white ">What we Do</a>
           </Link>
           <Link href="/events">
-            <a className="navbar-link ">Events &amp; Stories</a>
+            <a className="navbar-link text-white ">Events &amp; Stories</a>
           </Link>
           <Link href="/alumni">
-            <a className="navbar-link">Alumni Community</a>
+            <a className="navbar-link text-white">Alumni Community</a>
           </Link>
         </div>
 
@@ -48,4 +48,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Wwwdonav;
