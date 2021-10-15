@@ -56,7 +56,7 @@ const Pledge = () => {
             the world needs you. Yes YOU! Join the movement! Take the Pledge …
             and act on it.
           </p>
-          <a className="bg-v-green w-auto shadow-md text-white p-3 rounded-sm my-10">Take the pledge</a>
+          <a className="bg-v-green w-auto shadow-md text-white py-4 px-6 rounded my-10">Take the pledge</a>
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href="/events">
             <a className="navbar-link ">Events &amp; Stories</a>
           </Link>
-          <Link href="/alumni">
+          <Link href="/community">
             <a className="navbar-link">Alumni Community</a>
           </Link>
         </div>

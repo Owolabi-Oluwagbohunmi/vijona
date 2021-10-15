@@ -6,10 +6,13 @@ module.exports = {
       colors:{
         'vijyellow':"#fbb040",
         "v-yellow":"#FBB040",
-        "v-green":"#0D4D4D",
+        "v-green":"#ed1c24",
         "v-black":"#000000",
         "bg-cta": '#D3E5E4',
-        "v-bg": '#FAFAFB'
+        "v-bg": '#FAFAFB',
+        'v-gray': '#f6f7f7',
+        'v-pink': '#FFF9F9',
+        'v-black': '#282828'
       },
       gridAutoColumns: {
         'gcols': '2rem'

@@ -14,9 +14,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {WwwdoPage === false ? <Wwwdonav /> : <Navbar />}
+      {/* {WwwdoPage === false ? <Wwwdonav /> : <Navbar />} */}
+      <Navbar />
       {children}
-      {WwwdoPage && <Footer />}
+      <Footer />
+      {/* {WwwdoPage && <Footer />} */}
     </>
   );
 };
