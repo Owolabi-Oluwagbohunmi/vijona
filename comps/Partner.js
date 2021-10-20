@@ -5,7 +5,7 @@ import VijonaPeople from "../public/assets/vijonapple.jpg";
 
 const Partner = () => {
   return (
-    <section className="pt-44 xl:px-16">
+    <section className="pt-16 xl:px-16">
       <h3 className="text-sectionhead font-semibold py-14 text-center">
         Partner With Us
       </h3>

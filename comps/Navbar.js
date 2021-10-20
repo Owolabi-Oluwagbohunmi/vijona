@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden xl:flex">
-          <a className="navbar-btn bg-v-yellow mr-14  ">Donate</a>
+          <a className="navbar-btn bg-v-yellow mr-14">Donate</a>
           <a className="navbar-btn bg-v-black ">Join Us</a>
         </div>
         <svg
