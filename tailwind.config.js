@@ -21,13 +21,13 @@ module.exports = {
         'openSans': ['Mulish', 'sans-serif']
       },
       fontSize: {
-        'primary': ['1rem', '3.125rem'],
-        'hero': ['3.75rem', '3.125rem'],
+        'primary': ['1rem', '2.5rem'],
+        'hero': ['3.75rem', '2.5rem'],
         'sectionhead':['2.8125rem', '3.125rem'],
-        'quotetext':['1.5625rem', '3.125rem'],
+        'quotetext':['1.5625rem', '2.5rem'],
         'insectionHeading':['1.875rem', '3.125rem'],
-        'cardHead':['2.5rem', '3.125rem'],
-        'cardtext':['1.25rem', '3.125rem']
+        'cardHead':['2.5rem', '2.5rem'],
+        'cardtext':['1.25rem', '2.5rem']
       },
     },
   },
