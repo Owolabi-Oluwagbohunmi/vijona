@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
       </div>
       <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-white">
-        <Pledge />
+        {/* <Pledge /> */}
         <Aboutus />
         
       </div>
