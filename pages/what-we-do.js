@@ -133,7 +133,7 @@ const whatwedo = () => {
         <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt='' />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">1</p>
@@ -144,7 +144,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Critical} />
+              <Image src={Critical} alt=''/>
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">2</p>
@@ -153,7 +153,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Showcase} />
+              <Image src={Showcase} alt='' />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">3</p>
@@ -165,7 +165,7 @@ const whatwedo = () => {
 
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt='' />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">4</p>
@@ -176,7 +176,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={World} />
+              <Image src={World} alt='' />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">5</p>
@@ -194,7 +194,7 @@ const whatwedo = () => {
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} />
+            <Image src={IgniteOne} alt='' />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg
@@ -223,7 +223,7 @@ const whatwedo = () => {
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} />
+            <Image src={IgniteTwo} alt='' />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>
