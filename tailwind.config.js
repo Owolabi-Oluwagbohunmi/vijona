@@ -29,6 +29,12 @@ module.exports = {
         'cardHead':['2.5rem', '2.5rem'],
         'cardtext':['1.25rem', '2.5rem']
       },
+      height: {
+        'cus-height': '37.2rem'
+      },
+      margin:{
+        '29' : '7.4rem'
+      }
     },
   },
   variants: {
