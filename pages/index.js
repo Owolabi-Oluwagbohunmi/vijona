@@ -5,7 +5,7 @@ import Counter from "../comps/Counter";
 import Hero from "../comps/Hero";
 import Howitworks from "../comps/Howitworks";
 import Partner from "../comps/Partner";
-import Pledge from "../comps/pledge";
+import Pledge from "../comps/Pledge";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
       </div>
       <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-white">
-        {/* <Pledge /> */}
+        <Pledge /> 
         <Aboutus />
         
       </div>
