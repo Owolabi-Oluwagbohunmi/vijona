@@ -5,7 +5,7 @@ import Counter from "../comps/Counter";
 import Hero from "../comps/Hero";
 import Howitworks from "../comps/Howitworks";
 import Partner from "../comps/Partner";
-import Pledge from "../comps/Pledge";
+import Pledge from "../comps/pledge";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
