@@ -30,7 +30,7 @@ const community = () => {
           </p>
         </div>
         <div>
-          <Image src={Incubator}/>
+          <Image src={Incubator} alt=''/>
         </div>
       </section>
     </>
