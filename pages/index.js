@@ -17,18 +17,18 @@ export default function Home() {
       <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-v-bg">
         <Hero />
       </div>
+      
       <div className=" font-openSans px-5 md:px-16 lg:px-18 bg-white">
         <Pledge />
-        <Aboutus />
-        
       </div>
+      <Aboutus className="md:px-16 " />
+      <Howitworks />
       <div className="font-openSans px-5 md:px-16 bg-v-bg lg:px-18">
-        <Howitworks/>
-        <Partner/>
+        
+        <Partner />
       </div>
       <div className="font-openSans px-5 md:px-16 bg-white lg:px-18">
-
-      <Counter/>
+        <Counter />
       </div>
     </>
   );

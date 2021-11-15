@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../public/assets/vijona-black.jpg";
+import Logo from "../public/assets/vijona-black.png";
 
 const Wwwdonav = () => {
   return (
     <div className=" fixed z-10  top-0 left-0 right-0 font-openSans px-5 md:px-16 lg:px-18  bg-transparent">
       <nav className="flex justify-between py-8 items-center font-medium">
-        <div className=" w-28 md:w-36 cursor-pointer border p-0 ">
+        <div className=" w-28 md:w-36 cursor-pointer p-0 ">
           <Image className="w-full" src={Logo} alt="vijona-logo" />
         </div>
 
@@ -24,10 +24,15 @@ const Wwwdonav = () => {
             <a className="navbar-link text-white">Alumni Community</a>
           </Link>
         </div>
+<div>
+  <div>
+    
+  </div>
 
         <div className="hidden xl:flex">
           <a className="navbar-btn bg-v-yellow mr-14  ">Donate</a>
           <a className="navbar-btn bg-v-black ">Join Us</a>
+        </div>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

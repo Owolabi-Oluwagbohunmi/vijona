@@ -3,6 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      width:{
+        'card':'21.5rem'
+      },
+      height:{
+        "h-card": '291px'
+        
+      },
+
       colors:{
         'vijyellow':"#fbb040",
         "v-yellow":"#FBB040",
@@ -21,13 +29,15 @@ module.exports = {
         'openSans': ['Mulish', 'sans-serif']
       },
       fontSize: {
-        'primary': ['1rem', '2.5rem'],
+        'primary': ['1rem', '1.8rem'],
         'hero': ['3.75rem', '2.5rem'],
+        'cta': ['3rem', '4.5rem'],
         'sectionhead':['2.8125rem', '3.125rem'],
         'quotetext':['1.5625rem', '2.5rem'],
         'insectionHeading':['1.875rem', '3.125rem'],
         'cardHead':['2.5rem', '2.5rem'],
-        'cardtext':['1.25rem', '2.5rem']
+        'cardtext':['1.25rem', '2.5rem'],
+        'headings':['2rem', '3rem'],
       },
     },
   },
