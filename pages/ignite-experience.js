@@ -16,7 +16,8 @@ import plus from "../public/assets/plus.svg";
 import ReactPlayer from "react-player/lazy";
 import Bullet from "../comps/Bullet";
 
-const igniteExperience = () => {
+const igniteExperience = () =>
+{
   const myStyle = {
     borderRadius: "10px",
   };
@@ -64,27 +65,31 @@ const igniteExperience = () => {
           Imagine if young Africans are properly{" "}
           <span className="font-bold">equipped early in life...</span>
         </p>
-        <div className="w-2/4 my-5 ">
-          <div className="flex">
-            <div className="bg-white w-card p-4 h-card">
-              <div className="flex ">
-                <div className="mr-3">
-                  <Image src={curlyArrow} />
-                </div>
-                <h3 className="text-2xl w-10/12 font-medium">
-                  Gifted with self- discovery
-                </h3>
-              </div>
-              <p className="uppercase my-4">Who am I?</p>
 
-              <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
-              <Bullet textVal="Lifelong mental paradigm shift" />
+        <div className="grid gap-4 grid-cols-7 grid-rows-3 auto-cols-gcols text-center my-5 ">
+
+
+          <div className=" col-span-2 bg-white w-card p-4 h-card item">
+            <div className="flex ">
+              <div className="mr-3">
+                <Image src={curlyArrow} />
+              </div>
+              <h3 className="text-2xl w-10/12 font-medium">
+                Gifted with self- discovery
+              </h3>
             </div>
-            <div className="">
-              <Image src={plus} />
-            </div>
+            <p className="uppercase my-4">Who am I?</p>
+
+            <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
+            <Bullet textVal="Lifelong mental paradigm shift" />
           </div>
-          <div className="flex flex-col">
+
+
+          <div className="flex align-middle justify-center col-span-1">
+            <Image src={plus} />
+          </div>
+
+          <div className="col-span-2 flex flex-col">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
@@ -98,51 +103,50 @@ const igniteExperience = () => {
               <Bullet textVal="Relevant occupations that align with who they are" />
               <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
             </div>
-            <div className="">
-              <Image src={plus} />
-            </div>
           </div>
-          <div className="flex flex-col-reverse">
-            <div className="">
-              <Image src={plus} />
-            </div>
-            <div className="bg-white w-card p-4 h-card ">
-              <div className="flex items-center">
-                <div>
-                  <Image src={curlyArrow} />
-                </div>
-                <h3 className="text-2xl w-3/4 font-medium">
-                  Enabled to draft life plans
-                </h3>
-              </div>
-              <p className="uppercase">
-                Individualized Occupational life plans
-              </p>
-              <Bullet textVal="Actionable and SMART goals" />
-              <Bullet textVal="Becoming self- advocates of their success" />
-            </div>
+
+          <div className="col-span-1">
+          </div>
+
+          <div className="col-span-1"></div>
+
+          <div className="">
+            <Image src={plus} />
+          </div>
+
+          <div className="text-8xl">
+            1
           </div>
 
           <div className="">
-            <div className="">
-              <Image src={plus} />
-            </div>
-            <div className="bg-white w-card p-4 h-card ">
-              <div className="flex items-center">
-                <div>
-                  <Image src={curlyArrow} />
-                </div>
-                <h3 className="text-2xl w-3/4 font-medium">
-                  Empowered to achieve their plans
-                </h3>
-              </div>
-
-              <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
-            </div>
+            <Image src={plus} />
           </div>
+
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+          <div className="text-8xl">
+            1
+          </div>
+
         </div>
       </section>
-      <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
+      {/* <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
         <div>
           <h3 className="text-sectionhead text-center lg:text-left font-semibold py-8">
             Get freedom from occupational wilderness
@@ -296,7 +300,7 @@ const igniteExperience = () => {
           height="900px"
           width="100%"
         ></iframe>
-      </section>
+      </section> */}
     </>
   );
 };

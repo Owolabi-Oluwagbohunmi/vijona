@@ -10,7 +10,6 @@ module.exports = {
         "h-card": '291px'
         
       },
-
       colors:{
         'vijyellow':"#fbb040",
         "v-yellow":"#FBB040",
@@ -23,7 +22,7 @@ module.exports = {
         'v-black': '#282828'
       },
       gridAutoColumns: {
-        'gcols': '2rem'
+        'gcols': 'minmax(0,2rem)'
       }, 
       fontFamily:{
         'openSans': ['Mulish', 'sans-serif']
