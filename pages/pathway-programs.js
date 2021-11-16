@@ -108,7 +108,7 @@ const pathwayScholarships = () => {
       />
       <section className="my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          Ignite workshops and contests
+          IGNITE workshops and contests
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
@@ -131,7 +131,7 @@ const pathwayScholarships = () => {
                 <p className="ml-2 uppercase text-white ">Cameroun</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Find Ignite Workshops near your location
+                Find IGNITE Workshops near your location
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
@@ -147,7 +147,7 @@ const pathwayScholarships = () => {
                 <p className="ml-2 uppercase text-white ">Contest</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Get Involved in our upcoming Ignite Contests
+                Get Involved in our upcoming IGNITE Contests
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">

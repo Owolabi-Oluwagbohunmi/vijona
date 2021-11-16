@@ -11,6 +11,7 @@ import Showcase from "../public/assets/showcase.svg";
 import World from "../public/assets/world.svg";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
+import IgniteContest from "../public/assets/IgniteContest.png";
 import plus from "../public/assets/plus.svg";
 import equal from "../public/assets/equal.svg";
 import profileimage from "../public/assets/twoprofiles.png";
@@ -65,7 +66,7 @@ const igniteExperience = () =>
         <h2 className="text-sectionhead font-semibold py-14">Our Solution</h2>
         <p className="text-primary">
           Imagine if young Africans are properly{" "}
-          <span className="font-bold">equipped early in life...</span>
+          <span className="font-bold">equipped <mark>early in life</mark>...</span>
         </p>
 
         <div className="grid gap-4 grid-cols-ignitecard grid-rows-ignitecard auto-cols-gcols text-center my-5">
@@ -82,7 +83,7 @@ const igniteExperience = () =>
             </div>
             <p className="uppercase my-4">Who am I?</p>
 
-            <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
+            <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
             <Bullet textVal="Lifelong mental paradigm shift" />
           </div>
 
@@ -182,7 +183,7 @@ const igniteExperience = () =>
             leave your footprint on the world.
           </p>
           <p className=" text-primary xl:w-11/12 mb-5">
-            Our Ignite Experience frees you from occupational wilderness. We
+            Our IGNITE Experience frees you from occupational wilderness. We
             take you on a journey to discovering a list of occupations suitable
             for your unique inner talents and abilities, and position you for a
             successful and fulfilled life.
@@ -260,7 +261,7 @@ const igniteExperience = () =>
 
       <section className="my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          Ignite workshops and contests
+          IGNITE workshops and contests
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
@@ -283,7 +284,7 @@ const igniteExperience = () =>
                 <p className="ml-2 uppercase text-white ">Cameroun</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Find Ignite Workshops near your location
+                Find IGNITE Workshops near your location
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
@@ -293,13 +294,13 @@ const igniteExperience = () =>
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} alt="" />
+            <Image src={IgniteContest} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Get Involved in our upcoming Ignite Contests
+                Get Involved in our upcoming IGNITE Contests
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">

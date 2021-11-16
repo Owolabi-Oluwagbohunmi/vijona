@@ -69,7 +69,7 @@ const whatwedo = () => {
             <div className="bg-white w-card p-4 h-card">
               <div className="flex ">
                 <div className="mr-3">
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-10/12 font-medium">
                   Gifted with self- discovery
@@ -77,18 +77,18 @@ const whatwedo = () => {
               </div>
               <p className="uppercase my-4">Who am I?</p>
 
-              <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
+              <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
               <Bullet textVal="Lifelong mental paradigm shift" />
             </div>
             <div className="">
-              <Image src={plus} />
+              <Image src={plus} alt="" />
             </div>
           </div>
           <div className="flex flex-col">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Exposed to contextual occupations
@@ -99,17 +99,17 @@ const whatwedo = () => {
               <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
             </div>
             <div className="">
-              <Image src={plus} />
+              <Image src={plus} alt="" />
             </div>
           </div>
           <div className="flex flex-col-reverse">
             <div className="">
-              <Image src={plus} />
+              <Image src={plus} alt="" />
             </div>
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Enabled to draft life plans
@@ -125,12 +125,12 @@ const whatwedo = () => {
 
           <div className="">
             <div className="">
-              <Image src={plus} />
+              <Image src={plus} alt="" />
             </div>
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Empowered to achieve their plans
@@ -153,7 +153,7 @@ const whatwedo = () => {
             leave your footprint on the world.
           </p>
           <p className=" text-primary xl:w-11/12 mb-5">
-            Our Ignite Experience frees you from occupational wilderness. We
+            Our IGNITE Experience frees you from occupational wilderness. We
             take you on a journey to discovering a list of occupations suitable
             for your unique inner talents and abilities, and position you for a
             successful and fulfilled life.
@@ -174,7 +174,7 @@ const whatwedo = () => {
         <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt=""/>
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">1</p>
@@ -185,7 +185,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Critical} />
+              <Image src={Critical} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">2</p>
@@ -194,7 +194,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Showcase} />
+              <Image src={Showcase} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">3</p>
@@ -206,7 +206,7 @@ const whatwedo = () => {
 
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">4</p>
@@ -217,7 +217,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={World} />
+              <Image src={World} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">5</p>
@@ -231,11 +231,11 @@ const whatwedo = () => {
 
       <section className="my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          Ignite workshops and contests
+          IGNITE workshops and contests
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} />
+            <Image src={IgniteOne} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg
@@ -254,7 +254,7 @@ const whatwedo = () => {
                 <p className="ml-2 uppercase text-white ">Cameroun</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Find Ignite Workshops near your location
+                Find IGNITE Workshops near your location
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
@@ -264,13 +264,13 @@ const whatwedo = () => {
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} />
+            <Image src={IgniteTwo} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Get Involved in our upcoming Ignite Contests
+                Get Involved in our upcoming IGNITE Contests
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
