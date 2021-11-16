@@ -1,14 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import Occupational from "../public/assets/occupational.svg";
 import uniqueAttributes from "../public/assets/unique-attributes.svg";
+import curlyArrow from "../public/assets/curly-arr.svg";
 import Build from "../public/assets/build.svg";
+
 import Critical from "../public/assets/critical.svg";
 import Showcase from "../public/assets/showcase.svg";
 import World from "../public/assets/world.svg";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
+import plus from "../public/assets/plus.svg";
+
 import ReactPlayer from "react-player/lazy";
+import Bullet from "../comps/Bullet";
 
 const whatwedo = () => {
   const myStyle = {
@@ -19,7 +25,7 @@ const whatwedo = () => {
       <section className="mt-24 mx-auto ">
         <div className="w-11/12 mx-auto xl:mt-48 mt-36 text-center ">
           <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">
-            Welcome to the Ignite Experience
+            Welcome to the IGNITE Experience
           </h1>
           <p className="text-2xl my-10">
             A self-discovery and occupation envisioning journey!
@@ -52,51 +58,86 @@ const whatwedo = () => {
         </div>
       </section>
 
-      <section className="bg-v-gray my-10 xl:px-16">
+      <section className="bg-v-gray my-10 xl:px-16 py-20">
         <h2 className="text-sectionhead font-semibold py-14">Our Solution</h2>
         <p className="text-primary">
-          Imagine if young Africans are properly equipped early in life...
+          Imagine if young Africans are properly{" "}
+          <span className="font-bold">equipped early in life...</span>
         </p>
+        <div className="w-2/4 my-5 ">
+          <div className="flex">
+            <div className="bg-white w-card p-4 h-card">
+              <div className="flex ">
+                <div className="mr-3">
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-10/12 font-medium">
+                  Gifted with self- discovery
+                </h3>
+              </div>
+              <p className="uppercase my-4">Who am I?</p>
 
-        <div className="grid grid-cols-2 w-2/4">
-          <div className=" px-5 py-3 border border-yellow-500">
-            <div className="flex items-center">
-              <p>Gifted with self- discovery</p>
+              <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
+              <Bullet textVal="Lifelong mental paradigm shift" />
             </div>
-            <p>WHO AM I?</p>
-            <div className="flex">
-              <svg
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4" cy="4" r="4" fill="#ED1C24" />
-              </svg>
-
-              <p className="ml-3">
-                Innate values, talents, and abilities at birth ignite critical
-                thinking
-              </p>
-            </div>
-            <div className="flex items-center">
-              <svg
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4" cy="4" r="4" fill="#ED1C24" />
-              </svg>
-              <p>Lifelong mental paradigm shift</p>
+            <div className="">
+              <Image src={plus} />
             </div>
           </div>
-          <div className="border border-yellow-500">
-            <div className="flex">
-              <p>Gifted with self- discovery</p>
-              <div></div>
+          <div className="flex flex-col">
+            <div className="bg-white w-card p-4 h-card ">
+              <div className="flex items-center">
+                <div>
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-3/4 font-medium">
+                  Exposed to contextual occupations
+                </h3>
+              </div>
+              <p className="uppercase">What can I do?</p>
+              <Bullet textVal="Relevant occupations that align with who they are" />
+              <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
+            </div>
+            <div className="">
+              <Image src={plus} />
+            </div>
+          </div>
+          <div className="flex flex-col-reverse">
+            <div className="">
+              <Image src={plus} />
+            </div>
+            <div className="bg-white w-card p-4 h-card ">
+              <div className="flex items-center">
+                <div>
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-3/4 font-medium">
+                  Enabled to draft life plans
+                </h3>
+              </div>
+              <p className="uppercase">
+                Individualized Occupational life plans
+              </p>
+              <Bullet textVal="Actionable and SMART goals" />
+              <Bullet textVal="Becoming self- advocates of their success" />
+            </div>
+          </div>
+
+          <div className="">
+            <div className="">
+              <Image src={plus} />
+            </div>
+            <div className="bg-white w-card p-4 h-card ">
+              <div className="flex items-center">
+                <div>
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-3/4 font-medium">
+                  Empowered to achieve their plans
+                </h3>
+              </div>
+
+              <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
             </div>
           </div>
         </div>
@@ -133,7 +174,7 @@ const whatwedo = () => {
         <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
-              <Image src={uniqueAttributes} alt='' />
+              <Image src={uniqueAttributes} />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">1</p>
@@ -144,7 +185,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Critical} alt=''/>
+              <Image src={Critical} />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">2</p>
@@ -153,7 +194,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={Showcase} alt='' />
+              <Image src={Showcase} />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">3</p>
@@ -165,7 +206,7 @@ const whatwedo = () => {
 
           <div>
             <div>
-              <Image src={uniqueAttributes} alt='' />
+              <Image src={uniqueAttributes} />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">4</p>
@@ -176,7 +217,7 @@ const whatwedo = () => {
           </div>
           <div>
             <div>
-              <Image src={World} alt='' />
+              <Image src={World} />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">5</p>
@@ -194,7 +235,7 @@ const whatwedo = () => {
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} alt='' />
+            <Image src={IgniteOne} />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg
@@ -223,7 +264,7 @@ const whatwedo = () => {
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} alt='' />
+            <Image src={IgniteTwo} />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>
@@ -240,6 +281,7 @@ const whatwedo = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };
