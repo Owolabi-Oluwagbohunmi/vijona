@@ -13,6 +13,7 @@ import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
 import plus from "../public/assets/plus.svg";
 import equal from "../public/assets/equal.svg";
+import profileimage from "../public/assets/twoprofiles.png";
 
 import ReactPlayer from "react-player/lazy";
 import Bullet from "../comps/Bullet";
@@ -67,7 +68,7 @@ const igniteExperience = () =>
           <span className="font-bold">equipped early in life...</span>
         </p>
 
-        <div className="grid gap-4 grid-cols-ignitecard grid-rows-ignitecard auto-cols-gcols text-center my-5 ">
+        <div className="grid gap-4 grid-cols-ignitecard grid-rows-ignitecard auto-cols-gcols text-center my-5">
 
 
           <div className="bg-white w-card p-4 h-card item">
@@ -110,8 +111,14 @@ const igniteExperience = () =>
             <Image src={equal} />
           </div>
 
-          <div className="flex flex-col align-middle justify-center row-span-3">
-            <div className=" text-8xl">Skilled Africans for Africa</div>
+          <div className="flex flex-col items-center justify-center row-span-3">
+            
+            <div className='flex flex-col items-center justify-center rounded-3x1 w-80 h-40'>
+              <div className="bg-red-500">
+                <Image src={profileimage} width='320' height='250'/>
+              </div>
+              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
+            </div>
           </div>
 
           <div className="">

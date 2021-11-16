@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="mx-auto mt-10 mr-10 w-3/4  xl:w-5/12 ml-12">
-        <Image src={HeroImage} alt="hero-image" />
+        <Image src={HeroImage} alt="hero-image" priority />
       </div>
     </section>
   );

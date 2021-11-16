@@ -26,7 +26,7 @@ const Navbar = () => {
               <a className="navbar-link uppercase">Who we are</a>
             </Link>
             <div className="flex flex-col">
-              <Link href="/what-we-do">
+              <Link href="/ignite-experience">
                 <a className="navbar-link uppercase ">What we Do</a>
               </Link>
               <div className=" hidden  flex-col">

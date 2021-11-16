@@ -25,7 +25,7 @@ module.exports = {
         'gcols': 'minmax(0,2rem)'
       },
       gridTemplateColumns:{
-        'ignitecard': 'max-content max-content max-content 20% auto'
+        'ignitecard': 'max-content max-content max-content 10% 40%'
       },
       gridTemplateRows:{
         'ignitecard': 'max-content max-content max-content'

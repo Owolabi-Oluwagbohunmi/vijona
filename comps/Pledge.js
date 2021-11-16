@@ -7,7 +7,7 @@ const Pledge = () => {
       <h3 className="text-sectionhead font-semibold py-14">The Pledge</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24 my-24">
         <div className="order-last md:order-first">
-          <Image src={pledgeImage} alt="pledge-image" />
+          <Image src={pledgeImage} alt="pledge-image" priority/>
         </div>
         <div className="xl:w-10/12">
           <p className="text-quotetext">
@@ -56,7 +56,7 @@ const Pledge = () => {
             the world needs. Yes YOU! Join the movement! Take the Pledge …
             and act on it.
           </p>
-          <a className="bg-v-green w-auto shadow-md text-white py-4 px-6 rounded my-10">Take the pledge</a>
+          <a className="bg-v-green w-auto shadow-md text-white py-4 px-6 rounded my-10">Take the Vijona Africa community pledge</a>
         </div>
       </div>
     </section>
