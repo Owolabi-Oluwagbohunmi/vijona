@@ -110,8 +110,8 @@ const igniteExperience = () =>
             <Image src={equal} />
           </div>
 
-          <div className="flex align-middle justify-center row-span-3">
-            <div className="text-8xl">Skilled Africans for Africa</div>
+          <div className="flex flex-col align-middle justify-center row-span-3">
+            <div className=" text-8xl">Skilled Africans for Africa</div>
           </div>
 
           <div className="">
