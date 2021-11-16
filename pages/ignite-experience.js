@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
+
 import Occupational from "../public/assets/occupational.svg";
 import uniqueAttributes from "../public/assets/unique-attributes.svg";
 import curlyArrow from "../public/assets/curly-arr.svg";
@@ -146,7 +146,7 @@ const igniteExperience = () =>
 
         </div>
       </section>
-      {/* <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
+      <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
         <div>
           <h3 className="text-sectionhead text-center lg:text-left font-semibold py-8">
             Get freedom from occupational wilderness
@@ -285,22 +285,7 @@ const igniteExperience = () =>
           </div>
         </div>
       </section>
-      <section className="ml-28">
-        <Script
-          src="https://donorbox.org/widget.js"
-          paypalExpress="false"
-        ></Script>
-        <iframe
-          src="https://donorbox.org/embed/vijona-ignite-workshops-1"
-          name="donorbox"
-          allowpaymentrequest="allowpaymentrequest"
-          seamless="seamless"
-          frameBorder="0"
-          scrolling="no"
-          height="900px"
-          width="100%"
-        ></iframe>
-      </section> */}
+      
     </>
   );
 };

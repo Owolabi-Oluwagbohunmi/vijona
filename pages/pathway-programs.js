@@ -15,16 +15,20 @@ import Cta from "../comps/Cta";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
 import Link from "next/link";
+import ReactPlayer from "react-player";
 
 const pathwayScholarships = () => {
   return (
     <>
-      <section className="mt-24 mx-auto ">
-        <Herocomp
-          imgUrl={VijonaPeople}
-          headingText={"Contextual pathways to self- sufficiency"}
-        />
-      </section>
+     <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24 ">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+           
+            width="100%"
+            height="600px"
+            url="https://youtu.be/tUbUXpMipuk"
+          />
+        </div>
       <section className="py-8 xl:px-16 bg-v-gray grid gap-12 lg:grid-cols-2">
         <div className="">
           <div className="ml-20 w-10">
@@ -36,9 +40,12 @@ const pathwayScholarships = () => {
           </h2>
 
           <p className="text-primary md:w-3/4 lg:w-11/12 mb-4">
-            Our pathway scholarship program is unique in that it is demand and
-            supply based, our Ignite Experience alumni create unique and smart
-            occupational life plans for themselves.
+            Our Pathway Scholarship Program is unique in that it is “DEMAND”
+            based (driven by innate talents and abilities of each individual).
+          </p>
+          <p className="text-primary md:w-3/4 lg:w-11/12 mb-4">
+            Our IGNITE Experience alumni create unique, relevant and SMART
+            Occupational Life Plans for themselves.
           </p>
           <p className="text-primary md:w-3/4 lg:w-11/12  mb-3">
             We focus on the path the alumni choose for themselves either to
