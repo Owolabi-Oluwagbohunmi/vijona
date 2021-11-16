@@ -2,16 +2,13 @@ export const MenuItemsDD = [
     {
         title : 'IGNITE Experience',
         path : '/ignite-experience',
-        cName : 'dropdown-link'
     },
     {
-        title : 'IGNITE Experience',
-        path : '/ignite-experience',
-        cName : 'dropdown-link'
+        title : 'Incubator Hubs',
+        path : '/incubator-hubs',
     },
     {
-        title : 'IGNITE Experience',
-        path : '/ignite-experience',
-        cName : 'dropdown-link'
+        title : 'Pathway Programs',
+        path : '/pathway-programs',
     }
 ]
