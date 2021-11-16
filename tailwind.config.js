@@ -23,6 +23,12 @@ module.exports = {
       },
       gridAutoColumns: {
         'gcols': 'minmax(0,2rem)'
+      },
+      gridTemplateColumns:{
+        'ignitecard': 'max-content max-content max-content 20% auto'
+      },
+      gridTemplateRows:{
+        'ignitecard': 'max-content max-content max-content'
       }, 
       fontFamily:{
         'openSans': ['Mulish', 'sans-serif']

@@ -12,6 +12,7 @@ import World from "../public/assets/world.svg";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
 import plus from "../public/assets/plus.svg";
+import equal from "../public/assets/equal.svg";
 
 import ReactPlayer from "react-player/lazy";
 import Bullet from "../comps/Bullet";
@@ -66,10 +67,10 @@ const igniteExperience = () =>
           <span className="font-bold">equipped early in life...</span>
         </p>
 
-        <div className="grid gap-4 grid-cols-7 grid-rows-3 auto-cols-gcols text-center my-5 ">
+        <div className="grid gap-4 grid-cols-ignitecard grid-rows-ignitecard auto-cols-gcols text-center my-5 ">
 
 
-          <div className=" col-span-2 bg-white w-card p-4 h-card item">
+          <div className="bg-white w-card p-4 h-card item">
             <div className="flex ">
               <div className="mr-3">
                 <Image src={curlyArrow} />
@@ -85,11 +86,11 @@ const igniteExperience = () =>
           </div>
 
 
-          <div className="flex align-middle justify-center col-span-1">
+          <div className="flex align-middle justify-center">
             <Image src={plus} />
           </div>
 
-          <div className="col-span-2 flex flex-col">
+          <div className="flex flex-col">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
@@ -105,43 +106,60 @@ const igniteExperience = () =>
             </div>
           </div>
 
-          <div className="col-span-1">
+          <div className="flex align-middle justify-center row-span-3">
+            <Image src={equal} />
           </div>
 
-          <div className="col-span-1"></div>
-
-          <div className="">
-            <Image src={plus} />
-          </div>
-
-          <div className="text-8xl">
-            1
+          <div className="flex align-middle justify-center row-span-3">
+            <div className="text-8xl">Skilled Africans for Africa</div>
           </div>
 
           <div className="">
             <Image src={plus} />
           </div>
 
-          <div className="text-8xl">
-            1
+          <div className="">
           </div>
-          <div className="text-8xl">
-            1
+
+          <div className="">
+            <Image src={plus} />
           </div>
-          <div className="text-8xl">
-            1
+
+          <div className="flex flex-col-reverse">
+            <div className="bg-white w-card p-4 h-card ">
+              <div className="flex items-center">
+                <div>
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-3/4 font-medium">
+                  Enabled to draft life plans
+                </h3>
+              </div>
+              <p className="uppercase">
+                Individualized Occupational life plans
+              </p>
+              <Bullet textVal="Actionable and SMART goals" />
+              <Bullet textVal="Becoming self- advocates of their success" />
+            </div>
           </div>
-          <div className="text-8xl">
-            1
+
+          <div className="flex align-middle justify-center">
+            <Image src={plus} />
           </div>
-          <div className="text-8xl">
-            1
-          </div>
-          <div className="text-8xl">
-            1
-          </div>
-          <div className="text-8xl">
-            1
+
+          <div className="">
+            <div className="bg-white w-card p-4 h-card ">
+              <div className="flex items-center">
+                <div>
+                  <Image src={curlyArrow} />
+                </div>
+                <h3 className="text-2xl w-3/4 font-medium">
+                  Empowered to achieve their plans
+                </h3>
+              </div>
+
+              <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
+            </div>
           </div>
 
         </div>
@@ -285,7 +303,7 @@ const igniteExperience = () =>
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };
