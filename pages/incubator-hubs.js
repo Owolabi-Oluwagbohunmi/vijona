@@ -16,6 +16,7 @@ import IgniteTwo from "../public/assets/ignitetwo.png";
 import Brown from "../public/assets/brownpattern.svg";
 import Cta from "../comps/Cta";
 import ReactPlayer from "react-player";
+import CardText from "../comps/CardText";
 
 const IncubatorHub = () => {
   return (
@@ -81,36 +82,15 @@ const IncubatorHub = () => {
             <div className="w-14 hidden xl:block ">
               <Image src={Purple} />
             </div>
+            <div className="grid md:grid-cols-2 gap-10 w-11/12 mx-auto">
+          <CardText/>
+          <CardText/>
+          
+        </div>
 
-            <div className="w-11/12 mx-auto grid md:grid-cols-2 gap-6 lg:grid-cols-4">
-              <ImageCard
-                ImageUrl={girls}
-                heading={"Incubator hub"}
-                text="Donate to help a young african to get skilled"
-                linkText="Donate"
-                alt=""
-              />
-              <ImageCard
-                ImageUrl={girls}
-                heading={"Incubator Hub"}
-                text="Donate to help a young african to get skilled"
-                linkText="Donate"
-                alt=""
-              />
-              <ImageCard
-                ImageUrl={girls}
-                heading={"Incubator Hubs"}
-                text="Donate to help a young african to get skilled"
-                linkText="Donate"
-              />
-              <ImageCard
-                ImageUrl={girls}
-                heading={"Incubator Hubs"}
-                text="Donate to help a young african to get skilled"
-                linkText="Donate"
-                alt=""
-              />
-            </div>
+            
+              
+            
           </div>
           <div className="w-14 absolute ml-20 -right-6 bottom-48  hidden xl:block ">
             <Image src={Green} />
