@@ -80,7 +80,7 @@ const pathwayScholarships = () => {
             <Image src={fatQuotes} alt="" />
           </div>
           <p className="text-headings my-10 w-3/4">
-            No dream is too big, and every talent is valuable and needed in our
+            No dream is too big ..., and every talent is valuable and needed in our
             communities
           </p>
           <div className="w-10">
@@ -101,10 +101,10 @@ const pathwayScholarships = () => {
       </section>
       <Cta
         ImageUrl={PurplePattern}
-        heading="Over 200 children across Africa need sponsorship"
+        heading="young girls and boys across Africa need sponsorship"
         buttonText="Coming Soon"
         href="/"
-        text="You will soon be able to sponsor children from all over Africa, be it their education, medical support, learning materials, ..."
+        text="You will soon be able to sponsor the occupational life plans of brilliant young Africans. - #Ubuntu"
       />
       <section className="my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
