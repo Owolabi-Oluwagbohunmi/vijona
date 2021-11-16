@@ -82,7 +82,7 @@ const igniteExperience = () =>
             </div>
             <p className="uppercase my-4">Who am I?</p>
 
-            <Bullet textVal="Innate values, talents, and abilities at birth ignite critical thinking" />
+            <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
             <Bullet textVal="Lifelong mental paradigm shift" />
           </div>
 
@@ -182,7 +182,7 @@ const igniteExperience = () =>
             leave your footprint on the world.
           </p>
           <p className=" text-primary xl:w-11/12 mb-5">
-            Our Ignite Experience frees you from occupational wilderness. We
+            Our IGNITE Experience frees you from occupational wilderness. We
             take you on a journey to discovering a list of occupations suitable
             for your unique inner talents and abilities, and position you for a
             successful and fulfilled life.
@@ -260,7 +260,7 @@ const igniteExperience = () =>
 
       <section className="my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          Ignite workshops and contests
+          IGNITE workshops and contests
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
@@ -283,7 +283,7 @@ const igniteExperience = () =>
                 <p className="ml-2 uppercase text-white ">Cameroun</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Find Ignite Workshops near your location
+                Find IGNITE Workshops near your location
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
@@ -299,7 +299,7 @@ const igniteExperience = () =>
                 <p className="ml-2 uppercase text-white ">Contest</p>
               </div>
               <p className="text-white text-2xl font-bold my-8">
-                Get Involved in our upcoming Ignite Contests
+                Get Involved in our upcoming IGNITE Contests
               </p>
               <Link href="/">
                 <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
