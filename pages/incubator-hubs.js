@@ -51,19 +51,19 @@ const IncubatorHub = () => {
           </p>
         </div>
         <div className=" mx-auto ">
-          <Image src={Incubator} />
+          <Image src={Incubator} alt="" />
         </div>
       </section>
 
       <section className="my-24">
         <div className="xl:flex  w-11/12 mx-auto ">
           <div className="w-8">
-            <Image src={Yellow} />
+            <Image src={Yellow} alt=""/>
           </div>
           <div className="flex mx-auto text-center w-3/4  ">
             <div className="mx-auto">
               <div className=" w-12 text-right ml-60 ">
-                <Image src={curly} />
+                <Image src={curly} alt=""/>
               </div>
               <h3 className="text-sectionhead text-center font-semibold ">
                 Support our Incubator Hubs
@@ -71,7 +71,7 @@ const IncubatorHub = () => {
             </div>
 
             <div className="w-14  ">
-              <Image src={circleLine} />
+              <Image src={circleLine} alt="" />
             </div>
           </div>
         </div>
@@ -88,12 +88,14 @@ const IncubatorHub = () => {
                 heading={"Incubator hub"}
                 text="Donate to help a young african to get skilled"
                 linkText="Donate"
+                alt=""
               />
               <ImageCard
                 ImageUrl={girls}
                 heading={"Incubator Hub"}
                 text="Donate to help a young african to get skilled"
                 linkText="Donate"
+                alt=""
               />
               <ImageCard
                 ImageUrl={girls}
@@ -106,6 +108,7 @@ const IncubatorHub = () => {
                 heading={"Incubator Hubs"}
                 text="Donate to help a young african to get skilled"
                 linkText="Donate"
+                alt=""
               />
             </div>
           </div>
@@ -122,6 +125,7 @@ const IncubatorHub = () => {
           text="Open a world of possibilities for one innovative young African"
           href="/"
           buttonText="Donate"
+          alt=""
         />
       </div>
     </>

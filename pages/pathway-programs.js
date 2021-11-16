@@ -32,7 +32,7 @@ const pathwayScholarships = () => {
       <section className="py-8 xl:px-16 bg-v-gray grid gap-12 lg:grid-cols-2">
         <div className="">
           <div className="ml-20 w-10">
-            <Image src={Yellow} />
+            <Image src={Yellow} alt="" />
           </div>
 
           <h2 className="text-sectionhead mb-5 text-center xl:text-left font-semibold">
@@ -60,16 +60,16 @@ const pathwayScholarships = () => {
           </p>
 
           <div className="w-20">
-            <Image src={Purple} />
+            <Image src={Purple} alt="" />
           </div>
         </div>
         <div>
           <div className="">
             <div className="">
-              <Image src={yellowOnline} />
+              <Image src={yellowOnline} alt=""/>
             </div>
             <div>
-              <Image src={pathwayCircles} />
+              <Image src={pathwayCircles} alt="" />
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const pathwayScholarships = () => {
       <section className="py-8 xl:px-16 grid grid-cols-2 my-20">
         <div>
           <div className="w-10">
-            <Image src={fatQuotes} />
+            <Image src={fatQuotes} alt="" />
           </div>
           <p className="text-headings my-10 w-3/4">
             No dream is too big, and every talent is valuable and needed in our
@@ -89,13 +89,13 @@ const pathwayScholarships = () => {
         </div>
         <div className="grid grid-cols-3 gap-3">
           <div>
-            <Image src={Barbing} />
+            <Image src={Barbing} alt=""/>
           </div>
           <div>
-            <Image src={Welding} />
+            <Image src={Welding} alt=""/>
           </div>
           <div>
-            <Image src={Sewing} />
+            <Image src={Sewing} alt="" />
           </div>
         </div>
       </section>
@@ -112,7 +112,7 @@ const pathwayScholarships = () => {
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} />
+            <Image src={IgniteOne} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg
@@ -141,7 +141,7 @@ const pathwayScholarships = () => {
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} />
+            <Image src={IgniteTwo} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>

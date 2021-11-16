@@ -74,7 +74,7 @@ const igniteExperience = () =>
           <div className="bg-white w-card p-4 h-card item">
             <div className="flex ">
               <div className="mr-3">
-                <Image src={curlyArrow} />
+                <Image src={curlyArrow} alt="" />
               </div>
               <h3 className="text-2xl w-10/12 font-medium">
                 Gifted with self- discovery
@@ -88,14 +88,14 @@ const igniteExperience = () =>
 
 
           <div className="flex align-middle justify-center">
-            <Image src={plus} />
+            <Image src={plus} alt="" />
           </div>
 
           <div className="flex flex-col">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Exposed to contextual occupations
@@ -108,21 +108,21 @@ const igniteExperience = () =>
           </div>
 
           <div className="flex align-middle justify-center row-span-3">
-            <Image src={equal} />
+            <Image src={equal} alt=""/>
           </div>
 
           <div className="flex flex-col items-center justify-center row-span-3">
             
             <div className='flex flex-col items-center justify-center rounded-3x1 w-80 h-40'>
               <div className="bg-red-500">
-                <Image src={profileimage} width='320' height='250'/>
+                <Image src={profileimage} width='320' height='250' alt=""/>
               </div>
               <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
             </div>
           </div>
 
           <div className="">
-            <Image src={plus} />
+            <Image src={plus} alt="" />
           </div>
 
           <div className="">
@@ -136,7 +136,7 @@ const igniteExperience = () =>
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt=""/>
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Enabled to draft life plans
@@ -158,7 +158,7 @@ const igniteExperience = () =>
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} />
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Empowered to achieve their plans
@@ -203,7 +203,7 @@ const igniteExperience = () =>
         <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt=""/>
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">1</p>
@@ -214,7 +214,7 @@ const igniteExperience = () =>
           </div>
           <div>
             <div>
-              <Image src={Critical} />
+              <Image src={Critical} alt=""/>
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">2</p>
@@ -223,7 +223,7 @@ const igniteExperience = () =>
           </div>
           <div>
             <div>
-              <Image src={Showcase} />
+              <Image src={Showcase} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">3</p>
@@ -235,7 +235,7 @@ const igniteExperience = () =>
 
           <div>
             <div>
-              <Image src={uniqueAttributes} />
+              <Image src={uniqueAttributes} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">4</p>
@@ -246,7 +246,7 @@ const igniteExperience = () =>
           </div>
           <div>
             <div>
-              <Image src={World} />
+              <Image src={World} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">5</p>
@@ -264,7 +264,7 @@ const igniteExperience = () =>
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} />
+            <Image src={IgniteOne} alt=""/>
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg
@@ -293,7 +293,7 @@ const igniteExperience = () =>
             </div>
           </div>
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} />
+            <Image src={IgniteTwo} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <p className="ml-2 uppercase text-white ">Contest</p>
