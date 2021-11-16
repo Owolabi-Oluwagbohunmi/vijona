@@ -6,9 +6,12 @@ import Instagram from "../public/assets/instagram.svg";
 import Twitter from "../public/assets/twitter.svg";
 import Youtube from "../public/assets/youtube.svg";
 import DropDown from "./DropDown";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const [dropdown, setDropDown] = useState(false)
 
   const MouseOver = () => {
     setShowLinks(true);
@@ -27,26 +30,14 @@ const Navbar = () => {
             </Link>
             <div className="flex flex-col">
               <Link href="/ignite-experience">
-                <a className="navbar-link uppercase ">What we Do</a>
+                <a className="navbar-link uppercase ">What we Do <FontAwesomeIcon icon={faCaretDown} /></a>
               </Link>
-              <div className=" hidden  flex-col">
-                <Link href="/events">
-                  <a className="">IGNITE experience</a>
-                </Link>
-                <Link href="/what-we-do">
-                  <a className="  ">Incubator Hubs</a>
-                </Link>
-                <Link href="/what-we-do">
-                  <a className="">Pathway Programs</a>
-                </Link>
-              </div>
+             
+             {dropdown && <DropDown /> }
             </div>
             <Link href="/events">
               <a className="navbar-link uppercase ">Events</a>
             </Link>
-            {/* <Link href="/community">
-            <a className="navbar-link">Alumni Community</a>
-          </Link> */}
           </div>
           <Link href="/">
             <div className=" w-28 md:w-36 lg:mr-28 cursor-pointer p-0 ">

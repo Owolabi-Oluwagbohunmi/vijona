@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens:{
+        'phones':'300px'
+      },
       width:{
         'card':'21.5rem'
       },
