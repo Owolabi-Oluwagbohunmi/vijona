@@ -3,14 +3,14 @@ import React from "react";
 import { useState } from "react";
 import ReactPlayer from "react-player";
 
-const CardText = ({ url, leadText, paraText, moreText }) => {
-  const [showMoreText, setShowMoreText] = useState(false);
+const CardTextt = ({ url, leadText, paraText, moreText }) => {
+  const [showMoreTextt, setShowMoreTextt] = useState(false);
 
   const handleShowMore = () => {
-    setShowMoreText(true);
+    setShowMoreTextt(true);
   };
   const handleShowLess = () => {
-    setShowMoreText(false);
+    setShowMoreTextt(false);
   };
 
   return (
@@ -27,13 +27,13 @@ const CardText = ({ url, leadText, paraText, moreText }) => {
         <h4 className="text-2xl my-5 w-11/12 ">{leadText}</h4>
 
         <p className="mt-2 mb-4 w-11/12">{paraText}</p>
-        {!showMoreText && (
+        {!showMoreTextt && (
           <button className="text-gray-400 inline" onClick={handleShowMore}>
             Show More
           </button>
         )}
         
-        {showMoreText && (
+        {showMoreTextt && (
           <div>
             <p>{moreText}</p>
             <button className="text-gray-400 my-3" onClick={handleShowLess}>
@@ -53,4 +53,4 @@ const CardText = ({ url, leadText, paraText, moreText }) => {
   );
 };
 
-export default CardText;
+export default CardTextt;
