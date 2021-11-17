@@ -9,6 +9,6 @@ export const MenuItemsDD = [
     },
     {
         title : 'Pathway Program',
-        path : '/pathway-program',
+        path : '/pathway-programs',
     }
 ]

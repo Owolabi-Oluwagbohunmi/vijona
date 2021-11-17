@@ -62,14 +62,14 @@ const igniteExperience = () =>
         </div>
       </section>
 
-      <section className="bg-v-gray my-10 xl:px-16 py-20">
+      <section className="bg-v-gray my-10 xl:px-16 py-20 mx-auto ">
         <h2 className="text-sectionhead font-semibold py-14">Our Solution</h2>
         <p className="text-primary">
           Imagine if young Africans are properly{" "}
           <span className="font-bold">equipped <mark>early in life</mark>...</span>
         </p>
 
-        <div className="grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center md:grid-cols-ignitecardmd md:grid-rows-ignitecardmd lg:grid-cols-ignitecard lg:grid-rows-ignitecard">
+        <div className="w-11/12 grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center md:grid-cols-ignitecardmd md:grid-rows-ignitecardmd lg:grid-cols-ignitecard lg:grid-rows-ignitecard">
 
           <div className="bg-white w-card p-4 h-card item order-1 md:order-1">
             <div className="flex ">

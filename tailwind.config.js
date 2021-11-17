@@ -7,14 +7,14 @@ module.exports = {
         '9999':9999
       },
       screens:{
-        'phones':'300px'
+        'phones':'300px',
+        'navscreenmax': '1270px'
       },
       width:{
         'card':'21.5rem'
       },
       height:{
-        "h-card": '291px'
-        
+        "h-card": '291px',        
       },
       colors:{
         'vijyellow':"#fbb040",
