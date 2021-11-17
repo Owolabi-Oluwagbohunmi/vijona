@@ -69,10 +69,9 @@ const igniteExperience = () =>
           <span className="font-bold">equipped <mark>early in life</mark>...</span>
         </p>
 
-        <div className="grid gap-4 grid-rows-6 lg:grid-cols-ignitecard lg:grid-rows-ignitecard text-center my-5">
+        <div className="grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center md:grid-cols-ignitecardmd md:grid-rows-ignitecardmd lg:grid-cols-ignitecard lg:grid-rows-ignitecard">
 
-
-          <div className="phones: order-1 bg-white w-card p-4 h-card item">
+          <div className="bg-white w-card p-4 h-card item order-1 md:order-1">
             <div className="flex ">
               <div className="mr-3">
                 <Image src={curlyArrow} alt="" />
@@ -88,11 +87,11 @@ const igniteExperience = () =>
           </div>
 
 
-          <div className="phones: order-2 flex align-middle justify-center">
+          <div className="flex align-middle justify-center order-2 md:order-2">
             <Image src={plus} alt="" />
           </div>
 
-          <div className="phones:order-3 flex flex-col">
+          <div className="flex flex-col order-3 md:order-3">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
@@ -108,32 +107,19 @@ const igniteExperience = () =>
             </div>
           </div>
 
-          <div className="phones: order-8 flex align-middle justify-center lg:row-span-3">
-            <Image src={equal} alt=""/>
-          </div>
-
-          <div className="phones: order-9 flex flex-col items-center justify-center lg:row-span-3">
-            
-            <div className='flex flex-col items-center justify-center rounded-3x1 w-80 h-40'>
-              <div className="bg-red-500">
-                <Image src={profileimage} width='320' height='250' alt=""/>
-              </div>
-              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
-            </div>
-          </div>
-
-          <div className="phones:hidden">
+          <div className="flex align-middle justify-center order-4 md:order-4 lg:order-6">
             <Image src={plus} alt="" />
           </div>
 
-          <div className="phones:hidden">
+
+          <div className="hidden md:block md:order-5 lg:order-7">
           </div>
 
-          <div className="phones:order-4">
+          <div className="hidden md:block md:order-6 lg:block lg:order-8">
             <Image src={plus} />
           </div>
 
-          <div className="phones: order-5 flex flex-col-reverse">
+          <div className="flex flex-col-reverse order-5 md:order-7 lg:order-11">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
@@ -151,11 +137,11 @@ const igniteExperience = () =>
             </div>
           </div>
 
-          <div className="phones:order-6 flex align-middle justify-center">
+          <div className="flex align-middle justify-center order-6 md:order-8 lg:order-12">
             <Image src={plus} />
           </div>
 
-          <div className="phones: order-7">
+          <div className="order-7 md:order-9 lg:order-last">
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
@@ -168,6 +154,17 @@ const igniteExperience = () =>
 
               <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
             </div>
+          </div>
+
+           <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
+            <Image src={equal} alt=""/>
+          </div>
+
+          <div className="flex flex-col items-center justify-center order-9 md:order-11 md:col-span-3 lg:col-auto lg:order-5 lg:row-span-3">
+              <div className="bg-red-500">
+                <Image src={profileimage} width='320' height='250' alt=""/>
+              </div>
+              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
           </div>
 
         </div>

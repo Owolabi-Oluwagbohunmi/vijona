@@ -6,39 +6,61 @@ import Instagram from "../public/assets/instagram.svg";
 import Twitter from "../public/assets/twitter.svg";
 import Youtube from "../public/assets/youtube.svg";
 import DropDown from "./DropDown";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
-  const [dropdown, setDropDown] = useState(false)
+const Navbar = () =>
+{
+  // const [showLinks, setShowLinks] = useState(false);
+  const [dropdown, setDropdown] = useState(false)
+  const [click, setClick] = useState(true)
 
-  const MouseOver = () => {
-    setShowLinks(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const onMouseEnter = () =>
+  {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
   };
-  const MouseOut = () => {
-    setShowLinks(false);
+
+  const onMouseLeave = () =>
+  {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
   };
 
   return (
     <div>
       <div className=" fixed z-10  top-0 left-0 right-0 font-openSans  px-16 bg-v-bg">
         <nav className="flex justify-between py-4 items-center font-medium">
-          <div className="hidden xl:flex font-medium">
+          <div className='hidden xl:flex font-medium'>
             <Link href="/">
               <a className="navbar-link uppercase">Who we are</a>
             </Link>
-            <div className="flex flex-col">
-              <Link href="/ignite-experience">
-                <a className="navbar-link uppercase ">What we Do <FontAwesomeIcon icon={faCaretDown} /></a>
-              </Link>
-             
-             {dropdown && <DropDown /> }
+
+            <div className="">
+              <div className="flex flex-col z-9999" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
+                <Link href="/ignite-experience">
+                  <a className="navbar-link uppercase ">What we Do </a>
+                </Link>
+
+                {dropdown && <DropDown />}
+              </div>
             </div>
+
             <Link href="/events">
               <a className="navbar-link uppercase ">Events</a>
             </Link>
           </div>
+
           <Link href="/">
             <div className=" w-28 md:w-36 lg:mr-28 cursor-pointer p-0 ">
               <Image src={Logo} alt="vijona-logo" />
@@ -80,7 +102,7 @@ const Navbar = () => {
             />
           </svg>
         </nav>
-        {showLinks && <DropDown />}
+        {/* {showLinks && <DropDown />} */}
       </div>
     </div>
   );
