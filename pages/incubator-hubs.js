@@ -17,7 +17,7 @@ import Brown from "../public/assets/brownpattern.svg";
 import Cta from "../comps/Cta";
 import ReactPlayer from "react-player";
 import CardText from "../comps/CardText";
-import CardText2 from "../comps/CardTextt";
+import CardTextt from "../comps/CardTextt";
 
 const IncubatorHub = () => {
   return (
@@ -110,7 +110,7 @@ const IncubatorHub = () => {
                 
                 Thank you for your generosity."
               />
-              <CardText2
+              <CardTextt
                 url="https://youtu.be/M-FwUe8UBDE"
                 leadText="Science & Technology Hub for Innovative young IDPs in Cameroon"
                 paraText="Awa Blaise Chi is an 18 years old Internally Displaced Person (IDP) by the Anglophone crisis in Cameroon from the North to the commercial capital of Douala. He a genius in our opinion, with innovative ideas that are bound to enhance our human existence."
