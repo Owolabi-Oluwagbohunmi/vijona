@@ -8,7 +8,7 @@ export const MenuItemsDD = [
         path : '/incubator-hubs',
     },
     {
-        title : 'Pathway Programs',
-        path : '/pathway-programs',
+        title : 'Pathway Program',
+        path : '/pathway-program',
     }
 ]

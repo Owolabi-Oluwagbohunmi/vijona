@@ -28,7 +28,7 @@ const Hero = () => {
           </Link>
           <Link href="/pathway-programs">
             <a className="bg-v-green py-3 px-4 mr-4 rounded shadow-md text-white">
-              Pathway Programs
+              Pathway Program
             </a>
           </Link>
           <Link href="/incubator-hubs">

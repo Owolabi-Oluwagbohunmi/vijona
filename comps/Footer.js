@@ -24,7 +24,7 @@ const Footer = () => {
             <a className=" my-1">Incubator Hubs</a>
           </Link>
           <Link href="/pathway-programs">
-            <a className=" my-1">Pathway Programs</a>
+            <a className=" my-1">Pathway Program</a>
           </Link>
         </div>
 

@@ -83,7 +83,7 @@ const Navbar = () =>
                 <a className="navbar-btn bg-v-yellow mr-5">Donate</a>
               </Link>
               <Link href="/join-us">
-                <a className="navbar-btn bg-v-black ">Join Us</a>
+                <a className="navbar-btn bg-v-black ">Partner With Us</a>
               </Link>
             </div>
           </div>

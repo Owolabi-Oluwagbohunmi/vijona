@@ -20,7 +20,7 @@ const Partner = () => {
       </p>
 
       <a className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max">
-        Join Us
+        Ask How
       </a>
       <div className="my-28">
         <Image className="rounded-md" src={PartnerImg} alt="vijona-staff" />
