@@ -16,7 +16,7 @@ const DropDown = () =>
                 <div></div>
                 {MenuItemsDD.map((MenuItem, index) => (
                     <li key={index} className=' bg-vijyellow cursor-pointer hover:bg-white py-4 mx-2'>
-                        <Link href={MenuItem.path} className='block w-full h-full no-underline text-white py-7' >
+                        <Link href={MenuItem.path} className='block w-full h-full no-underline text-white py-7' onClick={()=> setClick(false)} >
                             {MenuItem.title}
                         </Link>
                     </li>
