@@ -42,7 +42,7 @@ const Navbar = () =>
       <div className=" fixed z-10  top-0 left-0 right-0 font-openSans  px-16 bg-v-bg">
         <nav className="flex justify-between py-4 items-center font-medium">
           <div className='hidden xl:flex font-medium'>
-            <Link href="/">
+            <Link href="/who-we-are">
               <a className="navbar-link uppercase">Who we are</a>
             </Link>
 

@@ -11,14 +11,18 @@ import galaThree from "../public/assets/image3.jpeg";
 import galaFour from "../public/assets/image4.jpeg";
 import Blue from "../public/assets/blue-pattern.svg";
 import ReactPlayer from "react-player";
+import Carousel from "react-elastic-carousel";
 
 const events = () => {
+  const breakPoints = [
+    { width: 1, itemToShow: 1, itemsToScroll: 2 },
+    { width: 550, itemToShow: 2 },
+    { width: 768, itemToShow: 3 },
+    { width: 1200, itemToShow: 4 }
+  ];
   return (
     <>
-      {/* <Herocomp
-        imgUrl={EventsImg}
-        headingText="See the great work we are doing"
-      /> */}
+      
 
       <section className="bg-v-gray my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
@@ -92,31 +96,21 @@ const events = () => {
         <h3 className="text-3xl text-center font-semibold py-14">
           Vijona Africa Annual Black-Tie Fundraising Gala
         </h3>
-        <div className=" w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-          <div className="relative text-white ">
-            <Image src={galaOne} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaTwo} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaThree} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaFour} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaOne} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaTwo} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaThree} alt="" />
-          </div>
-          <div className="relative text-white ">
-            <Image src={galaFour} alt="" />
-          </div>
+        <div className="">
+          <Carousel>
+            <div className="relative text-white ">
+              <Image src={galaOne} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaTwo} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaThree} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaFour} alt="" />
+            </div>
+          </Carousel>
         </div>
       </section>
 
@@ -124,56 +118,40 @@ const events = () => {
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
           Impact Videos
         </h3>
-        <div className="grid grid-col-2 lg:grid-cols-3  gap-10 ">
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
-          <div className="">
-            <ReactPlayer
-              className="rounded-sm mx-auto"
-              width="100%"
-              height="600px"
-              url="https://youtu.be/tUbUXpMipuk"
-            />
-          </div>
+        <Carousel>
+        <div className="">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+            width="10"
+            height="600px"
+            url="https://youtu.be/tUbUXpMipuk"
+          />
         </div>
+        <div className="">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+            width="100%"
+            height="600px"
+            url="https://youtu.be/tUbUXpMipuk"
+          />
+        </div>
+        <div className="">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+            width="100%"
+            height="600px"
+            url="https://youtu.be/tUbUXpMipuk"
+          />
+        </div>
+        <div className="">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+            width="100%"
+            height="600px"
+            url="https://youtu.be/tUbUXpMipuk"
+          />
+        </div>
+        </Carousel>
       </section>
 
       {/* <section className="relative my-20">
