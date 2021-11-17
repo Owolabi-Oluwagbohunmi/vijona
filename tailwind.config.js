@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      zIndex:{
+        '9999':9999
+      },
       screens:{
         'phones':'300px'
       },
@@ -28,10 +31,14 @@ module.exports = {
         'gcols': 'minmax(0,2rem)'
       },
       gridTemplateColumns:{
-        'ignitecard': 'max-content max-content max-content 10% 40%'
+        'ignitecard': 'max-content max-content max-content 10% 40%',
+        'ignitecardPhones': 'max-content',
+        'ignitecardmd': 'max-content max-content max-content'
       },
       gridTemplateRows:{
-        'ignitecard': 'max-content max-content max-content'
+        'ignitecard': 'max-content max-content max-content',
+        'ignitecardPhones': 'max-content max-content max-content max-content max-content max-content max-content max-content max-content',
+        'ignitecardmd': 'max-content max-content max-content max-content max-content',
       }, 
       fontFamily:{
         'openSans': ['Mulish', 'sans-serif']

@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navbar = () =>
 {
   // const [showLinks, setShowLinks] = useState(false);
-  const [dropdown, setDropdown] = useState(true)
+  const [dropdown, setDropdown] = useState(false)
   const [click, setClick] = useState(true)
 
 
@@ -41,24 +41,26 @@ const Navbar = () =>
     <div>
       <div className=" fixed z-10  top-0 left-0 right-0 font-openSans  px-16 bg-v-bg">
         <nav className="flex justify-between py-4 items-center font-medium">
-          <div className="hidden xl:flex font-medium">
-
+          <div className='hidden xl:flex font-medium'>
             <Link href="/">
               <a className="navbar-link uppercase">Who we are</a>
             </Link>
 
-            <div className="flex flex-col" >
-              <Link href="/ignite-experience">
-                <a className="navbar-link uppercase ">What we Do </a>
-              </Link>
+            <div className="">
+              <div className="flex flex-col z-9999" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
+                <Link href="/ignite-experience">
+                  <a className="navbar-link uppercase ">What we Do </a>
+                </Link>
 
-              {dropdown && <DropDown />}
+                {dropdown && <DropDown />}
+              </div>
             </div>
 
             <Link href="/events">
               <a className="navbar-link uppercase ">Events</a>
             </Link>
           </div>
+
           <Link href="/">
             <div className=" w-28 md:w-36 lg:mr-28 cursor-pointer p-0 ">
               <Image src={Logo} alt="vijona-logo" />

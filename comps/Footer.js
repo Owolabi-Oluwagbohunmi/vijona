@@ -31,17 +31,15 @@ const Footer = () => {
         <div className="flex flex-col font-light w-72">
           <div className="font-bold py-3">Sitemap</div>
           <Link href="/">
-            <a className=" my-1">Home</a>
+            <a className=" my-1">Who we are</a>
           </Link>
           <Link href="/what-we-do">
             <a className=" my-1">What we do</a>
           </Link>
           <Link href="/events">
-            <a className=" my-1">Events&amp;Stories</a>
+            <a className=" my-1">Events</a>
           </Link>
-          <Link href="/alunmi">
-            <a className=" my-1">Alumni Community</a>
-          </Link>
+          
         </div>
         <div className="flex flex-col font-light w-72 h-auto">
           <div className="py-3">
