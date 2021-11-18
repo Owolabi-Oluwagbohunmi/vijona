@@ -15,9 +15,9 @@ const Hero = () => {
           solutions and services for your community.
         </p>
         <p className="text-primary my-3">
-          We are igniting critical thinking, awakening sleeping
-          giants,unleashing the full capacity/potential in young Africans, and
-          giving them the audacity to dream outside the box…because the future
+          We are igniting critical thinking, encouraging imagination and creativity in learning, awakening sleeping
+          giants, unleashing the full potential in young Africans, and
+          giving them the audacity to dream outside the box. The future
           of a continent relies on who they are and what they can do.
         </p>
         <div className="flex mt-8 flex-col w-max sm:flex-row ">
