@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import Herocomp from "../comps/Herocomp";
@@ -13,7 +14,8 @@ import Blue from "../public/assets/blue-pattern.svg";
 import ReactPlayer from "react-player";
 import Carousel from "react-elastic-carousel";
 
-const events = () => {
+const events = () =>
+{
   const breakPoints = [
     { width: 1, itemToShow: 1, itemsToScroll: 2 },
     { width: 550, itemToShow: 2 },
@@ -22,7 +24,7 @@ const events = () => {
   ];
   return (
     <>
-            <Head>
+      <Head>
         <title>Vijona | Events</title>
       </Head>
 
@@ -121,38 +123,38 @@ const events = () => {
           Impact Videos
         </h3>
         <Carousel>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="10"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="10"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
         </Carousel>
       </section>
 
