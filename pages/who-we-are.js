@@ -7,7 +7,7 @@ import AboutImg from "../public/assets/about-img.JPG";
 import Discover from "../public/assets/discover-box.jpeg";
 import Develop from "../public/assets/develop.jpeg";
 import Deploy from "../public/assets/deploy.jpeg";
-import black from "../public/assets/black.jpg";
+import Vijonaproject from "../public/assets/vijonaproject.jpg";
 
 import Mouki from "../public/assets/mouki.jpeg";
 
@@ -23,24 +23,25 @@ const whoweare = () =>
       <Head>
         <title>Vijona | Who we are</title>
       </Head>
-      <div className="">
-        <section className="mt-28 mt">
-          <div className="mt-80 text-center">
-            <h1 className=" text-4xl md:text-6xl my-4 font-semibold">
+     
+        <section className="mt-28 mt relative">
+          <Image src={Vijonaproject} alt="kids running"/>
+          <div className="top-0 mt-40 text-center absolute mx-auto bg-black opacity-70 w-full">
+            <h1 className=" text-4xl md:text-6xl my-4 font-semibold text-white">
               The Vijona Africa Project
             </h1>
-            <p className="text-xl lg:text-2xl mt-3  mb-10 text-v-green">
+            <p className="text-xl lg:text-2xl mt-3  mb-10 text-v-green font-extrabold">
               (Motto: Discover, Develop, Deploy)
             </p>
-            <p className="text-primary md:w-3/4 xl:w-2/4 mx-auto text-center mt-5 mb-16">
+            <p className="text-3xl md:w-3/4 xl:w-2/4 mx-auto text-justify mt-5 mb-16 text-white">
               Vijona Africa was founded in 2018 to play a role in transforming the mindset and reengineering the believe system of young Africans.
             </p>
           </div>
 
-          <div className="relative">
+          {/* <div className="relative">
             <Image className="rounded-md absolute" src={AboutImg} alt="vijona-staff" />
             <div className="absolute bg-black w-screen h-full bg-blend-multiply top-0"></div>
-          </div>
+          </div> */}
 
 
 
@@ -116,8 +117,6 @@ const whoweare = () =>
           <Counter />
         </section>
         <Team />
-      </div>
-
     </>
   );
 };

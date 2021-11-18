@@ -27,25 +27,25 @@ const IncubatorHub = () =>
       <Head>
         <title>Vijona | Incubator Hubs</title>
       </Head>
-      <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24 ">
+      <div className="w-full mt-28 xl:px-24 ">
         <ReactPlayer
-          className="rounded-sm mx-auto"
+          className="rounded-sm"
           width="100%"
-          height="600px"
+          height="800px"
           url="https://youtu.be/tUbUXpMipuk"
         />
       </div>
 
-      <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
+      <section className="w-11/12 xl:w-full items-center px-16 lg:px-32 grid lg:grid-cols-2 gap-2">
         <div>
           <div>
             <Image src={checkMark} alt="checkmark" width="50" height="50" />
           </div>
 
-          <h3 className="text-sectionhead text-center lg:text-left font-semibold py-8">
-            What you need to know about our incubator hubs
+          <h3 className="text-sectionhead text-left font-semibold py-8">
+            What you need to know about our incubator hubs.
           </h3>
-          <p className=" text-primary xl:w-11/12 mb-5">
+          <p className=" text-primary lg:w-9/12 xl:w-11/12 mb-5 text-justify">
             We encounter brilliant young Africans with innovative inventions and
             solutions, but lack resources, material or even a workspace to
             develop and take their ideas to market.
