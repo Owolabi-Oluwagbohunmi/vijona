@@ -5,7 +5,7 @@ const Howitworks = () => {
     <section className="flex flex-col xl:flex-row pt-20 text-justify">
       <div className="xl:my-20">
         <h3 className="text-sectionhead font-semibold ">
-          How it all works
+          How It All Works
         </h3>
         <p className="text-primary my-10 w-3/4">
           Every individual is uniquely talented. We empower you to unleash your

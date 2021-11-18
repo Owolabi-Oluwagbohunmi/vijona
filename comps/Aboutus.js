@@ -10,7 +10,7 @@ const Aboutus = () =>
     <section className="xl:px-16 grid grid-cols-aboutusTemplate grid-rows-aboutusTemplate pb-6 text-justify">
       <div>
         <h3 className="text-sectionhead font-semibold pt-14 pb-8">
-          About Us
+          Who We Are
         </h3>
         <p className="text-primary md:w-3/4 mb-20">
           Vijona Africa was founded in 2018 to play a role in transforming the

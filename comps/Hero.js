@@ -4,7 +4,7 @@ import HeroImage from "../public/assets/hero.png";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col xl:flex-row pt-40 ">
+    <section className="flex flex-col xl:flex-row pt-40 text-justify">
       <div className="xl:px-16 xl:w-2/4">
         <h1 className=" text-7xl md:text-6xl my-4 font-semibold ">Who am I?</h1>
         <h2 className=" text-7xl md:text-6xl my-4 font-semibold ">

@@ -13,11 +13,11 @@ const Team = () => {
   };
   return (
     <>
-      <section className="bg-v-bg xl:px-16 px-10 py-20">
+      <section className="bg-v-darkgray lg:px-32 px-16 py-20">
         <h3 className=" text-4xl md:text-sectionhead font-semibold text-center md:text-left ">
           Our Team
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-20 text-justify">
           <div>
             <p className="text-primary mb-5">
               After spending equal number of years in two starkly different
@@ -62,26 +62,26 @@ const Team = () => {
 
         {!showTeam && (
           <div>
-            <p className="text-primary xl:w-2/4 text-center mx-auto">
+            {/* <p className="text-primary xl:w-2/4">
               Our Team is made up of passionate Country Coordinators within
               respective countries and an international Board of Directors
-            </p>
-            <h3 className="text-2xl font-semibold mt-8">Country Directors</h3>
+            </p> */}
+            <h3 className="text-2xl font-semibold mt-8">Country Coordinators</h3>
             <div className="grid grid-cols-1 mt-10 md:grid-cols-3 mx-auto py-6">
               <div>
                 <Image src={Okeowo} />
                 <p>Okeowo</p>
-                <p>Country Director</p>
+                <p>Country Coordinator</p>
               </div>
               <div>
                 <Image src={Okeowo} />
                 <p>Okeowo</p>
-                <p>Country Director</p>
+                <p>Country Coordinator</p>
               </div>
               <div>
                 <Image src={Okeowo} />
                 <p>Okeowo</p>
-                <p>Country Director</p>
+                <p>Country Coordinator</p>
               </div>
             </div>
             <div>
