@@ -30,8 +30,18 @@ const igniteExperience = () =>
       <Head>
         <title>Vijona | IGNITE Experience</title>
       </Head>
-      <section className="mt-24 mx-auto ">
-        <div className="w-11/12 mx-auto xl:mt-48 mt-36 text-center ">
+      <section className="mt-28">
+        <div className="w-full">
+          <ReactPlayer
+            className="rounded-sm mx-auto"
+            style={myStyle}
+            width="100%"
+            height="800px"
+            url="https://www.youtube.com/watch?v=s3I7q0CsHlo"
+          />
+        </div>
+
+        <div className="w-11/12 mx-auto mt-24 text-center ">
           <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">
             Welcome to the IGNITE Experience
           </h1>
@@ -55,135 +65,131 @@ const igniteExperience = () =>
             />
           </svg>
         </div>
-        <div className="w-11/12 xl:w-full mx-auto xl:px-24 ">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            style={myStyle}
-            width="100%"
-            height="600px"
-            url="https://www.youtube.com/watch?v=s3I7q0CsHlo"
-          />
-        </div>
       </section>
 
-      <section className="bg-v-gray my-10 xl:px-16 py-20 mx-auto ">
-        <h2 className="text-sectionhead font-semibold py-14">Our Solution</h2>
-        <p className="text-primary">
+
+      <section className="bg-v-darkgray px-16 w-full lg:px-32 pt-20 pb-24">
+        <h2 className="text-sectionhead font-semibold pb-5">Our Solution</h2>
+        <p className="text-primary pb-5">
           Imagine if young Africans are properly{" "}
           <span className="font-bold">equipped <mark>early in life</mark>...</span>
         </p>
 
-        <div className="w-11/12 grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center md:grid-cols-ignitecardmd md:grid-rows-ignitecardmd lg:grid-cols-ignitecard lg:grid-rows-ignitecard">
+        <div className="">
+          <div className="align-middle grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center lg:grid-cols-ignitecardmd lg:grid-rows-ignitecardmd xl:grid-cols-ignitecard xl:grid-rows-ignitecard">
 
-          <div className="bg-white w-card p-4 h-card item order-1 md:order-1">
-            <div className="flex ">
-              <div className="mr-3">
-                <Image src={curlyArrow} alt="" />
-              </div>
-              <h3 className="text-2xl w-10/12 font-medium">
-                Gifted with self- discovery
-              </h3>
-            </div>
-            <p className="uppercase my-4">Who am I?</p>
-
-            <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
-            <Bullet textVal="Lifelong mental paradigm shift" />
-          </div>
-
-
-          <div className="flex align-middle justify-center order-2 md:order-2">
-            <Image src={plus} alt="" />
-          </div>
-
-          <div className="flex flex-col order-3 md:order-3">
-            <div className="bg-white w-card p-4 h-card ">
-              <div className="flex items-center">
-                <div>
+            <div className="bg-white w-card p-4 h-card item order-1 md:order-1">
+              <div className="flex ">
+                <div className="mr-3">
                   <Image src={curlyArrow} alt="" />
                 </div>
-                <h3 className="text-2xl w-3/4 font-medium">
-                  Exposed to contextual occupations
+                <h3 className="text-2xl w-10/12 font-medium">
+                  Gifted with self- discovery
                 </h3>
               </div>
-              <p className="uppercase">What can I do?</p>
-              <Bullet textVal="Relevant occupations that align with who they are" />
-              <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
+              <p className="uppercase my-4">Who am I?</p>
+
+              <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
+              <Bullet textVal="Lifelong mental paradigm shift" />
             </div>
-          </div>
-
-          <div className="flex align-middle justify-center order-4 md:order-4 lg:order-6">
-            <Image src={plus} alt="" />
-          </div>
 
 
-          <div className="hidden md:block md:order-5 lg:order-7">
-          </div>
+            <div className="flex align-middle justify-center order-2 md:order-2">
+              <Image src={plus} alt="" />
+            </div>
 
-          <div className="hidden md:block md:order-6 lg:block lg:order-8">
-            <Image src={plus} />
-          </div>
-
-          <div className="flex flex-col-reverse order-5 md:order-7 lg:order-11">
-            <div className="bg-white w-card p-4 h-card ">
-              <div className="flex items-center">
-                <div>
-                  <Image src={curlyArrow} alt="" />
+            <div className="flex flex-col order-3 md:order-3">
+              <div className="bg-white w-card p-4 h-card ">
+                <div className="flex items-center">
+                  <div>
+                    <Image src={curlyArrow} alt="" />
+                  </div>
+                  <h3 className="text-2xl w-3/4 font-medium">
+                    Exposed to contextual occupations
+                  </h3>
                 </div>
-                <h3 className="text-2xl w-3/4 font-medium">
-                  Enabled to draft life plans
-                </h3>
+                <p className="uppercase">What can I do?</p>
+                <Bullet textVal="Relevant occupations that align with who they are" />
+                <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
               </div>
-              <p className="uppercase">
-                Individualized Occupational life plans
-              </p>
-              <Bullet textVal="Actionable and SMART goals" />
-              <Bullet textVal="Becoming self- advocates of their success" />
             </div>
-          </div>
 
-          <div className="flex align-middle justify-center order-6 md:order-8 lg:order-12">
-            <Image src={plus} />
-          </div>
+            <div className="flex align-middle justify-center order-4 md:order-4 lg:order-6">
+              <Image src={plus} alt="" />
+            </div>
 
-          <div className="order-7 md:order-9 lg:order-last">
-            <div className="bg-white w-card p-4 h-card ">
-              <div className="flex items-center">
-                <div>
-                  <Image src={curlyArrow} alt="" />
+
+            <div className="hidden md:block md:order-5 lg:order-7">
+            </div>
+
+            <div className="hidden md:block md:order-6 lg:block lg:order-8">
+              <Image src={plus} />
+            </div>
+
+            <div className="flex flex-col-reverse order-5 md:order-7 lg:order-11">
+              <div className="bg-white w-card p-4 h-card ">
+                <div className="flex items-center">
+                  <div>
+                    <Image src={curlyArrow} alt="" />
+                  </div>
+                  <h3 className="text-2xl w-3/4 font-medium">
+                    Enabled to draft life plans
+                  </h3>
                 </div>
-                <h3 className="text-2xl w-3/4 font-medium">
-                  Empowered to achieve their plans
-                </h3>
+                <p className="uppercase">
+                  Individualized Occupational life plans
+                </p>
+                <Bullet textVal="Actionable and SMART goals" />
+                <Bullet textVal="Becoming self- advocates of their success" />
               </div>
-
-              <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
             </div>
-          </div>
 
-          <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
-            <Image src={equal} alt="" />
-          </div>
-
-          <div className="flex flex-col items-center justify-center order-9 md:order-11 md:col-span-3 lg:col-auto lg:order-5 lg:row-span-3">
-            <div className="bg-red-500">
-              <Image src={profileimage} width='320' height='250' alt="" />
+            <div className="flex align-middle justify-center order-6 md:order-8 lg:order-12">
+              <Image src={plus} />
             </div>
-            <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
-          </div>
 
+            <div className="order-7 md:order-9 lg:order-last">
+              <div className="bg-white w-card p-4 h-card ">
+                <div className="flex items-center">
+                  <div>
+                    <Image src={curlyArrow} alt="" />
+                  </div>
+                  <h3 className="text-2xl w-3/4 font-medium">
+                    Empowered to achieve their plans
+                  </h3>
+                </div>
+
+                <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
+              </div>
+            </div>
+
+            <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
+              <Image src={equal} alt="" />
+            </div>
+
+            <div className="flex flex-col items-center justify-center order-9 md:order-11 md:col-span-3 lg:col-auto lg:order-5 lg:row-span-3">
+              <div className="bg-red-500">
+                <Image src={profileimage} width='320' height='250' alt="" />
+              </div>
+              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
+            </div>
+
+          </div>
         </div>
+
+
       </section>
-      <section className="pt-20 w-11/12 xl:w-full mx-auto items-center xl:px-16 grid lg:grid-cols-2 gap-7 ">
+      <section className="pt-20 w-11/12 xl:w-full items-center px-16 md:px-32 grid lg:grid-cols-2 gap-7 ">
         <div>
-          <h3 className="text-sectionhead text-center lg:text-left font-semibold py-8">
+          <h3 className="text-sectionhead text-left lg:text-left font-semibold py-8">
             Get freedom from occupational wilderness
           </h3>
-          <p className=" text-primary xl:w-11/12 mb-5">
+          <p className=" text-primary xl:w-11/12 mb-5 text-justify">
             Whether you choose to learn a trade or choose to pursue formal
             education... what is important is choosing to run your best, and
             leave your footprint on the world.
           </p>
-          <p className=" text-primary xl:w-11/12 mb-5">
+          <p className=" text-primary xl:w-11/12 mb-5 text-justify">
             Our IGNITE Experience frees you from occupational wilderness. We
             take you on a journey to discovering a list of occupations suitable
             for your unique inner talents and abilities, and position you for a

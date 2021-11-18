@@ -7,6 +7,7 @@ import AboutImg from "../public/assets/about-img.JPG";
 import Discover from "../public/assets/discover-box.jpeg";
 import Develop from "../public/assets/develop.jpeg";
 import Deploy from "../public/assets/deploy.jpeg";
+import black from "../public/assets/black.jpg";
 
 import Mouki from "../public/assets/mouki.jpeg";
 
@@ -23,9 +24,9 @@ const whoweare = () =>
         <title>Vijona | Who we are</title>
       </Head>
       <div className="">
-        <section className="mt-24">
-          <div className="w-11/12 mx-auto  mt-40 text-center">
-            <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">
+        <section className="mt-28 mt">
+          <div className="mt-80 text-center">
+            <h1 className=" text-4xl md:text-6xl my-4 font-semibold">
               The Vijona Africa Project
             </h1>
             <p className="text-xl lg:text-2xl mt-3  mb-10 text-v-green">
@@ -35,7 +36,15 @@ const whoweare = () =>
               Vijona Africa was founded in 2018 to play a role in transforming the mindset and reengineering the believe system of young Africans.
             </p>
           </div>
-          <Image className="rounded-md" src={AboutImg} alt="vijona-staff" />
+
+          <div className="relative">
+            <Image className="rounded-md absolute" src={AboutImg} alt="vijona-staff" />
+            <div className="absolute bg-black w-screen h-full bg-blend-multiply top-0"></div>
+          </div>
+
+
+
+
         </section>
         <section className=" px-12 md:px-32 pt-32 pb-10">
           <div className="grid grid-cols-1 md:grid-cols-whoweareTemplate gap-10">
