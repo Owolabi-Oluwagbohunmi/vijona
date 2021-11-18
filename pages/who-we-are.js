@@ -66,20 +66,37 @@ const whoweare = () =>
           </div>
         </section>
 
-        <section className="bg-v-darkgray xl:px-16 my-28 py-12 px-10 ">
-          <h3 className=" text-4xl md:text-sectionhead font-semibold mb-5 text-center md:text-left ">
+        <section className="bg-v-darkgray py-12 lg:px-32 mb-16">
+          <h3 className=" text-4xl md:text-sectionhead font-semibold mb-5 text-center md:text-right ">
             Our Solution is Wholistic
           </h3>
-          <p className="text-primary my-10 lg:w-10/12">
+          <p className="text-primary my-10 lg:w-5/12 text-right -ml-0">
             “We help you discover your unique innate God given talents and
             abilities, expose you to contextual relevant occupations that align
             with who you are, empower you to believe in your VALUE enough to
             develop and realize your unique occupational life plan.
           </p>
-          <div className="grid grid-cols-3 my-10 gap-5">
-            <Image className="rounded-md" src={Discover} alt="" />
-            <Image className="rounded-md" src={Develop} alt="" />
-            <Image className="rounded-md" src={Deploy} alt="" />
+          <div className="grid grid-cols-3 my-10 gap-1">
+            <div className="">
+              <Image className="rounded-md" src={Discover} alt="" />
+              <div className="text-center flex flex-col">
+                <p className=" font-bold text-lg pt-8 pb-4">Discover</p>
+                <p>Who am I, What can I do?</p>
+              </div>
+            </div>
+            <div><Image className="rounded-md" src={Develop} alt="" />
+              <div className="text-center flex flex-col">
+                <p className=" font-bold text-lg pt-8 pb-4">Develop</p>
+                <p>Contextual and relevant incubators</p>
+              </div></div>
+            <div><Image className="rounded-md" src={Deploy} alt="" />
+              <div className="text-center flex flex-col">
+                <p className=" font-bold text-lg pt-8 pb-4">Deploy</p>
+                <p>Bridge towards unique Occupational Life Plans</p>
+              </div></div>
+
+
+
           </div>
         </section>
 
