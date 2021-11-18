@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import ReactPlayer from "react-player";
 import Herocomp from "../comps/Herocomp";
@@ -14,9 +15,13 @@ import Isaac from "../public/assets/isaac.jpeg";
 import esther from "../public/assets/esther.jpeg";
 import Counter from "../comps/Counter";
 import Team from "../comps/Team";
-const whoweare = () => {
+const whoweare = () =>
+{
   return (
     <>
+      <Head>
+        <title>Vijona | Who we are</title>
+      </Head>
       <section className="mt-24 mx-auto ">
         <div className="w-11/12 mx-auto  mt-40 text-center ">
           <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">

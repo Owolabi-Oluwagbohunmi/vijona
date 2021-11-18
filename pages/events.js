@@ -22,7 +22,9 @@ const events = () => {
   ];
   return (
     <>
-      
+            <Head>
+        <title>Vijona | Events</title>
+      </Head>
 
       <section className="bg-v-gray my-28 py-16 xl:px-16">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">

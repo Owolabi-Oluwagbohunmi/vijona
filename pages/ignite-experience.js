@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 import Occupational from "../public/assets/occupational.svg";
 import uniqueAttributes from "../public/assets/unique-attributes.svg";
@@ -26,6 +27,9 @@ const igniteExperience = () =>
   };
   return (
     <>
+      <Head>
+        <title>Vijona | IGNITE Experience</title>
+      </Head>
       <section className="mt-24 mx-auto ">
         <div className="w-11/12 mx-auto xl:mt-48 mt-36 text-center ">
           <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">
@@ -123,7 +127,7 @@ const igniteExperience = () =>
             <div className="bg-white w-card p-4 h-card ">
               <div className="flex items-center">
                 <div>
-                  <Image src={curlyArrow} alt=""/>
+                  <Image src={curlyArrow} alt="" />
                 </div>
                 <h3 className="text-2xl w-3/4 font-medium">
                   Enabled to draft life plans
@@ -156,15 +160,15 @@ const igniteExperience = () =>
             </div>
           </div>
 
-           <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
-            <Image src={equal} alt=""/>
+          <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
+            <Image src={equal} alt="" />
           </div>
 
           <div className="flex flex-col items-center justify-center order-9 md:order-11 md:col-span-3 lg:col-auto lg:order-5 lg:row-span-3">
-              <div className="bg-red-500">
-                <Image src={profileimage} width='320' height='250' alt=""/>
-              </div>
-              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
+            <div className="bg-red-500">
+              <Image src={profileimage} width='320' height='250' alt="" />
+            </div>
+            <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
           </div>
 
         </div>
@@ -201,7 +205,7 @@ const igniteExperience = () =>
         <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
-              <Image src={uniqueAttributes} alt=""/>
+              <Image src={uniqueAttributes} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">1</p>
@@ -212,7 +216,7 @@ const igniteExperience = () =>
           </div>
           <div>
             <div>
-              <Image src={Critical} alt=""/>
+              <Image src={Critical} alt="" />
             </div>
             <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
               <p className="text-white text-primary">2</p>
@@ -262,7 +266,7 @@ const igniteExperience = () =>
         </h3>
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} alt=""/>
+            <Image src={IgniteOne} alt="" />
             <div className="absolute bottom-20 left-12">
               <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
                 <svg

@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Head from "next/head";
 import Yellow from "../public/assets/yellow.png";
 import Purple from "../public/assets/purple.png";
 import Herocomp from "../comps/Herocomp";
@@ -18,9 +18,13 @@ import Link from "next/link";
 import ReactPlayer from "react-player";
 import CardText from "../comps/CardText";
 
-const pathwayScholarships = () => {
+const pathwayScholarships = () =>
+{
   return (
     <>
+      <Head>
+        <title>Vijona | Pathway-Programs</title>
+      </Head>
       <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24 ">
         <ReactPlayer
           className="rounded-sm mx-auto"

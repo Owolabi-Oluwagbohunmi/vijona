@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Image from "next/image";
 import VijonaPeople from "../public/assets/vijonapple.jpg";
 import checkMark from "../public/assets/checkmark.png";
@@ -19,9 +20,13 @@ import ReactPlayer from "react-player";
 import CardText from "../comps/CardText";
 import CardTextt from "../comps/CardTextt";
 
-const IncubatorHub = () => {
+const IncubatorHub = () =>
+{
   return (
     <>
+      <Head>
+        <title>Vijona | Incubator Hubs</title>
+      </Head>
       <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24 ">
         <ReactPlayer
           className="rounded-sm mx-auto"

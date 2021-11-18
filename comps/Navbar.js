@@ -54,7 +54,7 @@ const Navbar = () =>
 
         <ul className={click ? "flex flex-col w-full min-h-screen absolute top-28 opacity-90 transition-all bg-black justify-center align-middle z-50 text-white" : "hidden navscreenmax:grid navscreenmax:grid-cols-3 navscreenmax:gap-2 navscreenmax:list-none navscreenmax:text-center navscreenmax:w-full navscreenmax:justify-center navscreenmax:mr-4 navscreenmax:order-1 "}>
           <li onClick={closeMobileMenu} className="flex items-center h-20">
-            <Link href="/" className=" text-center p-8 w-full table hover:bg-gray-400 hover:rounded-none navscreenmax:py-2 navscreenmax:px-6 navscreenmax:hover:bg-black navscreenmax:rounded navscreenmax:transition-all">
+            <Link href="/who-we-are" className=" text-center p-8 w-full table hover:bg-gray-400 hover:rounded-none navscreenmax:py-2 navscreenmax:px-6 navscreenmax:hover:bg-black navscreenmax:rounded navscreenmax:transition-all">
               Who we are
             </Link>
           </li>
