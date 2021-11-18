@@ -8,7 +8,6 @@ const Form = () => {
   return (
     <section>
       <form
-        onSubmit={handleSubmit}
         className="my-20 py-24  w-9/12 lg:w-7/12 mx-auto relative rounded-lg shadow-xl flex flex-col px-12  bg-white dark:bg-blue-500"
       >
         <h1 className="text-2xl font-bold dark:text-gray-50">
