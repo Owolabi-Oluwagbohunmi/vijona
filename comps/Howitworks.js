@@ -2,9 +2,9 @@ import React from "react";
 
 const Howitworks = () => {
   return (
-    <section className="flex flex-col xl:flex-row pt-20 md:px-28 bg-white">
+    <section className="flex flex-col xl:flex-row pt-20 text-justify">
       <div className="xl:my-20">
-        <h3 className="text-insectionHeading font-semibold ">
+        <h3 className="text-sectionhead font-semibold ">
           How it all works
         </h3>
         <p className="text-primary my-10 w-3/4">

@@ -94,12 +94,12 @@ const Navbar = () =>
               <Image src={Youtube} />
             </div>
           </div>
-          <div className="flex items-center justify-center mx-auto">
+          <div className="flex items-center justify-center mx-auto text-xs navscreenmax:font-medium">
             <Link href="/donate">
-              <a className="navbar-btn bg-v-yellow mr-5 w-max text-sm  ">Donate</a>
+              <a className="navbar-btn bg-v-yellow mr-5 w-max ">DONATE</a>
             </Link>
             <Link href="/join-us">
-              <a className="navbar-btn bg-v-black mr-5 w-max text-sm">Partner With Us</a>
+              <a className="navbar-btn bg-v-black mr-5 w-max">PARTNER WITH US</a>
             </Link>
           </div>
         </div>

@@ -1,6 +1,6 @@
 const Counter = () => {
   return (
-    <section className=" my-32 grid  grid-cols-1 sm:grid-cols-2 gap-14  lg:grid-cols-5 xl:gap-28 text-center">
+    <section className="grid  grid-cols-1 sm:grid-cols-2 gap-14  lg:grid-cols-5 xl:gap-28 text-center">
       <div>
         <h5 className=" text-5xl xl:text-6xl text-v-green font-bold">3500+</h5>
         <p className="text-v-green  sm:w-9/12 md:w-10/12  mx-auto my-6 ">Ignite Experience Workshop participants</p>
