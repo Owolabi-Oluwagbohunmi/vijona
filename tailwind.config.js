@@ -26,7 +26,7 @@ module.exports = {
         'v-gray': '#f6f7f7',
         'v-pink': '#FFF9F9',
         'v-black': '#282828',
-        'v-darkgray':'#DADADC'
+        'v-darkgray':'#E6E6E8'
       },
       gridAutoColumns: {
         'gcols': 'minmax(0,2rem)'
