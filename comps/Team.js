@@ -1,7 +1,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import Okeowo from "../public/assets/okeowo.jpeg";
-import joseph from "../public/assets/joseph.jpeg";
+import Isaac from "../public/assets/isaac.jpeg";
+import Mouki from "../public/assets/mouki.jpeg";
+import D1 from "../public/assets/director1.jpg";
+import D2 from "../public/assets/director2.jpg";
+import D3 from "../public/assets/director3.jpg";
+import D4 from "../public/assets/director4.jpg";
+import D5 from "../public/assets/director5.jpg";
+import D6 from "../public/assets/director6.jpg";
 
 import Relindis from "../public/assets/relindis-about.jpeg";
 
@@ -67,21 +74,21 @@ const Team = () => {
               respective countries and an international Board of Directors
             </p> */}
             <h3 className="text-2xl font-semibold mt-8">Country Coordinators</h3>
-            <div className="grid grid-cols-1 mt-10 md:grid-cols-3 mx-auto py-6">
+            <div className="grid grid-cols-1 mt-10 md:grid-cols-3 py-6 gap-2 w-9/12">
               <div>
-                <Image src={Okeowo} />
-                <p>Okeowo</p>
-                <p>Country Coordinator</p>
+                <Image src={Okeowo} width='500' height='500' />
+                <p className="font-semibold underline">Oluwatomi Okeowo</p>
+                <p className="font-bold">Country Coordinator Nigeria.</p>
               </div>
               <div>
-                <Image src={Okeowo} />
-                <p>Okeowo</p>
-                <p>Country Coordinator</p>
+                <Image src={Mouki} height='720'/>
+                <p className="font-semibold underline">Jab Mouki Christelle Alexander</p>
+                <p className="font-bold">Country Coordinator Cameroon.</p>
               </div>
               <div>
-                <Image src={Okeowo} />
-                <p>Okeowo</p>
-                <p>Country Coordinator</p>
+                <Image src={Isaac} height="1600"/>
+                <p className="font-semibold underline">Isaac Boateng</p>
+                <p className="font-bold">Country Coordinator Ghana.</p>
               </div>
             </div>
             <div>
@@ -89,35 +96,35 @@ const Team = () => {
                 Board of Directors
               </h3>
               <div className="grid grid-cols-1 mt-5 md:grid-cols-3 gap-5 mx-auto py-6">
-                <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                <div classname="">
+                  <Image src={D1} height="1200" />
+                  <p>Mrs. Esther David Sabo</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D2} />
+                  <p>Bishop Tony Dunn</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D3} />
+                  <p>Ranu Gupta</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D4} />
+                  <p>Ose Oyamendan</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D5} />
+                  <p>Kjel Kiilsgaard</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D6} />
+                  <p>Joseph Quansah</p>
+                  <p>Director</p>
                 </div>
               </div>
             </div>
