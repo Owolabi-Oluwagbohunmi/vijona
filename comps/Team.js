@@ -107,7 +107,7 @@ const Team = () => {
                   <p>Director</p>
                 </div>
                 <div>
-                  <Image src={D3} />
+                  <Image src={D3} height='400' width='500'/>
                   <p>Ranu Gupta</p>
                   <p>Director</p>
                 </div>
@@ -122,7 +122,7 @@ const Team = () => {
                   <p>Director</p>
                 </div>
                 <div>
-                  <Image src={D6} />
+                  <Image src={D6} height='400' width='500'/>
                   <p>Joseph Quansah</p>
                   <p>Director</p>
                 </div>
