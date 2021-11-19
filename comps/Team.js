@@ -13,11 +13,11 @@ const Team = () => {
   };
   return (
     <>
-      <section className="bg-v-darkgray lg:px-32 px-16 py-20">
+      <section className="bg-v-darkgray px-5 sm:px-16 md:px-16 lg:px-32 py-20">
         <h3 className=" text-4xl md:text-sectionhead font-semibold text-center md:text-left ">
           Our Team
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-20 text-justify">
+        <div className="grid grid-cols-1 xl:grid-cols-2 my-10 gap-20 text-justify">
           <div>
             <p className="text-primary mb-5">
               After spending equal number of years in two starkly different
