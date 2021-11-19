@@ -2,6 +2,12 @@ import { useState } from "react";
 import Image from "next/image";
 import Okeowo from "../public/assets/okeowo.jpeg";
 import joseph from "../public/assets/joseph.jpeg";
+import D1 from "../public/assets/director1.jpg";
+import D2 from "../public/assets/director2.jpg";
+import D3 from "../public/assets/director3.jpg";
+import D4 from "../public/assets/director4.jpg";
+import D5 from "../public/assets/director5.jpg";
+import D6 from "../public/assets/director6.jpg";
 
 import Relindis from "../public/assets/relindis-about.jpeg";
 
@@ -89,35 +95,35 @@ const Team = () => {
                 Board of Directors
               </h3>
               <div className="grid grid-cols-1 mt-5 md:grid-cols-3 gap-5 mx-auto py-6">
-                <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                <div classname="">
+                  <Image src={D1} height="1200" />
+                  <p>Mrs. Esther David Sabo</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D2} />
+                  <p>Bishop Tony Dunn</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D3} />
+                  <p>Ranu Gupta</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D4} />
+                  <p>Ose Oyamendan</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D5} />
+                  <p>Kjel Kiilsgaard</p>
+                  <p>Director</p>
                 </div>
                 <div>
-                  <Image src={joseph} />
-                  <p>Okeowo</p>
-                  <p>Country Director</p>
+                  <Image src={D6} />
+                  <p>Joseph Quansah</p>
+                  <p>Director</p>
                 </div>
               </div>
             </div>
