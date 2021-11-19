@@ -21,6 +21,8 @@
     "react-elastic-carousel": "^0.11.5",
     "react-multi-carousel": "^2.6.5",
     "react-player": "^2.9.0",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "tailwindcss": "^2.2.16"
   },
