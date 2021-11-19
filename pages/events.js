@@ -195,7 +195,7 @@ const events = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-viblue xl:px-16">
+      <section className="py-20 bg-black xl:px-16">
         <h3 className="text-sectionhead text-white text-center font-semibold py-3">
           Special Events
         </h3>
