@@ -30,7 +30,7 @@ export default function Home()
       </div>
 
       <div className="font-openSans px-5 md:px-16 bg-v-white lg:px-18">
-        <Partner />
+        {/* <Partner /> */}
       </div>
       <div className="font-openSans px-5 md:px-16 bg-v-white lg:px-18 mt-16 mb-16">
         <Counter />

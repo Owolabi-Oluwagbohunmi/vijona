@@ -25,7 +25,7 @@ const Howitworks = () => {
           </div>
           <div className="bg-v-yellow text-center  py-8 w-9/12 text-white rounded">
             <h4 className="text-cardHead font-bold my-10">O2</h4>
-            <p className="text-cardtext mx-auto  my-10 ">
+            <p className="text-cardtext mx-auto  my-10 px-5">
               Build your unique occupational life plan
             </p>
           </div>
