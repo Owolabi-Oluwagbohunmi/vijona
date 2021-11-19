@@ -82,15 +82,22 @@ const Navbar = () =>
 
         <div className={click ? "absolute order-2 top-60 z-50" : "hidden navscreenmax:block navscreenmax:order-3 navscreenmax:pr-32"}>
           <div className="flex items-center mx-auto mb-2 justify-center">
-            <div className="w-5 mr-5 text-white">
+            <Link href="https://www.instagram.com/vijonaafrica/">
+            <div className="w-5 mr-5 text-white cursor-pointer">
               <Image src={Instagram} />
             </div>
-            <div className="w-7 mr-5">
+            </Link>
+
+            <Link href="https://www.twitter.com/VijonaAfrica">
+            <div className="w-7 mr-5 cursor-pointer">
               <Image src={Twitter} />
             </div>
-            <div className="w-7">
+            </Link>
+            <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA">
+            <div className="w-7 cursor-pointer">
               <Image src={Youtube} />
             </div>
+            </Link>
           </div>
           <div className="flex items-center justify-center mx-auto text-xs navscreenmax:font-medium">
             <Link href="/donate">
