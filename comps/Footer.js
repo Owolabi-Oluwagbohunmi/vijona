@@ -4,7 +4,7 @@ import Logo_white from "../public/assets/logo-white.png";
 
 const Footer = () => {
   return (
-    <div className="font-openSans px-5 md:px-16 bg-black lg:px-18">
+    <div className="font-openSans px-5 md:px-16 bg-black lg:px-18 pb-6">
       <section className=" grid grid-cols-1 md:grid-cols-2 md:gap-12 lg:grid-cols-4 text-white pt-10 px-6 gap-6 w-full">
         <div className=" h-28 w-28 object-cover lg:row-span-3">
           <Image
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-col font-light w-72">
           <div className="font-bold py-3">Engagement Channels</div>
           <Link href="/ignite-experience">
-            <a className=" my-1">Ignite Experience</a>
+            <a className=" my-1">IGNITE Experience</a>
           </Link>
           <Link href="/incubator-hubs">
             <a className=" my-1">Incubator Hubs</a>

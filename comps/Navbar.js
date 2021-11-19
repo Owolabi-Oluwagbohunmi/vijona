@@ -20,7 +20,7 @@ const Navbar = () =>
   const onMouseEnter = () =>
   {
     if (window.innerWidth < 1270) {
-      setDropDown(false);
+      setDropDown(true);
     } else {
       setDropDown(true);
     }
@@ -37,8 +37,8 @@ const Navbar = () =>
 
   return (
     <>
-      <nav className='  h-28 flex justify-center align-middle text-xl bg-v-bg pt-3 p-5 w-full fixed z-50 top-0'>
-        <div className="cursor-pointer w-full order-1 pt-3 navscreenmax:order-2">
+      <nav className='  h-28 flex justify-center align-middle text-xl bg-v-bg pt-3 w-full fixed z-50 top-0'>
+        <div className="pl-14 cursor-pointer w-full order-1 pt-3 navscreenmax:order-2">
           <Link href="/">
             <div className=" w-28 md:w-36 lg:mr-28 cursor-pointer ">
               <Image src={Logo} alt="vijona-logo" />
@@ -46,38 +46,45 @@ const Navbar = () =>
           </Link>
         </div>
 
-        <div className="block order-3 pt-3 navscreenmax:hidden " onClick={handleClick}>
+        <div className="block order-3 pt-3 pr-14 navscreenmax:hidden " onClick={handleClick}>
           <div className=" text-gray-700  text-5xl">
             {click ? <FaTimesCircle /> : <FaAlignJustify />}
           </div>
         </div>
 
-        <ul className={click ? "flex flex-col w-full min-h-screen absolute top-28 opacity-90 transition-all bg-black justify-center align-middle z-50 text-white" : "hidden navscreenmax:grid navscreenmax:grid-cols-3 navscreenmax:gap-2 navscreenmax:list-none navscreenmax:text-center navscreenmax:w-full navscreenmax:justify-center navscreenmax:mr-4 navscreenmax:order-1 "}>
-          <li onClick={closeMobileMenu} className="flex items-center h-20">
-            <Link href="/" className=" text-center p-8 w-full table hover:bg-gray-400 hover:rounded-none navscreenmax:py-2 navscreenmax:px-6 navscreenmax:hover:bg-black navscreenmax:rounded navscreenmax:transition-all">
-              Who we are
-            </Link>
-          </li>
+        <div className="w-full navscreenmax:pl-32">
+          <ul className={click ? "absolute top-28 flex flex-col text-center order-2 bg-black text-white min-h-screen pl-96" : "hidden navscreenmax:grid navscreenmax:grid-cols-3 navscreenmax:gap-6 navscreenmax:list-none navscreenmax:text-center navscreenmax:justify-center navscreenmax:mr-4 navscreenmax:order-1 navscreenmax:text-sm navscreenmax:w-max navscreenmax:font-medium"}>
+            <li onClick={closeMobileMenu} className="flex items-center h-20">
+              <Link href="/who-we-are" className="text-center w-full table">
+                WHO WE ARE
+              </Link>
+            </li>
 
-          <li onClick={closeMobileMenu} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} className="flex items-center h-20">
-            <Link href="/ignite-experience" className="  text-center p-8 w-full table hover:bg-gray-400 hover:rounded-none navscreenmax:py-2 navscreenmax:px-6 navscreenmax:hover:bg-black navscreenmax:rounded navscreenmax:transition-all uppercase">
-              <span>What we Do {<FaCaretDown className=' inline-block text-2xl' />}</span>
-            </Link>
+            <li onClick={closeMobileMenu} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} className="flex items-center h-20 pr-1">
+              <Link href="/ignite-experience" className="text-center w-full table">
+                <div className="flex flex-row">
+                  <span>WHAT WE DO</span>
+                  <FaCaretDown className='text-1xl pt-1' />
+                </div>
+
+              </Link>
 
 
-            {dropdown && <DropDown />}
-          </li>
+              {dropdown && <DropDown />}
+            </li>
 
-          <li onClick={closeMobileMenu} className="flex items-center h-20">
-            <Link href="/events" className=" text-center p-8 w-full table hover:bg-gray-400 hover:rounded-none navscreenmax:py-2 navscreenmax:px-6 navscreenmax:hover:bg-black navscreenmax:rounded navscreenmax:transition-all uppercase">
-              Events
-            </Link>
-          </li>
-        </ul>
+            <li onClick={closeMobileMenu} className="flex items-center h-20">
+              <Link href="/events" className="text-center w-full table">
+                EVENTS
+              </Link>
+            </li>
+          </ul>
 
-        <div className="hidden navscreenmax:block navscreenmax:order-3">
+        </div>
+
+        <div className={click ? "absolute order-2 top-60 z-50" : "hidden navscreenmax:block navscreenmax:order-3 navscreenmax:pr-32"}>
           <div className="flex items-center mx-auto mb-2 justify-center">
-            <div className="w-5 mr-5">
+            <div className="w-5 mr-5 text-white">
               <Image src={Instagram} />
             </div>
             <div className="w-7 mr-5">
@@ -87,12 +94,12 @@ const Navbar = () =>
               <Image src={Youtube} />
             </div>
           </div>
-          <div className="flex items-center justify-center mx-auto">
+          <div className="flex items-center justify-center mx-auto text-xs navscreenmax:font-medium">
             <Link href="/donate">
-              <a className="navbar-btn bg-v-yellow mr-5 w-max text-sm  ">Donate</a>
+              <a className="navbar-btn bg-v-yellow mr-5 w-max ">DONATE</a>
             </Link>
             <Link href="/join-us">
-              <a className="navbar-btn bg-v-black mr-5 w-max text-sm">Partner With Us</a>
+              <a className="navbar-btn bg-v-black mr-5 w-max">PARTNER WITH US</a>
             </Link>
           </div>
         </div>

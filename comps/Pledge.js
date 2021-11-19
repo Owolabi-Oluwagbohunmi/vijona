@@ -1,16 +1,19 @@
 import Image from "next/image";
-import pledgeImage from "../public/assets/pledgeImage.png";
+import pledgeImage from "../public/assets/boypledging.png";
 
-const Pledge = () => {
+const Pledge = () =>
+{
   return (
-    <section className="bg-white pt-16 xl:px-16">
-      <h3 className="text-sectionhead font-semibold py-14">The Pledge</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 my-24">
-        <div className="order-last md:order-first">
-          <Image src={pledgeImage} alt="pledge-image" priority/>
+    <section className="pt-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 className="text-sectionhead font-semibold mt-8 pb-12">The Pledge</h3>
+          <div className="order-last md:order-first">
+            <Image src={pledgeImage} alt="pledge-image" priority />
+          </div>
         </div>
-        <div className="xl:w-10/12">
-          <p className="text-quotetext">
+        <div className="xl:w-10/12 flex flex-col align-middle justify-center">
+          <p className="text-quotetext py-4">
             <svg
               className="w-10 inline"
               xmlns="http://www.w3.org/2000/svg"
@@ -28,10 +31,10 @@ const Pledge = () => {
                 fill="#FBB040"
               />
             </svg>
-            I pledge to identify, nuture and use my talent to serve my community
+            <span className=''>I pledge to identify, nuture and use my talent to serve my community</span>
             <svg
-            className="w-10 inline"
-    
+              className="w-10 inline"
+
               version="1.1"
               x="0px"
               y="0px"
@@ -41,7 +44,7 @@ const Pledge = () => {
             >
               <g>
                 <path
-                 fill="#FBB040"
+                  fill="#FBB040"
                   stroke="#FBB040"
                   strokeWidth="0.5"
                   strokeMiterlimit="10"
@@ -51,12 +54,15 @@ const Pledge = () => {
             </svg>
           </p>
 
-          <p className="text-primary my-10">
+          <p className="text-primary font-medium pb-4 text-justify">
             Whether you live in a village or a city, boy or girl, YOU have value
             the world needs. Yes YOU! Join the movement! Take the Pledge …
             and act on it.
           </p>
-          <a className="bg-v-green w-auto shadow-md text-white py-4 px-6 rounded my-10">Take the Vijona Africa community pledge</a>
+          <div className="flex justify-center align-middle mt-3">
+            <a className="bg-v-green w-96 shadow-md text-white py-4 rounded text-center">Take the Vijona Africa community pledge</a>
+          </div>
+
         </div>
       </div>
     </section>

@@ -25,7 +25,8 @@ module.exports = {
         "v-bg": '#FAFAFB',
         'v-gray': '#f6f7f7',
         'v-pink': '#FFF9F9',
-        'v-black': '#282828'
+        'v-black': '#282828',
+        'v-darkgray':'#E6E6E8'
       },
       gridAutoColumns: {
         'gcols': 'minmax(0,2rem)'
@@ -33,12 +34,15 @@ module.exports = {
       gridTemplateColumns:{
         'ignitecard': 'max-content max-content max-content 10% 40%',
         'ignitecardPhones': 'max-content',
-        'ignitecardmd': 'max-content max-content max-content'
+        'ignitecardmd': 'max-content max-content max-content',
+        'aboutusTemplate': '50% 50%',
+        'whoweareTemplate': '30% 55%'
       },
       gridTemplateRows:{
         'ignitecard': 'max-content max-content max-content',
         'ignitecardPhones': 'max-content max-content max-content max-content max-content max-content max-content max-content max-content',
         'ignitecardmd': 'max-content max-content max-content max-content max-content',
+        'aboususTemplate': 'max-content max-content'
       }, 
       fontFamily:{
         'openSans': ['Mulish', 'sans-serif']

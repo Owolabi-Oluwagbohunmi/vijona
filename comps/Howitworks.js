@@ -2,10 +2,10 @@ import React from "react";
 
 const Howitworks = () => {
   return (
-    <section className="flex flex-col xl:flex-row pt-20 md:px-28 bg-white">
+    <section className="flex flex-col xl:flex-row pt-20 text-justify">
       <div className="xl:my-20">
-        <h3 className="text-insectionHeading font-semibold ">
-          How it all works
+        <h3 className="text-sectionhead font-semibold ">
+          How It All Works
         </h3>
         <p className="text-primary my-10 w-3/4">
           Every individual is uniquely talented. We empower you to unleash your
@@ -15,8 +15,8 @@ const Howitworks = () => {
           Ask Us How
         </a>
       </div>
-      <div className="xl:w-10/12 ml-10 mx-auto">
-        <div className="flex flex-col md:flex-row  ">
+      <div className="xl:w-12/12">
+        <div className="flex flex-col gap-2 xl:flex-row  ">
           <div className="bg-v-green text-center py-8 mr-10 w-9/12 text-white rounded">
             <h4 className="text-cardHead font-bold my-10">O1</h4>
             <p className="text-cardtext mx-auto  my-10 px-5 ">
@@ -25,12 +25,12 @@ const Howitworks = () => {
           </div>
           <div className="bg-v-yellow text-center  py-8 w-9/12 text-white rounded">
             <h4 className="text-cardHead font-bold my-10">O2</h4>
-            <p className="text-cardtext mx-auto  my-10 ">
+            <p className="text-cardtext mx-auto  my-10 px-5">
               Build your unique occupational life plan
             </p>
           </div>
         </div>
-        <div className="bg-black w-2/4 mx-auto text-center py-8 my-10 text-white rounded">
+        <div className="bg-black w-9/12 xl:w-11/12 text-center py-8 my-2 text-white rounded">
           <h4 className="text-cardHead text-center font-bold my-10">O3</h4>
           <p className="text-cardtext mx-auto my-10 px-5 py-3">
             Then work at it until you are the best at it
