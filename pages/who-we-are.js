@@ -28,13 +28,13 @@ const whoweare = () =>
           <Image src={Vijonaproject} alt="kids running"/>
           {/* <Image className="rounded-md absolute" src={AboutImg} alt="vijona-staff" /> */}
           <div className="top-0 mt-1 px-5 sm:mt-5 md:mt-12 lg:mt-20 xl:mt-40 text-center absolute mx-auto bg-black opacity-70 w-full">
-            <h1 className=" text-3xl lg:text-6xl my-4 font-semibold text-white">
+            <h1 className=" text-3xl mb-3 lg:text-6xl md:my-4 font-semibold text-white">
               The Vijona Africa Project
             </h1>
-            <p className="text-sm md:text-base lg:text-2xl mt-3  mb-10 text-v-green font-extrabold">
+            <p className="text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
               (Motto: Discover, Develop, Deploy)
             </p>
-            <p className="text-sm lg:3x1 md:w-3/4 xl:w-2/4 mx-auto text-justify mt-5 mb-16 text-white">
+            <p className="text-sm lg:3x1 md:w-3/4 xl:w-2/4 mx-auto text-justify mt-5 mb-11 text-white">
               Vijona Africa was founded in 2018 to play a role in transforming the mindset and reengineering the believe system of young Africans.
             </p>
           </div>
@@ -48,7 +48,7 @@ const whoweare = () =>
 
 
         </section>
-        <section className=" px-5 sm:px-16 md:px-16 lg:px-32 pt-32 pb-20">
+        <section className=" px-5 pt-20 md:pt-32 sm:px-16 md:px-16 lg:px-32 pb-20">
           <div className="grid grid-cols-1 xl:grid-cols-whoweareTemplate gap-10">
             <div className="flex flex-col align-middle justify-center">
               <h3 className=" text-4xl md:text-sectionhead font-semibold pb-4">
