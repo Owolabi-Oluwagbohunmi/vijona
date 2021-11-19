@@ -11,93 +11,69 @@ import galaThree from "../public/assets/image3.jpeg";
 import galaFour from "../public/assets/image4.jpeg";
 import Blue from "../public/assets/blue-pattern.svg";
 import ReactPlayer from "react-player";
-import Carousel from "react-elastic-carousel";
+
+import Slider from "react-slick";
 
 const events = () => {
-  const breakPoints = [
-    { width: 1, itemToShow: 1, itemsToScroll: 2 },
-    { width: 550, itemToShow: 2 },
-    { width: 768, itemToShow: 3 },
-    { width: 1200, itemToShow: 4 }
-  ];
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
     <>
-      
-
-      <section className="bg-v-gray my-28 py-16 xl:px-16">
-        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
+      <section className="bg-v-gray my-10 py-16 xl:px-16">
+        <h3 className="text-sectionhead text-center lg:text-left  font-semibold py-14">
           Upcoming IGNITE Experience workshop
         </h3>
-        <div className="grid grid-cols-1 xl:grid-cols-2">
-          <div className="w-11/12 xl:w-full mx-auto relative">
+        <div className="grid grid-cols-2">
+          <div className=" block  w-2/4 xl:w-full mx-auto relative">
             <Image src={IgniteOne} alt="" />
             <div className="absolute bottom-20 left-8">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <p className=" uppercase text-white ">Workshop</p>
-              </div>
-              <p className="text-white text-2xl font-bold my-4">
-                IGNITE Experience Cameroon
-              </p>
-
-              <p className=" w-max  text-white rounded  my-2">
-                December 23rd, 2021 Workshop
-              </p>
-            </div>
-          </div>
-          <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} alt="" />
-            <div className="absolute bottom-20 left-8">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <p className="uppercase text-white ">Workshop</p>
-              </div>
               <p className="text-white text-2xl font-bold my-4">
                 IGNITE Experience Nigeria
               </p>
 
-              <p className=" w-max  text-white rounded  my-2">
-                December 23rd, 2021 Workshop
-              </p>
+              <p className=" w-max  text-white rounded  my-2">July 2022</p>
+              <div className="flex my-5 bg-vijyellow w-max py-3 px-4 rounded items-center">
+                <p className=" uppercase text-white ">Coming soon</p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="py-6 xl:px-16">
-        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          Upcoming IGNITE Contest
-        </h3>
-        <div className="grid grid-cols-1 xl:grid-cols-2">
-          <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} alt="" />
-            <div className="absolute bottom-20 left-8">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <p className=" uppercase text-white ">Contest</p>
-              </div>
-              <p className="text-white text-2xl font-bold my-4">
-                IGNITE Contest Feb 2022
-              </p>
-            </div>
-          </div>
-          <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteTwo} alt="" />
-            <div className="absolute bottom-20 left-8">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <p className="uppercase text-white ">Contest</p>
-              </div>
-              <p className="text-white text-2xl font-bold my-4">
-                IGNITE Contest Dec 2021
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-6 xl:px-16">
-        <h3 className="text-3xl text-center font-semibold py-14">
-          Vijona Africa Annual Black-Tie Fundraising Gala
+        <h3 className="text-3xl text-left font-semibold py-14">
+          Past Ignite Experience Workshops
         </h3>
         <div className="">
-          <Carousel>
+        <Slider {...settings}>
             <div className="relative text-white ">
               <Image src={galaOne} alt="" />
             </div>
@@ -110,7 +86,99 @@ const events = () => {
             <div className="relative text-white ">
               <Image src={galaFour} alt="" />
             </div>
-          </Carousel>
+            <div className="relative text-white ">
+              <Image src={galaOne} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaTwo} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaThree} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaFour} alt="" />
+            </div>
+          </Slider>
+        </div>
+      </section>
+
+      <section className="py-6 xl:px-16">
+        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
+          Upcoming IGNITE Contest
+        </h3>
+        <div className="grid grid-cols-1 xl:grid-cols-2">
+          <div className="w-11/12 xl:w-full mx-auto relative">
+            <Image src={IgniteOne} alt="" />
+            <div className="absolute bottom-20 left-8">
+              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
+                <p className=" uppercase text-white ">Nigeria</p>
+              </div>
+              <p className="text-white text-2xl font-bold my-4">
+                IGNITE Contest
+              </p>
+              <div className="flex my-5 bg-vijyellow w-max py-3 px-4 rounded items-center">
+                <p className=" uppercase text-white ">Coming soon</p>
+              </div>
+            </div>
+          </div>
+          <div className="w-11/12 xl:w-full mx-auto relative">
+            <Image src={IgniteTwo} alt="" />
+            <div className="absolute bottom-20 left-8">
+              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
+                <p className="uppercase text-white ">Ghana</p>
+              </div>
+              <p className="text-white text-2xl font-bold my-4">
+                IGNITE Contest
+              </p>
+              <div className="flex my-5 bg-vijyellow w-max py-3 px-4 rounded items-center">
+                <p className=" uppercase text-white ">Coming soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 className="text-3xl text-left font-semibold py-14">
+          Past Ignite Experience Contest
+        </h3>
+        <div className="">
+        <Slider {...settings}>
+            <div className="relative text-white ">
+              <Image src={galaOne} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaTwo} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaThree} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaFour} alt="" />
+            </div>
+          </Slider>
+        </div>
+      </section>
+
+      <section className="py-6 xl:px-16">
+        <h3 className="text-sectionhead text-center font-semibold py-3">
+          Special Events
+        </h3>
+        <h3 className="text-3xl text-left font-semibold py-14">
+          Vijona Africa Annual Black-Tie Fundraising Gala
+        </h3>
+        <div className="">
+          <Slider {...settings}>
+            <div className="relative text-white ">
+              <Image src={galaOne} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaTwo} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaThree} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaFour} alt="" />
+            </div>
+          </Slider>
         </div>
       </section>
 
@@ -118,40 +186,56 @@ const events = () => {
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
           Impact Videos
         </h3>
-        <Carousel>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="10"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        <div className="">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            width="100%"
-            height="600px"
-            url="https://youtu.be/tUbUXpMipuk"
-          />
-        </div>
-        </Carousel>
+        <Slider {...settings}>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="10"
+              height="600px"
+              url="https://www.youtube.com/watch?v=D51twaR7qNk&feature=youtu.be&ab_channel=VijonaAfrica"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://www.youtube.com/watch?v=u1GinKQjrWU&ab_channel=VijonaAfrica"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/2qvrCmgriAI"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/_gA63MQ8bGw"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/JJnP2b9ABZo"
+            />
+          </div>
+        </Slider>
       </section>
 
       {/* <section className="relative my-20">
