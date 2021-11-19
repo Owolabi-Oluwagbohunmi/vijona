@@ -18,6 +18,7 @@ module.exports = {
       },
       colors:{
         'vijyellow':"#fbb040",
+        'viblue': '#008CDB', 
         "v-yellow":"#FBB040",
         "v-green":"#ed1c24",
         "v-black":"#000000",

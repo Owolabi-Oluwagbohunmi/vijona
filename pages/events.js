@@ -4,12 +4,22 @@ import Link from "next/link";
 import React from "react";
 import Herocomp from "../comps/Herocomp";
 import EventsImg from "../public/assets/events.png";
+import workshop1 from "../public/assets/workshop1.JPG";
+import workshop2 from "../public/assets/workshop2.JPG";
+import workshop3 from "../public/assets/workshop3.jpg";
+import workshop4 from "../public/assets/workshop4.jpg";
+import workshop5 from "../public/assets/workshop5.JPG";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
-import galaOne from "../public/assets/image1.jpeg";
-import galaTwo from "../public/assets/image2.jpeg";
-import galaThree from "../public/assets/image3.jpeg";
-import galaFour from "../public/assets/image4.jpeg";
+import galaOne from "../public/assets/galav1.jpeg";
+import galaTwo from "../public/assets/galav2.jpeg";
+import galaThree from "../public/assets/galav3.jpeg";
+import galaFour from "../public/assets/galav4.jpeg";
+import galaFive from "../public/assets/galav5.jpeg";
+import galaSix from "../public/assets/galav6.jpeg";
+import galaSeven from "../public/assets/galav5.jpeg";
+import galaEight from "../public/assets/galav6.jpeg";
+
 import Blue from "../public/assets/blue-pattern.svg";
 import ReactPlayer from "react-player";
 
@@ -102,32 +112,24 @@ const events = () => {
         <h3 className="text-3xl text-left font-semibold py-14">
           Past Ignite Experience Workshops
         </h3>
-        <div className="">
+        <div className="my-10">
         <Slider {...settings}>
             <div className="relative text-white ">
-              <Image src={galaOne} alt="" />
+              <Image src={workshop1} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaTwo} alt="" />
+              <Image src={workshop2} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaThree} alt="" />
+              <Image src={workshop3} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaFour} alt="" />
+              <Image src={workshop4} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaOne} alt="" />
+              <Image src={workshop5} alt="" />
             </div>
-            <div className="relative text-white ">
-              <Image src={galaTwo} alt="" />
-            </div>
-            <div className="relative text-white ">
-              <Image src={galaThree} alt="" />
-            </div>
-            <div className="relative text-white ">
-              <Image src={galaFour} alt="" />
-            </div>
+          
           </Slider>
         </div>
       </section>
@@ -169,34 +171,40 @@ const events = () => {
         <h3 className="text-3xl text-left font-semibold py-14">
           Past Ignite Experience Contest
         </h3>
-        <div className="">
+        <div className="my-10">
+        
         <Slider {...settings}>
             <div className="relative text-white ">
-              <Image src={galaOne} alt="" />
+              <Image src={workshop1} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaTwo} alt="" />
+              <Image src={workshop2} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaThree} alt="" />
+              <Image src={workshop3} alt="" />
             </div>
             <div className="relative text-white ">
-              <Image src={galaFour} alt="" />
+              <Image src={workshop4} alt="" />
             </div>
+            <div className="relative text-white ">
+              <Image src={workshop5} alt="" />
+            </div>
+          
           </Slider>
+        
         </div>
       </section>
 
-      <section className="py-6 xl:px-16">
-        <h3 className="text-sectionhead text-center font-semibold py-3">
+      <section className="py-20 bg-viblue xl:px-16">
+        <h3 className="text-sectionhead text-white text-center font-semibold py-3">
           Special Events
         </h3>
-        <h3 className="text-3xl text-left font-semibold py-14">
+        <h3 className="text-3xl text-left font-semibold py-14 text-white">
           Vijona Africa Annual Black-Tie Fundraising Gala
         </h3>
         <div className="">
           <Slider {...settings}>
-            <div className="relative text-white ">
+          <div className="relative text-white ">
               <Image src={galaOne} alt="" />
             </div>
             <div className="relative text-white ">
@@ -208,11 +216,23 @@ const events = () => {
             <div className="relative text-white ">
               <Image src={galaFour} alt="" />
             </div>
+            <div className="relative text-white ">
+              <Image src={galaFive} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaSix} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaSeven} alt="" />
+            </div>
+            <div className="relative text-white ">
+              <Image src={galaFour} alt="" />
+            </div>
           </Slider>
         </div>
       </section>
 
-      <section className="py-6 xl:px-16">
+      <section className="py-6 xl:px-16 my-10">
         <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
           Impact Videos
         </h3>
