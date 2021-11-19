@@ -103,7 +103,7 @@ const events = () => {
               </p>
 
               <p className=" w-max  text-white rounded  my-2">July 2022</p>
-              <div className="flex my-5 bg-vijyellow w-max py-3 px-4 rounded items-center">
+              <div className="flex my-5 bg-black w-max py-3 px-4 rounded items-center">
                 <p className=" uppercase text-white ">Coming soon</p>
               </div>
             </div>
