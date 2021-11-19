@@ -16,12 +16,37 @@ import ReactPlayer from "react-player";
 import Slider from "react-slick";
 
 const events = () => {
+
+  const SampleNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#FBB040" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const SamplePrevArrow = (props)=> {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#E2E2E2" }}
+        onClick={onClick}
+      />
+    );
+  }
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -49,6 +74,10 @@ const events = () => {
       }
     ]
   };
+
+  
+
+  
   return (
     <>
       <section className="bg-v-gray my-10 py-16 xl:px-16">
