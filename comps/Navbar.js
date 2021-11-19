@@ -68,8 +68,6 @@ const Navbar = () =>
                 </div>
 
               </Link>
-
-M
               {dropdown && <DropDown />}
             </li>
 
