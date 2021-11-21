@@ -14,7 +14,8 @@ module.exports = {
         'card':'21.5rem'
       },
       height:{
-        "h-card": '291px',        
+        "h-card": '291px',
+        "open-menu": '100%'        
       },
       colors:{
         'vijyellow':"#fbb040",
@@ -27,7 +28,8 @@ module.exports = {
         'v-gray': '#f6f7f7',
         'v-pink': '#FFF9F9',
         'v-black': '#282828',
-        'v-darkgray':'#E6E6E8'
+        'v-darkgray':'#E6E6E8',
+        'v-brown': '#fffae5'
       },
       gridAutoColumns: {
         'gcols': 'minmax(0,2rem)'
