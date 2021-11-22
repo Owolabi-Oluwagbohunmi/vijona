@@ -32,7 +32,7 @@ const igniteExperience = () =>
       </Head>
 
       <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen">
-        <div classNameName="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0 space-x-16">
+        <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0 space-x-16">
           <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
             <h1 className="relative z-20 text-4xl font-extrabold leading-none text-purple-500 xl:text-5xl sm:text-center lg:text-left">
               Welcome To The<br />
@@ -48,9 +48,9 @@ const igniteExperience = () =>
             </div>
           </div>
           <div className="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
-            <div classNameName="z-10 object-cover w-full h-full">
+            <div className="z-10 object-cover w-full h-full">
               <ReactPlayer
-                classNameName="rounded-sm mx-auto"
+                className="rounded-sm mx-auto"
                 style={myStyle}
                 width="100%"
                 height="400px"
@@ -141,7 +141,7 @@ const igniteExperience = () =>
               <p className="text-sm text-gray-500 lg:text-base">Simple and configuration intregrations with your favorite applications and services.</p>
             </div> */}
 
-            <div classNameName="col-span-2">
+            <div className="col-span-2">
               <div className="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
@@ -164,7 +164,7 @@ const igniteExperience = () =>
               Whether you choose to learn a trade or choose to pursue formal education... what is important is choosing to run your best, and leave your footprint on the world.
 
               Our IGNITE Experience frees you from occupational wilderness. We take you on a journey to discovering a list of occupations suitable for your unique inner talents and abilities, and position you for a successful and fulfilled life.</p>
-              <p classNameName="text-v-green  text-primary my-4 font-semi-bold  ">
+              <p className="text-v-green  text-primary my-4 font-semi-bold  ">
             “Tomorrow belongs to the people who prepare for it today“ - African
             Proverb
           </p>
@@ -178,7 +178,7 @@ const igniteExperience = () =>
           </div>
 
           <div className="relative z-10 w-full h-full my-16 lg:my-0 lg:w-7/12">
-            <div classNameName="relative z-40 w-full h-full">
+            <div className="relative z-40 w-full h-full">
               <Image src={Occupational} />
             </div>
 
@@ -190,19 +190,19 @@ const igniteExperience = () =>
       </section>
 
 
-      <section classNameName="py-16 xl:px-16 bg-v-pink">
-        <h3 classNameName="text-sectionhead text-center font-semibold py-14">
+      <section className="py-16 xl:px-16 bg-v-pink">
+        <h3 className="text-sectionhead text-center font-semibold py-14">
           At the end of this experience, you will;
         </h3>
-        <div classNameName="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
+        <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
               <Image src={uniqueAttributes} alt="" />
             </div>
-            <div classNameName="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
-              <p classNameName="text-white text-primary">1</p>
+            <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
+              <p className="text-white text-primary">1</p>
             </div>
-            <p classNameName="text-gray text-normal my-6">
+            <p className="text-gray text-normal my-6">
               Know unique attributes about yourself
             </p>
           </div>
@@ -210,19 +210,19 @@ const igniteExperience = () =>
             <div>
               <Image src={Critical} alt="" />
             </div>
-            <div classNameName="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
-              <p classNameName="text-white text-primary">2</p>
+            <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
+              <p className="text-white text-primary">2</p>
             </div>
-            <p classNameName="text-gray text-normal my-6">Think critically</p>
+            <p className="text-gray text-normal my-6">Think critically</p>
           </div>
           <div>
             <div>
               <Image src={Showcase} alt="" />
             </div>
-            <div classNameName="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
-              <p classNameName="text-white text-primary">3</p>
+            <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
+              <p className="text-white text-primary">3</p>
             </div>
-            <p classNameName="text-gray text-normal my-6">
+            <p className="text-gray text-normal my-6">
               Showcase innate talents, inventions, or innovative ideas you have
             </p>
           </div>
@@ -231,10 +231,10 @@ const igniteExperience = () =>
             <div>
               <Image src={uniqueAttributes} alt="" />
             </div>
-            <div classNameName="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
-              <p classNameName="text-white text-primary">4</p>
+            <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
+              <p className="text-white text-primary">4</p>
             </div>
-            <p classNameName="text-gray text-normal my-6">
+            <p className="text-gray text-normal my-6">
               Build your unique occupational life plan
             </p>
           </div>
@@ -242,10 +242,10 @@ const igniteExperience = () =>
             <div>
               <Image src={World} alt="" />
             </div>
-            <div classNameName="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
-              <p classNameName="text-white text-primary">5</p>
+            <div className="rounded-full bg-yellow-200 w-10 h-10 flex items-center justify-center">
+              <p className="text-white text-primary">5</p>
             </div>
-            <p classNameName="text-gray text-normal my-6">
+            <p className="text-gray text-normal my-6">
               Be ready to take on the world confidently
             </p>
           </div>
