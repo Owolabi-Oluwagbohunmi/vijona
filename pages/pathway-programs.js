@@ -40,7 +40,7 @@ const pathwayScholarships = () =>
                 </div>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">We have hand-crafted beautiful designs that will help your product or service shine.Drag'n drop templates that allow you to build amazing landing pages in seconds!</p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  Our Pathway Scholarship Program is unique in that it is “DEMAND”
+                  Our Pathway Scholarship Program is unique in that it is &apos;DEMAND&apos;
                   based (driven by innate talents and abilities of each individual).
                 </p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
