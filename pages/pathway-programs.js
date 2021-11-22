@@ -39,22 +39,22 @@ const pathwayScholarships = () =>
                   <p className="block font-sans text-5xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">Scholarships.</p>
                 </div>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">We have hand-crafted beautiful designs that will help your product or service shine.Drag'n drop templates that allow you to build amazing landing pages in seconds!</p>
-                <p classNameName="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   Our Pathway Scholarship Program is unique in that it is “DEMAND”
                   based (driven by innate talents and abilities of each individual).
                 </p>
-                <p classNameName="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   Our IGNITE Experience alumni create unique, relevant and SMART
                   Occupational Life Plans for themselves.
                 </p>
-                <p classNameName="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   We focus on the path the alumni CHOOSE for themselves; be it to
                   learn a trade, entrepreneurship or formal education, and create
                   catalyst for them to achieve the dreams outlined in their
                   Occupational Life Plans.
                 </p>
 
-                <p classNameName="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   This way we give each scholarship recipient a chance to make a
                   living in a relevant occupation they are passionate about; a pathway
                   to innovation and lifelong fulfillment.
@@ -110,22 +110,22 @@ const pathwayScholarships = () =>
 
 
       
-<section class="px-2 py-32 bg-white md:px-0">
-  <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-    <div class="flex flex-wrap items-center sm:-mx-3">
-      <div class="w-full md:w-1/2 md:px-3">
-        <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-            <span class="block text-indigo-700 xl:inline">Tell Your Story!</span>
+<section className="px-2 py-32 bg-white md:px-0">
+  <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+    <div className="flex flex-wrap items-center sm:-mx-3">
+      <div className="w-full md:w-1/2 md:px-3">
+        <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <span className="block text-indigo-700 xl:inline">Tell Your Story!</span>
           </h1>
-          <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It's never been easier to take a step. Be the inspiration for tomorrow.</p>
+          <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p>
         </div>
       </div>
-      <div class="w-full md:w-1/2">
-        <div class="w-full h-auto overflow-hidden shadow-xl rounded-2xl">
-        <div classNameName="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24">
+      <div className="w-full md:w-1/2">
+        <div className="w-full h-auto overflow-hidden shadow-xl rounded-2xl">
+        <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24">
         <ReactPlayer
-          classNameName="rounded-sm mx-auto"
+          className="rounded-sm mx-auto"
           width="100%"
           height="500px"
           url="https://youtu.be/tUbUXpMipuk"
