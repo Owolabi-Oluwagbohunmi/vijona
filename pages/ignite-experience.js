@@ -30,181 +30,167 @@ const igniteExperience = () =>
       <Head>
         <title>Vijona | IGNITE Experience</title>
       </Head>
-      <section className="mt-28">
-        <div className="w-full">
-          <ReactPlayer
-            className="rounded-sm mx-auto"
-            style={myStyle}
-            width="100%"
-            height="800px"
-            url="https://www.youtube.com/watch?v=s3I7q0CsHlo"
-          />
-        </div>
 
-        <div className="w-11/12 mx-auto mt-24 text-center ">
-          <h1 className=" text-4xl md:text-6xl my-4 font-semibold ">
-            Welcome to the IGNITE Experience
-          </h1>
-          <p className="text-2xl my-10">
-            A self-discovery and occupation envisioning journey!
-          </p>
-          <p className="text-v-green  text-primary my-4 font-semi-bold  ">
-            “Knowing yourself is the beginning of all wisdom” - Aristotle
-          </p>
-          <svg
-            width="109"
-            height="109"
-            viewBox="0 0 109 109"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              opacity="0.9"
-              d="M54.2115 108.711C84.0221 108.711 108.188 84.5451 108.188 54.7345C108.188 24.9239 84.0221 0.757629 54.2115 0.757629C24.4009 0.757629 0.234619 24.9239 0.234619 54.7345C0.234619 84.5451 24.4009 108.711 54.2115 108.711Z"
-              fill="white"
-            />
-          </svg>
+      <section class="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen">
+        <div class="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0 space-x-16">
+          <div class="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
+            <h1 class="relative z-20 text-4xl font-extrabold leading-none text-purple-500 xl:text-5xl sm:text-center lg:text-left">
+              Welcome To The<br />
+              <span class="mt-1 text-gray-800 lg:mt-0">IGNITE Experience</span>
+            </h1>
+            <p class="relative z-20 block mt-6 text-base text-gray-500 xl:text-xl sm:text-center lg:text-left">A self-discovery and occupation envisioning journey!</p>
+            <div class="relative flex mt-4">
+              <a href="#_" class="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-purple-500 border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10">Get Started</a>
+              <a href="#_" class="relative flex items-center self-start justify-center py-2 pl-10 pr-5 mt-5 ml-5 text-base font-medium leading-tight text-gray-400 transition duration-150 ease-in-out bg-gray-100 border-transparent rounded-full shadow-sm lg:py-4 md:pl-16 md:pr-5 xl:pr-10 hover:text-purple-500 focus:outline-none md:text-lg xl:text-xl">
+                <svg class="absolute left-0 w-6 h-6 ml-3 md:w-10 md:h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+                <span class="text-purple-500">How It Works</span>
+              </a>
+            </div>
+          </div>
+          <div class="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
+            <div className="z-10 object-cover w-full h-full">
+              <ReactPlayer
+                className="rounded-sm mx-auto"
+                style={myStyle}
+                width="100%"
+                height="400px"
+                url="https://www.youtube.com/watch?v=s3I7q0CsHlo"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
 
-      <section className="bg-v-darkgray px-16 w-full lg:px-32 pt-20 pb-24">
-        <h2 className="text-sectionhead font-semibold pb-5">Our Solution</h2>
-        <p className="text-primary pb-5">
-          Imagine if young Africans are properly{" "}
-          <span className="font-bold">equipped <mark>early in life</mark>...</span>
-        </p>
-
-        <div className="">
-          <div className="align-middle grid gap-4 grid-rows-ignitecardPhones grid-cols-ignitecardPhones text-center lg:grid-cols-ignitecardmd lg:grid-rows-ignitecardmd xl:grid-cols-ignitecard xl:grid-rows-ignitecard">
-
-            <div className="bg-white w-card p-4 h-card item order-1 md:order-1">
-              <div className="flex ">
-                <div className="mr-3">
-                  <Image src={curlyArrow} alt="" />
-                </div>
-                <h3 className="text-2xl w-10/12 font-medium">
-                  Gifted with self- discovery
-                </h3>
+      <section class="pt-20 pb-32 bg-v-brown">
+        <div class="px-20 mx-auto max-w-7xl">
+          <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Solution</h2>
+          <p class="mb-16 text-lg text-gray-500">Imagine if young africans are equipped early on in life.</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-16 lg:gap-x-24 gap-y-20">
+            <div>
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-red-600 bg-red-100 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                </svg>
               </div>
-              <p className="uppercase my-4">Who am I?</p>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Gifted with self discovery <br />Who am I</h3>
+              <div class="text-sm text-gray-500 lg:text-base">
 
-              <Bullet textVal="Innate values, talents, and abilities at birth IGNITE critical thinking" />
-              <Bullet textVal="Lifelong mental paradigm shift" />
-            </div>
+                <p>1. Innate values, talents, and abilities at birth IGNITE critical thinking </p>
+                <br />
+                <p>2. Lifelong mental paradigm shift</p>
 
-
-            <div className="flex align-middle justify-center order-2 md:order-2">
-              <Image src={plus} alt="" />
-            </div>
-
-            <div className="flex flex-col order-3 md:order-3">
-              <div className="bg-white w-card p-4 h-card ">
-                <div className="flex items-center">
-                  <div>
-                    <Image src={curlyArrow} alt="" />
-                  </div>
-                  <h3 className="text-2xl w-3/4 font-medium">
-                    Exposed to contextual occupations
-                  </h3>
-                </div>
-                <p className="uppercase">What can I do?</p>
-                <Bullet textVal="Relevant occupations that align with who they are" />
-                <Bullet textVal="Operate from a place of passion, the birthplace of innovation" />
               </div>
             </div>
 
-            <div className="flex align-middle justify-center order-4 md:order-4 lg:order-6">
-              <Image src={plus} alt="" />
-            </div>
+            <div>
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-green-600 bg-green-100 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations: What can i do?</h3>
+              <div class="text-sm text-gray-500 lg:text-base">
 
+                <p>3. Relevant occupations that align with who they are</p>
+                <br />
+                <p>4. Operate from a place of passion, the birthplace of innovation</p>
 
-            <div className="hidden md:block md:order-5 lg:order-7">
-            </div>
-
-            <div className="hidden md:block md:order-6 lg:block lg:order-8">
-              <Image src={plus} />
-            </div>
-
-            <div className="flex flex-col-reverse order-5 md:order-7 lg:order-11">
-              <div className="bg-white w-card p-4 h-card ">
-                <div className="flex items-center">
-                  <div>
-                    <Image src={curlyArrow} alt="" />
-                  </div>
-                  <h3 className="text-2xl w-3/4 font-medium">
-                    Enabled to draft life plans
-                  </h3>
-                </div>
-                <p className="uppercase">
-                  Individualized Occupational life plans
-                </p>
-                <Bullet textVal="Actionable and SMART goals" />
-                <Bullet textVal="Becoming self- advocates of their success" />
               </div>
             </div>
 
-            <div className="flex align-middle justify-center order-6 md:order-8 lg:order-12">
-              <Image src={plus} />
-            </div>
+            <div>
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-blue-600 bg-blue-100 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Enabled to draft life plans</h3>
+              <div class="text-sm text-gray-500 lg:text-base">
 
-            <div className="order-7 md:order-9 lg:order-last">
-              <div className="bg-white w-card p-4 h-card ">
-                <div className="flex items-center">
-                  <div>
-                    <Image src={curlyArrow} alt="" />
-                  </div>
-                  <h3 className="text-2xl w-3/4 font-medium">
-                    Empowered to achieve their plans
-                  </h3>
-                </div>
+                <p>5. Actionable and SMART goals</p>
+                <br />
+                <p>6. Becoming self- advocates of their success</p>
 
-                <Bullet textVal="Effective programs, relevant trainings, networking, and exposure" />
               </div>
             </div>
 
-            <div className="flex align-middle justify-center order-8 md:order-10 md:col-span-3 lg:col-auto lg:row-span-3 lg:order-4">
-              <Image src={equal} alt="" />
-            </div>
-
-            <div className="flex flex-col items-center justify-center order-9 md:order-11 md:col-span-3 lg:col-auto lg:order-5 lg:row-span-3">
-              <div className="bg-red-500">
-                <Image src={profileimage} width='320' height='250' alt="" />
+            <div>
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-purple-600 bg-purple-100 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                </svg>
               </div>
-              <div className="text-3xl text-black py-5">Skilled Africans for Africa</div>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Empowered to achieve their plans</h3>
+              <div class="text-sm text-gray-500 lg:text-base">
+
+                <p>7. Effective programs, relevant trainings, networking, and exposure</p>
+                <br />
+
+              </div>
+            </div>
+{/* 
+            <div>
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-indigo-600 bg-indigo-100 rounded-full">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Integrations</h3>
+              <p class="text-sm text-gray-500 lg:text-base">Simple and configuration intregrations with your favorite applications and services.</p>
+            </div> */}
+
+            <div className="col-span-2">
+              <div class="flex items-center justify-center w-12 h-12 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              </div>
+              <h3 class="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">SKiiled Africans for Africa.</h3>
+              <p class="text-sm text-gray-500 lg:text-base">Our tools and services have been crafted for maximum speed and efficiency.</p>
             </div>
 
           </div>
         </div>
-
-
       </section>
-      <section className="pt-20 w-11/12 xl:w-full items-center px-16 md:px-32 grid lg:grid-cols-2 gap-7 ">
-        <div>
-          <h3 className="text-sectionhead text-left lg:text-left font-semibold py-8">
-            Get freedom from occupational wilderness
-          </h3>
-          <p className=" text-primary xl:w-11/12 mb-5 text-justify">
-            Whether you choose to learn a trade or choose to pursue formal
-            education... what is important is choosing to run your best, and
-            leave your footprint on the world.
-          </p>
-          <p className=" text-primary xl:w-11/12 mb-5 text-justify">
-            Our IGNITE Experience frees you from occupational wilderness. We
-            take you on a journey to discovering a list of occupations suitable
-            for your unique inner talents and abilities, and position you for a
-            successful and fulfilled life.
-          </p>
-          <p className="text-v-green  text-primary my-4 font-semi-bold  ">
+
+
+      <section class="w-full py-20 bg-white">
+        <div class="flex flex-col items-center px-12 mx-auto max-w-7xl lg:flex-row">
+          <div class="relative z-20 flex flex-col items-start justify-center w-full h-full lg:w-5/12">
+            <h1 class="text-5xl font-bold xl:text-6xl pb-7 ">Get Freedom <br />From Occupational wilderness</h1>
+            <p class="text-lg text-gray-500 pb-7">
+              Whether you choose to learn a trade or choose to pursue formal education... what is important is choosing to run your best, and leave your footprint on the world.
+
+              Our IGNITE Experience frees you from occupational wilderness. We take you on a journey to discovering a list of occupations suitable for your unique inner talents and abilities, and position you for a successful and fulfilled life.</p>
+              <p className="text-v-green  text-primary my-4 font-semi-bold  ">
             “Tomorrow belongs to the people who prepare for it today“ - African
             Proverb
           </p>
-        </div>
-        <div className=" mx-auto ">
-          <Image src={Occupational} alt="liberation-Illustration" />
+            <div class="flex flex-col items-center w-full sm:w-auto sm:flex-row sm:space-x-10">
+              <a href="#_" class="px-7 sm:w-auto justify-center w-full flex items-center overflow-hidden group relative py-3.5 text-xl font-medium text-white bg-gray-900 rounded-full">
+                <span class="absolute inset-0 w-full h-0 transition-all duration-300 ease-out bg-pink-500 group-hover:h-full"></span>
+                <span class="relative">Get Started</span>
+              </a>
+
+            </div>
+          </div>
+
+          <div class="relative z-10 w-full h-full my-16 lg:my-0 lg:w-7/12">
+            <div className="relative z-40 w-full h-full">
+              <Image src={Occupational} />
+            </div>
+
+            <div class="box-content absolute inset-0 z-30 hidden scale-150 translate-x-40 translate-y-10 rounded-full w-80 lg:block h-80 xl:w-96 xl:h-96 bg-pink-50"></div>
+            <div class="absolute bottom-0 left-0 z-20 hidden -translate-x-3 -translate-y-12 rounded-full opacity-50 w-72 lg:block h-72 bg-yellow-50"></div>
+            <div class="absolute top-0 left-0 z-20 hidden -translate-x-12 -translate-y-12 rounded-full opacity-50 w-72 lg:block h-72 bg-blue-50"></div>
+          </div>
         </div>
       </section>
-      <section className="my-28 py-16 xl:px-16 bg-v-pink">
+
+
+      <section className="py-16 xl:px-16 bg-v-pink">
         <h3 className="text-sectionhead text-center font-semibold py-14">
           At the end of this experience, you will;
         </h3>
@@ -262,59 +248,6 @@ const igniteExperience = () =>
             <p className="text-gray text-normal my-6">
               Be ready to take on the world confidently
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="my-28 py-16 xl:px-16">
-        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
-          IGNITE workshops and contests
-        </h3>
-        <div className="grid grid-cols-1 xl:grid-cols-2">
-          <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteOne} alt="" />
-            <div className="absolute bottom-20 left-12">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <svg
-                  width="14"
-                  height="16"
-                  viewBox="0 0 14 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 0.125C3.52517 0.125 0.699707 2.94798 0.699707 6.4209C0.699707 8.50717 1.66046 9.99856 2.86914 11.3574C4.07783 12.7163 5.53679 13.9824 6.68798 15.708C6.72223 15.7594 6.76863 15.8015 6.82306 15.8306C6.87749 15.8597 6.93827 15.875 7 15.875C7.06173 15.875 7.12251 15.8597 7.17694 15.8306C7.23137 15.8015 7.27776 15.7594 7.31201 15.708C8.46321 13.9824 9.92217 12.7163 11.1309 11.3574C12.3395 9.99856 13.3003 8.50717 13.3003 6.4209C13.3003 2.94798 10.4748 0.125 7 0.125ZM7 0.875C10.0698 0.875 12.5503 3.35358 12.5503 6.4209C12.5503 8.28202 11.7326 9.55376 10.5713 10.8594C9.50231 12.0612 8.15984 13.3005 7 14.9082C5.84016 13.3005 4.49768 12.0612 3.42871 10.8594C2.26739 9.55376 1.44971 8.28202 1.44971 6.4209C1.44971 3.35358 3.93023 0.875 7 0.875ZM7 3.125C5.34758 3.125 4 4.47258 4 6.125C4 7.77742 5.34758 9.125 7 9.125C8.65241 9.125 10 7.77742 10 6.125C10 4.47258 8.65241 3.125 7 3.125ZM7 3.875C8.24708 3.875 9.25 4.87791 9.25 6.125C9.25 7.37209 8.24708 8.375 7 8.375C5.75291 8.375 4.75 7.37209 4.75 6.125C4.75 4.87791 5.75291 3.875 7 3.875Z"
-                    fill="#ED1C24"
-                  />
-                </svg>
-
-                <p className="ml-2 uppercase text-white ">Cameroun</p>
-              </div>
-              <p className="text-white text-2xl font-bold my-8">
-                Find IGNITE Workshops near your location
-              </p>
-              <Link href="/">
-                <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
-                  See locations
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="w-11/12 xl:w-full mx-auto relative">
-            <Image src={IgniteContest} alt="" />
-            <div className="absolute bottom-20 left-12">
-              <div className="flex my-5 bg-v-black w-max py-3 px-4 rounded items-center">
-                <p className="ml-2 uppercase text-white ">Contest</p>
-              </div>
-              <p className="text-white text-2xl font-bold my-8">
-                Get Involved in our upcoming IGNITE Contests
-              </p>
-              <Link href="/">
-                <a className=" w-max py-3 px-5 text-white rounded bg-v-yellow my-4">
-                  See locations
-                </a>
-              </Link>
-            </div>
           </div>
         </div>
       </section>

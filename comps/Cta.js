@@ -8,7 +8,7 @@ const Cta = ({ImageUrl, heading, text, href, buttonText}) => {
   return (
     <section className="relative x-10 border">
         <Image src={ImageUrl} alt={Image} />
-        <div className="absolute top-0 left-0 flex px-4 py-3   lg:w-11/12 xl:w-full mx-auto justify-between  items-center sm:p-10   xl:p-20 ">
+        <div className="absolute top-0 left-0 flex px-4 py-3 w-full xl:w-full mx-auto justify-between  items-center sm:p-10   xl:p-20 ">
           <div className="sm:w-3/4 text-white">
             <h4 className="sm:text-2xl xl:text-cta w-11/12 sm:w-10/12 text-bold">
              {heading}

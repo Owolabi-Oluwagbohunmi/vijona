@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Aboutus from "../comps/Aboutus";
 import Counter from "../comps/Counter";
 import Hero from "../comps/Hero";
@@ -7,7 +6,6 @@ import Howitworks from "../comps/Howitworks";
 import Partner from "../comps/Partner";
 import Pledge from "../comps/Pledge";
 import styles from "../styles/Home.module.css";
-import Relindis from "../public/assets/relindis.jpg";
 
 export default function Home()
 {

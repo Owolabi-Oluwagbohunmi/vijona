@@ -13,7 +13,7 @@ const Partner = () =>
   return (
     <section className="w-10/12 mx-auto pt-24 pb-10 relative">
       <div className=" mix-blend-overlay">
-        <Image src={rocket} layout="fill" objectFit="cover" alt="a boy building an airplane" width="1000" height="500"></Image>
+        <Image src={rocket} layout="fill" objectFit="cover" alt="a boy building an airplane"></Image>
       </div>
 
       <div className="">
