@@ -75,23 +75,21 @@ const pathwayScholarships = () =>
             <div className="flex justify-center w-full lg:items-center">
               <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
-                <Image src={IgniteOne} layout="fill" objectFit="fill" />
+                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
                 </div>
 
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
-                <Image src={IgniteOne} layout="fill" objectFit="fill" />
+                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
                 </div>
               </div>
 
               <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
-                <Image src={IgniteOne} layout="fill" objectFit="fill" />
+                <Image src={IgniteOne} layout="responsive" objectFit="fill" />
               </div>
             </div>
           </div>
         </div>
       </section>
-
-
 
       <section className="relative block py-20 overflow-hidden leading-6 text-left text-indigo-900 bg-v-brown">
         <div className="w-full max-w-2xl px-16 mx-auto leading-6 text-left sm:px-12 md:px-8 xl:px-12">
@@ -100,65 +98,39 @@ const pathwayScholarships = () =>
               ...
             </div>
             <h2 className="box-border mx-0 mt-6 mb-0 font-sans text-3xl font-bold leading-tight text-indigo-900 sm:text-3xl md:text-5xl">
-              No Dream is too big, and every talent is valuable and needed in our communities.
+              No dream is too big, and every talent is valuable and needed in our communities.
             </h2>
           </div>
         </div>
 
       </section>
 
-
-
-      
-<section className="px-2 py-32 bg-white md:px-0">
-  <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-    <div className="flex flex-wrap items-center sm:-mx-3">
-      <div className="w-full md:w-1/2 md:px-3">
-        <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-            <span className="block text-indigo-700 xl:inline">Tell Your Story!</span>
-          </h1>
-          <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p>
-        </div>
-      </div>
-      <div className="w-full md:w-1/2">
-        <div className="w-full h-auto overflow-hidden shadow-xl rounded-2xl">
-        <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24">
-        <ReactPlayer
-          className="rounded-sm mx-auto"
-          width="100%"
-          height="500px"
-          url="https://youtu.be/tUbUXpMipuk"
-        />
-      </div>
+      <section className="px-2 py-32 bg-white md:px-0">
+        <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+          <div className="flex flex-wrap items-center sm:-mx-3">
+            <div className="w-full md:w-1/2 md:px-3">
+              <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+                <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+                  <span className="block text-indigo-700 xl:inline">Tell Your Story!</span>
+                </h1>
+                <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="w-full h-auto overflow-hidden shadow-xl rounded-2xl">
+                <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24">
+                  <ReactPlayer
+                    className="rounded-sm mx-auto"
+                    width="100%"
+                    height="500px"
+                    url="https://youtu.be/tUbUXpMipuk"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-     
+        </div>
+      </section>
       <Cta
         ImageUrl={PurplePattern}
         heading="Young girls and boys across Africa need sponsorship"
