@@ -7,7 +7,7 @@ const legal = () => {
       <Header mainText="Legal Notice(Imprint)" />
       <section className="w-10/12 lg:w-8/12 mx-auto my-28">
         <div className="my-10">
-          <h2 className="text-4xl my-5 text-v-green">Address</h2>
+          <h2 className=" text-3xl lg:text-4xl my-5 text-v-green">Address</h2>
           <p className="my-10">
             <p className="my-2 ">Vijona Africa</p>
             <p className="my-2">5403 Twin Lakes Dr</p>
@@ -49,7 +49,7 @@ const legal = () => {
         </div>
 
         <div className="my-10">
-          <h3 className="text-4xl my-5 text-v-green">Limitation of liability</h3>
+          <h3 className="text-3xl lg:text-4xl my-5 text-v-green">Limitation of liability</h3>
           <p className="my-3">
             We make every effort to ensure that the information presented on our
             website is always correct and up to date. We thus reserve the right
@@ -70,7 +70,7 @@ const legal = () => {
         </div>
 
         <div className="my-10">
-          <h3 className="text-4xl my-5 text-v-green">CopyRight</h3>
+          <h3 className="text-3xl lg:text-4xl my-5 text-v-green">CopyRight</h3>
           <p className="my-3">
             Our intention is to showcase our projects in the best possible way,
             so our sponsors will see progress on our website on a regular basis.
