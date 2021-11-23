@@ -27,7 +27,77 @@ const IncubatorHub = () =>
       <Head>
         <title>Vijona | Incubator Hubs</title>
       </Head>
-      <div className="w-full mt-28 xl:px-24 ">
+
+
+
+      <section className="w-full bg-white">
+        <div className="px-10 pt-32 pb-16 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
+          <div className="grid gap-5 lg:grid-cols-2">
+            <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+              <div className="flex items-center justify-center w-16 h-16 mb-5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500">
+                <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              </div>
+              <div className="max-w-xl mb-6">
+                <div className="mb-6">
+                  <p className="inline font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none">Our Pathwhay </p>
+                  <p className="block font-sans text-5xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">Scholarships.</p>
+                </div>
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">We have hand-crafted beautiful designs that will help your product or service shine.Drag&#39;n drop templates that allow you to build amazing landing pages in seconds!</p>
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                  Our Pathway Scholarship Program is unique in that it is &lsquo;DEMAND&rsquo;
+                  based (driven by innate talents and abilities of each individual).
+                </p>
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                  Our IGNITE Experience alumni create unique, relevant and SMART
+                  Occupational Life Plans for themselves.
+                </p>
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                  We focus on the path the alumni CHOOSE for themselves; be it to
+                  learn a trade, entrepreneurship or formal education, and create
+                  catalyst for them to achieve the dreams outlined in their
+                  Occupational Life Plans.
+                </p>
+
+                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                  This way we give each scholarship recipient a chance to make a
+                  living in a relevant occupation they are passionate about; a pathway
+                  to innovation and lifelong fulfillment.
+                </p>
+              </div>
+              <div className="max-w-xl mb-6">
+                <p className="relative">
+                  <a href="#_" className="inline-flex flex-col items-center font-semibold text-purple-700 transition-colors duration-200 cursor-pointer group">
+                    <span className="flex items-center w-full">
+                      <span>Learn more</span>
+                      <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12"><path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path></svg>
+                    </span>
+                    <span className="w-full h-0.5 translate-y-2 group-hover:translate-y-1 duration-200 ease-out transition opacity-0 group-hover:opacity-100 block bg-purple-600"></span>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center w-full lg:items-center">
+              <div className="flex flex-row items-end pr-3">
+                <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
+                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                </div>
+
+                <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
+                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                </div>
+              </div>
+
+              <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
+                <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <div className="">
         <ReactPlayer
           className="rounded-sm"
           width="100%"
@@ -35,8 +105,8 @@ const IncubatorHub = () =>
           url="https://youtu.be/tUbUXpMipuk"
         />
       </div>
-
-      <section className="w-11/12 xl:w-full items-center px-16 lg:px-32 grid lg:grid-cols-2 gap-2">
+{/* 
+      <section className="w-7/12 xl:w-full items-center grid lg:grid-cols-2 gap-2">
         <div>
           <div>
             <Image src={checkMark} alt="checkmark" width="50" height="50" />
@@ -60,10 +130,10 @@ const IncubatorHub = () =>
         <div className=" mx-auto ">
           <Image src={Incubator} alt="" />
         </div>
-      </section>
+      </section> */}
 
       <section className="my-24">
-        <div className="xl:flex  w-11/12 mx-auto ">
+        <div className="xl:flex  w-8/12 mx-auto ">
           <div className="w-8">
             <Image src={Yellow} alt="" />
           </div>
@@ -77,13 +147,13 @@ const IncubatorHub = () =>
               </h3>
             </div>
 
-            <div className="w-14  ">
+            <div className="w-10 ">
               <Image src={circleLine} alt="" />
             </div>
           </div>
         </div>
 
-        <section className="relative">
+        <section className="relative w-11/12 mx-auto">
           <div className="flex my-14 px-6 items-end">
             <div className="w-14 hidden xl:block ">
               <Image src={Purple} />
@@ -147,7 +217,7 @@ const IncubatorHub = () =>
         </section>
       </section>
 
-      <div className="my-16">
+      <div className="">
         <Cta
           ImageUrl={Brown}
           heading="Donate a laptop + 1 year data subscription"
