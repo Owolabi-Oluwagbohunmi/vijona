@@ -56,7 +56,7 @@ const Footer = () => {
           <Link href="/ignite-experience">
             <a className=" my-1">Privacy Policy</a>
           </Link>
-          <Link href="/legal">
+          <Link href="/legal-notice">
             <a className=" my-1">Legal Notice</a>
           </Link>
           
