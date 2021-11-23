@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="flex flex-col font-light w-72">
           <div className="font-bold py-3">Legal</div>
-          <Link href="/ignite-experience">
+          <Link href="/privacy-policy">
             <a className=" my-1">Privacy Policy</a>
           </Link>
           <Link href="/legal-notice">
