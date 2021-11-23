@@ -1,12 +1,22 @@
 import React from "react";
 import Image from "next/image";
 import PartnerImg from "../public/assets/partner.PNG";
+import buildUrl from "cloudinary-build-url";
 
 const Partner = () =>
 {
+  const rocket =buildUrl("fe78e083a17664d9e116c4fa6ace4f6b_qzvmbm", {
+    cloud:{
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
-    <section className="xl:px-16 relative">
-      <div className="absolute left-96 mt-64">
+    <section className="w-10/12 mx-auto pt-24 pb-10 relative">
+      <div className=" mix-blend-overlay">
+        <Image src={rocket} layout="fill" objectFit="cover" alt="a boy building an airplane"></Image>
+      </div>
+
+      <div className="">
         <h3 className="text-sectionhead font-semibold py-14 text-center">
           Partner With Us
         </h3>
@@ -24,10 +34,6 @@ const Partner = () =>
         <a className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max">
           Ask How
         </a>
-      </div>
-
-      <div className="opacity-20">
-        <Image className="rounded-md" src={PartnerImg} alt="vijona-staff"/>
       </div>
     </section>
   );

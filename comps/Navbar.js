@@ -1,16 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../public/assets/vijona-black.png";
-import { FaAlignJustify, FaTimesCircle, FaCaretDown } from "react-icons/fa";
-import Instagram from "../public/assets/instagram.svg";
-import Twitter from "../public/assets/twitter.svg";
-import Youtube from "../public/assets/youtube.svg";
+import { FaAlignJustify, FaTimesCircle, FaCaretDown, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { buildUrl } from 'cloudinary-build-url'
 import DropDown from "./DropDown";
 
 
 const Navbar = () =>
 {
+  const logo = buildUrl("vijona-black_q6q0wc", {
+    cloud: {
+      cloudName: 'dbwk2jksa'
+    }
+  })
+
   const [click, setClick] = useState(false)
   const [dropdown, setDropDown] = useState(false)
 
@@ -35,82 +38,67 @@ const Navbar = () =>
     }
   };
 
+  useEffect(() =>
+  {
+    window.addEventListener('resize', () =>
+    {
+      setClick(false)
+      console.log('page refresh')
+    })
+  }, [])
+
+
   return (
-    <>
-      <nav className='  h-28 flex justify-center align-middle text-xl bg-v-bg pt-3 w-full fixed z-50 top-0'>
-        <div className="pl-14 cursor-pointer w-full order-1 pt-3 navscreenmax:order-2">
-          <Link href="/">
-            <div className=" w-28 md:w-36 lg:mr-28 cursor-pointer ">
-              <Image src={Logo} alt="vijona-logo" />
-            </div>
+    <div className="bg-white w-full h-24 fixed grid grid-cols-1 items-center min-w-max z-9999 border-b-4">
+      <nav className={click ? "relative bg-black opacity-60 w-5/12 h-screen" : "w-10/12 mx-auto grid grid-cols-2 justify-items-start items-center xl:grid-cols-3"}>
+        <ul className={click ? "border-4 border-white absolute top-24 text-white grid grid-cols-1 gap-10 z-9999" : "hidden xl:grid xl:grid-cols-3 xl:space-x-0 xl:gap-1 xl:w-full"}>
+          <Link href="/who-we-are">
+            <li className="cursor-pointer" onClick={closeMobileMenu}>Who we are</li>
+          </Link>
+
+          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <Link href="/ignite-experience">
+              <div className="flex flex-row" onClick={closeMobileMenu}>
+                <li className="cursor-pointer">What we do</li>
+                {<FaCaretDown className="text-xs mt-1 justify-self-center" />}
+              </div>
+            </Link>
+
+            {dropdown && (<DropDown />)}
+          </div>
+
+
+          <Link href="/events">
+            <li className="cursor-pointer" onClick={closeMobileMenu}>Events</li>
+          </Link>
+        </ul>
+
+        <div className="xl:justify-self-center">
+          <Link href="/" className="cursor-pointer">
+            <Image src={logo} width="112" height="40" alt="vijona africa logo" />
           </Link>
         </div>
 
-        <div className="block order-3 pt-3 pr-14 navscreenmax:hidden " onClick={handleClick}>
-          <div className=" text-gray-700  text-5xl">
-            {click ? <FaTimesCircle /> : <FaAlignJustify />}
+        <div className={click ? "absolute top-48 bg-black opacity-60 w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
+          <div className="grid grid-cols-3 space-x-3 mx-auto">
+            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><FaTwitter /></Link>
+            <Link href="https://www.instagram.com/vijonaafrica/" className="cursor-pointer"><FaInstagram /></Link>
+            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><FaFacebook /></Link>
+          </div>
+
+          <div className="grid grid-cols-2 gap-1 w-full">
+            <button className='px-2 py-2 bg-v-yellow text-white rounded-md'>Donate</button>
+            <button className='px-2 py-2 w-max bg-v-black text-white rounded-md'>Partner With Us</button>
           </div>
         </div>
 
-        <div className="w-full navscreenmax:pl-32">
-          <ul className={click ? "absolute top-28 flex flex-col text-center order-2 bg-black text-white min-h-screen pl-96" : "hidden navscreenmax:grid navscreenmax:grid-cols-3 navscreenmax:gap-6 navscreenmax:list-none navscreenmax:text-center navscreenmax:justify-center navscreenmax:mr-4 navscreenmax:order-1 navscreenmax:text-sm navscreenmax:w-max navscreenmax:font-medium"}>
-            <li onClick={closeMobileMenu} className="flex items-center h-20">
-              <Link href="/who-we-are" className="text-center w-full table">
-                WHO WE ARE
-              </Link>
-            </li>
-
-            <li onClick={closeMobileMenu} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} className="flex items-center h-20 pr-1">
-              <Link href="/ignite-experience" className="text-center w-full table">
-                <div className="flex flex-row">
-                  <span>WHAT WE DO</span>
-                  <FaCaretDown className='text-1xl pt-1' />
-                </div>
-
-              </Link>
-              {dropdown && <DropDown />}
-            </li>
-
-            <li onClick={closeMobileMenu} className="flex items-center h-20">
-              <Link href="/events" className="text-center w-full table">
-                EVENTS
-              </Link>
-            </li>
-          </ul>
-
-        </div>
-
-        <div className={click ? "absolute order-2 top-60 z-50" : "hidden navscreenmax:block navscreenmax:order-3 navscreenmax:pr-32"}>
-          <div className="flex items-center mx-auto mb-2 justify-center">
-            <Link href="https://www.instagram.com/vijonaafrica/">
-            <div className="w-5 mr-5 text-white cursor-pointer">
-              <Image src={Instagram} />
-            </div>
-            </Link>
-
-            <Link href="https://www.twitter.com/VijonaAfrica">
-            <div className="w-7 mr-5 cursor-pointer">
-              <Image src={Twitter} />
-            </div>
-            </Link>
-            <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA">
-            <div className="w-7 cursor-pointer">
-              <Image src={Youtube} />
-            </div>
-            </Link>
-          </div>
-          <div className="flex items-center justify-center mx-auto text-xs navscreenmax:font-medium">
-            <Link href="/donate">
-              <a className="navbar-btn bg-v-yellow mr-5 w-max ">DONATE</a>
-            </Link>
-            <Link href="/join-us">
-              <a className="navbar-btn bg-v-black mr-5 w-max">PARTNER WITH US</a>
-            </Link>
-          </div>
+        <div className="justify-self-end xl:hidden" onClick={handleClick}>
+          <Link href="/">
+            {click ? <FaTimesCircle className='text-2xl text-white mx-auo' /> : <FaAlignJustify className='text-2xl' />}
+          </Link>
         </div>
       </nav>
-
-    </>
+    </div>
   )
 };
 

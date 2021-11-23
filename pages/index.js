@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Aboutus from "../comps/Aboutus";
 import Counter from "../comps/Counter";
 import Hero from "../comps/Hero";
@@ -15,26 +14,25 @@ export default function Home()
       <Head>
         <title>Vijona | Home</title>
       </Head>
-      <div className=" font-openSans px-5 md:px-16 lg:px-26 bg-v-darkgray">
+      <div className="font-openSans h-max">
         <Hero />
       </div>
-      <div className=" font-openSans px-5 md:px-16 lg:px-32 bg-v-white my-16">
+      <div className=" font-openSans bg-v-brown">
         <Pledge />
       </div>
-      <div className="font-openSans px-5 md:px-16 bg-v-darkgray lg:px-26">
-        <Aboutus />
-      </div>
-
-      <div className="font-openSans px-5 md:px-16 bg-v-white lg:px-32">
+      <div className="font-openSans">
         <Howitworks />
       </div>
-
-      <div className="font-openSans px-5 md:px-16 bg-v-white lg:px-18">
-        {/* <Partner /> */}
+      <div className="font-openSans relative">
+        <Aboutus />
       </div>
-      <div className="font-openSans px-5 md:px-16 bg-v-white lg:px-18 mt-16 mb-16">
+      <div className="font-openSans">
+        <Partner />
+      </div>
+      <div className="font-openSans ">
         <Counter />
       </div>
+
     </>
   );
 }
