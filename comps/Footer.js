@@ -31,7 +31,6 @@ const Footer = () => {
           <Link href="/contact">
             <a className=" my-1">Contact</a>
           </Link>
-          
         </div>
 
         <div className="flex flex-col font-light w-72">
@@ -47,9 +46,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        
-
-        
+      
 
         <div className="flex flex-col font-light w-72">
           <div className="font-bold py-3">Legal</div>

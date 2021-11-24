@@ -70,11 +70,11 @@ const Pledge = () =>
 
         <div className="pb-7">
           <p className="pb-7">
-            <span>It doesn't matter where you live; village or city, boy or girl.</span>
+            <span>It doesn&#39;t matter where you live; village or city, boy or girl.</span>
             <br />
-            <span>YOU have value the world needs.</span>
+            <span>YOU have <span className="uppercase">value</span> the world needs.</span>
             <br />
-            Yes YOU! Join the movement! Take the Pledge …
+            Yes YOU! Join the movement! Take the pledge …
             and act on it.
           </p>
           <a className=" bg-v-green text-white p-3 rounded-lg w-max text-xs">Take the Vijona Africa community pledge</a>

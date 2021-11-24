@@ -29,19 +29,19 @@ const Hero = () =>
             of a continent relies on who they are and what they can do.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-2 pt-3 md:grid md:grid-cols-3 md:space-x-3 w-12/12 pb-6 text-white">
+        <div className="grid grid-cols-2 gap-2 pt-3 md:grid md:grid-cols-3 w-12/12 pb-6 text-white">
           <Link href="/ignite-experience">
-            <a className="text-2x1 text-center shadow-md bg-v-yellow p-2 rounded-lg w-max mr-4 hover:bg-white hover:text-black hover:border-4">
+            <a className="text-2x1 text-center shadow-md bg-v-yellow py-3 px-2 rounded w-max mr-4 hover:bg-white hover:text-black hover:border-4">
               IGNITE Experience
             </a>
           </Link>
           <Link href="/pathway-programs">
-            <a className="text-2x1 text-center shadow-md bg-v-yellow p-2 rounded-lg w-max mr-4 hover:bg-white hover:text-black hover:border-4">
+            <a className="text-2x1 text-center shadow-md bg-v-yellow py-3 px-2 rounded w-max mr-4 hover:bg-white hover:text-black hover:border-4">
               Pathway Program
             </a>
           </Link>
           <Link href="/incubator-hubs">
-            <a className="text-2x1 text-center shadow-md bg-v-yellow p-2 rounded-lg w-max mr-4 hover:bg-white hover:text-black hover:border-4">
+            <a className="text-2x1 text-center shadow-md bg-v-yellow py-3 px-2 rounded w-max mr-4 hover:bg-white hover:text-black hover:border-4">
               Incubator Hubs
             </a>
           </Link>

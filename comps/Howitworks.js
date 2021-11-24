@@ -17,22 +17,22 @@ const Howitworks = () => {
       </div>
       <div className="w-12/12">
         <div className="w-12/12 flex flex-col lg:flex-row  ">
-          <div className="bg-v-green text-center py-8 text-white rounded">
-            <h4 className="text-cardHead font-bold my-10">O1</h4>
-            <p className="text-cardtext mx-auto  my-10 px-5 ">
+          <div className="bg-v-green text-center py-4 w-max text-white rounded">
+            <h4 className="text-cardHead font-bold my-5">O1</h4>
+            <p className="text-primary mx-auto  my-5 px-2 ">
               Discover the occupation(s) that align with who you are
             </p>
           </div>
-          <div className="bg-v-yellow text-center  py-8 text-white rounded">
-            <h4 className="text-cardHead font-bold my-10">O2</h4>
-            <p className="text-cardtext mx-auto  my-10 px-5">
+          <div className="bg-v-yellow text-center  py-4 text-white rounded">
+            <h4 className="text-cardHead font-bold my-5">O2</h4>
+            <p className="text-primary mx-auto  my-5 px-3">
               Build your unique occupational life plan
             </p>
           </div>
         </div>
-        <div className="bg-black text-center py-8 items-centertext-white text-white rounded">
-          <h4 className="text-cardHead text-center font-bold my-10">O3</h4>
-          <p className="text-cardtext mx-auto my-10 px-5">
+        <div className="bg-black text-center py-4 items-centertext-white text-white rounded">
+          <h4 className="text-cardHead text-center font-bold my-5">O3</h4>
+          <p className="text-primary mx-auto my-5 px-3">
             Then work at it until you are the best at it
           </p>
         </div>
