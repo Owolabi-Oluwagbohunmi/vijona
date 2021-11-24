@@ -1,4 +1,4 @@
-import igniteExperience from './events-data'
+import igniteExperience from '../comps/events-data'
 import workshop1 from "../public/assets/workshop1.JPG";
 import Image from 'next/image'
 
@@ -9,7 +9,7 @@ import { useState, useEffect} from 'react'
 const Events = () =>
 {
   const [page, setPage] = useState(1)
-  const [totalPages, setTotalPages] = useState(6)
+  const [totalPages, setTotalPages] = useState(3)
 
   // useEffect(() =>
   // {
@@ -20,22 +20,20 @@ const Events = () =>
 
   const decreasePage = () =>
   {
-    if (page > 1) {
-      setPage((page) =>
-      {
-        page -= 1;
-      })
-    }
+    // if (page > 1) {
+    //   setPage((page) => {
+    //     page -= 1
+    //   })
+    // }
   }
 
   const increasePage = () =>
   {
-    if (page < totalPages) {
-      setPage((page) =>
-      {
-        page += 1
-      })
-    }
+    // if (page < totalPages) {
+    //   setPage((page) => {
+    //     page += 1
+    //   })
+    // }
   }
 
   return (
@@ -64,7 +62,7 @@ const Events = () =>
 
           {/* edit all the way down */}
 
-          <div className="box-content relative flex items-center w-full h-96 max-w-2xl py-5 mx-auto overflow-hidden xl:w-3/5 rounded-xl bg-gradient-to-r from-transparent via-transparent to-gray-100">
+          <div className="box-content relative flex items-center w-full h-auto max-w-2xl py-5 mx-auto overflow-hidden xl:w-3/5 rounded-xl bg-gradient-to-r from-transparent via-transparent to-gray-100">
 
             {/* :className="{'-translate-x-full pr-10' : page > 1, 'relative': page == 1, 'absolute': page != 1 }" */}
 
