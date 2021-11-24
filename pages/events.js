@@ -6,7 +6,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react/cjs/react.development'
 
-export default function events()
+const events= () =>
 {
   const [page, setPage] = useState(1)
   const [totalPages, setTotalPages] = useState(6)
@@ -177,7 +177,7 @@ export default function events()
                         How to build the perfect landing page.
                       </span>
                       <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
-                        If you want to learn the tips and tricks to building the perfect landing page you've got to follow these proven...
+                        If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
                       </span>
                     </a>
                   </div>
@@ -213,7 +213,7 @@ export default function events()
                         How to build the perfect landing page.
                       </span>
                       <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
-                        If you want to learn the tips and tricks to building the perfect landing page you've got to follow these proven...
+                        If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
                       </span>
                     </a>
                   </div>
@@ -256,7 +256,7 @@ export default function events()
                         How to build the perfect landing page.
                       </span>
                       <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
-                        If you want to learn the tips and tricks to building the perfect landing page you've got to follow these proven...
+                        If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
                       </span>
                     </a>
                   </div>
@@ -434,9 +434,10 @@ export default function events()
           </div>
         </div>
       </section>
-
     </>
   )
 }
+
+export default events;
 
 
