@@ -42,11 +42,9 @@ const whoweare = () =>
             The Vijona Africa Project
           </h1>
           <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
-            (Motto: Discover, Develop, Deploy)
+            Discover, Develop, Deploy
           </p>
-          <p className="w-10/12 text-sm lg:3x1 xl:w-2/4 mx-auto text-justify mt-5 mb-11 text-white">
-            Vijona Africa was founded in 2018 to play a role in transforming the mindset and reengineering the believe system of young Africans.
-          </p>
+         
         </div>
       </div>
 
@@ -58,7 +56,7 @@ const whoweare = () =>
             </h3>
 
             <p className="text-primary mb-5 text-justify">
-              EVERYONE... rich/poor, girl/boy, in school/not in school is born
+              EVERYONE... rich or poor, girl or boy, in school or not in school is born
               with unique innate VALUE; talents and abilities, which can be
               unleashed, and developed into marketable services, products, and
               solutions.
@@ -89,7 +87,7 @@ const whoweare = () =>
             Our Solution is Wholistic
           </h3>
           <p className="text-primary my-10 lg:w-5/12 text-left -ml-0">
-            “We help you discover your unique innate God given talents and
+            We help you discover your unique innate God given talents and
             abilities, expose you to contextual relevant occupations that align
             with who you are, empower you to believe in your VALUE enough to
             develop and realize your unique occupational life plan.
@@ -122,12 +120,13 @@ const whoweare = () =>
         </section>
       </div>
       <div>
-        <section className=" px-5 sm:px-16 md:px-16 lg:px-32 pb-10 pt-24">
-          <h3 className=" text-4xl md:text-sectionhead font-semibold text-center pb-8">
+        <section className=" px-5 sm:px-16 md:px-16 lg:px-32  pt-10">
+          <h3 className=" text-4xl md:text-sectionhead font-semibold text-center ">
             Our Results Tell a Story
           </h3>
-          <Counter />
+          
         </section>
+        <Counter />
       </div>
       <div>
         <section><Team /></section>

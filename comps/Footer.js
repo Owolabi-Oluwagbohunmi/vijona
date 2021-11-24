@@ -5,7 +5,8 @@ import Logo_white from "../public/assets/logo-white.png";
 const Footer = () => {
   return (
     <div className="font-openSans px-5 md:px-16 bg-black lg:px-18 pb-6">
-      <section className=" grid grid-cols-1 md:grid-cols-2 md:gap-12 lg:grid-cols-4 text-white pt-10 px-6 gap-6 w-full">
+      <section className=" grid grid-cols-1 md:grid-cols-3 md:gap-10 lg:grid-cols-5 text-white pt-10 px-6 gap-6 w-full">
+        <Link href="/">
         <div className=" h-28 w-28 object-cover lg:row-span-3">
           <Image
             src={Logo_white}
@@ -13,6 +14,23 @@ const Footer = () => {
             height={500}
             alt="Vijona-logo-white"
           />
+        </div>
+        </Link>
+
+        <div className="flex flex-col font-light w-72">
+          <div className="font-bold py-3">Sitemap</div>
+          <Link href="/who-we-are">
+            <a className=" my-1">Who we are</a>
+          </Link>
+          <Link href="/what-we-do">
+            <a className=" my-1">What we do</a>
+          </Link>
+          <Link href="/events">
+            <a className=" my-1">Events</a>
+          </Link>
+          <Link href="/contact">
+            <a className=" my-1">Contact</a>
+          </Link>
         </div>
 
         <div className="flex flex-col font-light w-72">
@@ -28,16 +46,15 @@ const Footer = () => {
           </Link>
         </div>
 
+      
+
         <div className="flex flex-col font-light w-72">
-          <div className="font-bold py-3">Sitemap</div>
-          <Link href="/">
-            <a className=" my-1">Who we are</a>
+          <div className="font-bold py-3">Legal</div>
+          <Link href="/privacy-policy">
+            <a className=" my-1">Privacy Policy</a>
           </Link>
-          <Link href="/what-we-do">
-            <a className=" my-1">What we do</a>
-          </Link>
-          <Link href="/events">
-            <a className=" my-1">Events</a>
+          <Link href="/legal-notice">
+            <a className=" my-1">Legal Notice</a>
           </Link>
           
         </div>
@@ -49,7 +66,7 @@ const Footer = () => {
           <div></div>
           <div className=" flex flex-row mt-5">
             <div className="flex flex-row align-center justi">
-              <Link href="/ask-how">
+              <Link href="/join-us">
                 <a className="w-max bg-vijyellow px-4 py-2 font-medium rounded-sm">
                   Ask How
                 </a>
@@ -70,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="w-60 py-3 flex flex-row justify-between lg:justify-evenly lg:-mx-5">
-          <div className="font-bold">follow me</div>
+          <div className="font-bold">Follow Us</div>
                   
           <div className=" pt-1.5">
             <svg
@@ -127,12 +144,17 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="hidden lg:block"></div>
-
-        <div className="flex flex-row justify-center md:col-span-2 lg:justify-start">
-          &copy;2021, Vijona Africa
-        </div>
+        
+       
       </section>
+      < div className=" text-white px-6 flex text-center mx-auto md:w-2/4  flex-col md:flex-row md:text-center items-start  md:items-center ">
+        <div className="flex flex-row justify-center md:col-span-2 lg:justify-start">
+          &copy;2021, Vijona Africa.
+        </div>
+        <div className="flex flex-row md:ml-4 justify-center md:col-span-2 lg:justify-start">
+        A 501(C)(3) Organization. EIN 82-4813043
+        </div>
+        </div>
     </div>
   );
 };

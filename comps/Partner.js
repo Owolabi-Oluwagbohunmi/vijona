@@ -11,23 +11,23 @@ const Partner = () =>
     }
   })
   return (
-    <section className="w-10/12 mx-auto pt-24 pb-10 relative">
+    <section className="w-10/12 mx-auto pt-10 pb-10 relative">
       <div className=" mix-blend-overlay">
         <Image src={rocket} layout="fill" objectFit="cover" alt="a boy building an airplane"></Image>
       </div>
 
       <div className="">
-        <h3 className="text-sectionhead font-semibold py-14 text-center">
+        <h3 className="text-sectionhead font-semibold py-5 text-center">
           Partner With Us
         </h3>
-        <p className="text-primary text-center   my-3">
+        <p className="text-primary text-center my-1">
           Co-host the IGNITE Experience within your community
         </p>
-        <p className="text-primary text-center  my-3">
+        <p className="text-primary text-center  my-1">
           Champion the dreams of one innovative young African via our Incubator
           Hub
         </p>
-        <p className="text-primary text-center   my-3">
+        <p className="text-primary text-center   my-1">
           Sponsor the Occupational Life Plan of one young African.
         </p>
 
