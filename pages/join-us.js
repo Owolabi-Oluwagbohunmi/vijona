@@ -38,11 +38,10 @@ const joinUs = () => {
 
           <div className=" bg-black py-32  opacity-60 mx-auto w-full text-white">
             <h1 className=" text-6xl font-semibold text-white capitalize my-5">
-              We appreciate your generosity!
+             Join us in actualizing this great feat
             </h1>
             <p className="text-xl block">
-              Thanks for impacting the destinies of young African boys and
-              girls.
+              We appreciate your generous heart
             </p>
           </div>
         </div>
