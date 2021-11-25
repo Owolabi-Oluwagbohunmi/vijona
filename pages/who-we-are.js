@@ -9,7 +9,7 @@ import buildUrl from "cloudinary-build-url";
 
 const whoweare = () =>
 {
-  const kidsrunning = buildUrl("partner_jiz34y", {
+  const housebuild = buildUrl("partner_jiz34y", {
     cloud: {
       cloudName: "dbwk2jksa"
     }
@@ -23,7 +23,7 @@ const whoweare = () =>
 
       <div className="relative">
         <div className="mix-blend-overlay">
-          <Image src={kidsrunning} layout="fill" objectFit="cover" alt="Kids are running"></Image>
+          <Image src={housebuild} layout="fill" objectFit="cover" alt="Kids are running"></Image>
         </div>
 
         <div className=" bg-black py-32  opacity-60 mx-auto text-center">
@@ -83,21 +83,21 @@ const whoweare = () =>
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:my-10 gap-1 justify-items-center items-center">
             <div className="p-5 bg-white rounded-xl shadow-xl">
-              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center">DISCOVER</div>
+              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center pt- pt-16">DISCOVER</div>
               <div className="text-center flex flex-col">
                 <p className=" font-bold text-lg pt-8 pb-3">Discover</p>
                 <p className="pb-10">Who am I, What can I do?</p>
               </div>
             </div>
             <div className="p-5 bg-white rounded-xl shadow-xl">
-              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center" text-center font-bold text-white Ttext-6x1 justify-self-center>DEVELOP</div>
+              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center text-6x1 pt-16">DEVELOP</div>
               <div className="text-center flex flex-col">
                 <p className=" font-bold text-lg pt-8 pb-3">Develop</p>
                 <p className="pb-10">Contextual and relevant incubators</p>
               </div>
             </div>
             <div className="p-5 bg-white rounded-xl shadow-xl">
-              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center">
+              <div className="w-5/10 h-40 bg-gradient-to-r from-green-400 to-blue-500 text-center font-bold text-white Ttext-6x1 justify-self-center pt-16">
                 DEPLOY
               </div>
               <div className="text-center flex flex-col">
