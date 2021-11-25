@@ -1,6 +1,10 @@
 import igniteExperience from '../comps/events-data'
 import Image from 'next/image'
 import buildUrl from 'cloudinary-build-url';
+import ReactPlayer from "react-player";
+
+import Slider from "react-slick";
+
 
 import React from 'react'
 import { useState, useEffect} from 'react'
@@ -43,6 +47,65 @@ const Events = () =>
       cloudName: "dbwk2jksa"
     }
   })
+
+
+  const SampleNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#FBB040" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const SamplePrevArrow = (props)=> {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "#E2E2E2" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
     <>
       <section className=" pt-32 w-full py-12 bg-white sm:py-20">
@@ -290,6 +353,63 @@ const Events = () =>
           </div>
         </div>
       </section>
+
+      <section className="py-6 xl:px-16 bg-v-brown pb-14">
+        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
+          Impact Videos
+        </h3>
+        <Slider {...settings}>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="10"
+              height="600px"
+              url="https://www.youtube.com/watch?v=D51twaR7qNk&feature=youtu.be&ab_channel=VijonaAfrica"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://www.youtube.com/watch?v=u1GinKQjrWU&ab_channel=VijonaAfrica"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/2qvrCmgriAI"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/_gA63MQ8bGw"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/tUbUXpMipuk"
+            />
+          </div>
+          <div className="">
+            <ReactPlayer
+              className="rounded-sm mx-auto"
+              width="100%"
+              height="600px"
+              url="https://youtu.be/JJnP2b9ABZo"
+            />
+          </div>
+        </Slider>
+      </section>
+
     </>
   )
 }
