@@ -68,7 +68,7 @@ return (
                   We encounter brilliant young Africans with innovative inventions and solutions, but lack resources, material or even a workspace to develop and take their ideas to market.</p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   Our incubator hubs work to bridge the gap in rural and urban
-                  townsteps. We play the role of a catalyst, empowering the young innovator to realize their dreams.
+                  townships. We play the role of a catalyst, empowering the young innovator to realize their dreams.
                 </p>
               </div>
               {/* <div className="max-w-xl mb-6">
