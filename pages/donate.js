@@ -1,11 +1,34 @@
 import React from "react";
 import Script from "next/script";
+import Donate from "../public/assets/donate.jpeg";
+import Image from "next/image";
 
 const donate = () => {
   return (
-    <section className="w-11/12  ml-20 pl-36 my-40 ">
-      
-        <Script
+    <>
+      <section className=" pt-20 ">
+      <div className="relative text-center">
+          <div className="mix-blend-overlay pt-24">
+            <Image
+              src={Donate}
+              layout="fill"
+              objectFit="cover"
+              alt="Kids are running"
+            ></Image>
+          </div>
+
+          <div className=" bg-black py-32  opacity-60 mx-auto w-full text-white">
+            <h1 className=" text-6xl font-semibold text-white capitalize my-5">
+            We appreciate your generosity
+            </h1>
+            <p className="text-xl block">
+            Thanks for impacting the destinies of young African boys and girls
+            </p>
+          </div>
+        </div>
+      </section>
+<div className="bg-l-header p-10 w-2/4 mx-auto flex items-center justify-center shadow-sm h-auto" >
+      <Script
           src="https://donorbox.org/widget.js"
           paypalExpress="false"
         ></Script>
@@ -17,9 +40,12 @@ const donate = () => {
           frameBorder="0"
           scrolling="no"
           height="900px"
+          
           width="100%"
         ></iframe>
-         </section>
+
+</div>
+    </>
   );
 };
 
