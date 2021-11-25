@@ -46,7 +46,7 @@ const IncubatorHub = () =>
 
 
       <section className="w-full bg-white">
-        <div className="px-10 pt-32 pb-16 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
+        <div className="px-10 pt-28 pb-12 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="flex items-center justify-center w-16 h-16 mb-5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500">
