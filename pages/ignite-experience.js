@@ -59,7 +59,7 @@ const igniteExperience = () =>
         <div className="px-20 mx-auto max-w-7xl">
           <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Solution</h2>
           <p className="mb-16 text-lg text-gray-500">Imagine if young africans are equipped early on in life.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-10 lg:gap-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 lg:gap-20">
             <div>
               <div className="flex items-center justify-center w-12 h-12 mb-4 text-red-600 bg-red-100 rounded-full">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
