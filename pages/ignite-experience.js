@@ -10,15 +10,8 @@ import Build from "../public/assets/build.svg";
 import Critical from "../public/assets/critical.svg";
 import Showcase from "../public/assets/showcase.svg";
 import World from "../public/assets/world.svg";
-import IgniteOne from "../public/assets/igniteone.png";
-import IgniteTwo from "../public/assets/ignitetwo.png";
-import IgniteContest from "../public/assets/IgniteContest.png";
-import plus from "../public/assets/plus.svg";
-import equal from "../public/assets/equal.svg";
-import profileimage from "../public/assets/twoprofiles.png";
 
 import ReactPlayer from "react-player/lazy";
-import Bullet from "../comps/Bullet";
 
 const igniteExperience = () =>
 {
@@ -32,7 +25,7 @@ const igniteExperience = () =>
       </Head>
 
       <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen">
-        <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0 space-x-20 ">
+        <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-7xl lg:p-0 space-x-20 ">
           <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
             <h1 className="relative z-20 text-4xl font-extrabold leading-none text-purple-500 xl:text-5xl sm:text-center lg:text-left">
               Welcome To The<br />
@@ -76,9 +69,9 @@ const igniteExperience = () =>
               <h3 className="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Gifted with self discovery <br />Who am I</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
-                <p>1. Innate values, talents, and abilities at birth IGNITE critical thinking </p>
+                <p>1. Innate VALUE; talents, and abilities from birth.Think criically and creatively </p>
                 <br />
-                <p>2. Lifelong mental paradigm shift</p>
+                <p>2. Lifelong paradigm shift</p>
 
               </div>
             </div>
@@ -90,12 +83,12 @@ const igniteExperience = () =>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations: What can i do?</h3>
+              <h3 className="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations What can i do</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
                 <p>3. Relevant occupations that align with who they are</p>
                 <br />
-                <p>4. Operate from a place of passion, the birthplace of innovation</p>
+                <p>4. Operate from a place of passion; the birthplace of innovation</p>
 
               </div>
             </div>
@@ -111,7 +104,7 @@ const igniteExperience = () =>
 
                 <p>5. Actionable and SMART goals</p>
                 <br />
-                <p>6. Becoming self- advocates of their success</p>
+                <p>6. Becoming self-advocates of their success</p>
 
               </div>
             </div>
@@ -125,7 +118,7 @@ const igniteExperience = () =>
               <h3 className="mb-2 text-base font-semibold leading-tight text-gray-900 lg:text-lg">Empowered to achieve their plans</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
-                <p>7. Effective programs, relevant trainings, networking, and exposure</p>
+                <p>7. Effective programs, relevant trainings, mentorahip network, and exposure</p>
                 <br />
 
               </div>
@@ -161,9 +154,9 @@ const igniteExperience = () =>
           <div className="relative z-20 flex flex-col items-start justify-center w-full h-full lg:w-5/12">
             <h1 className="text-5xl font-bold xl:text-6xl pb-7 ">Get Freedom <br />From Occupational wilderness</h1>
             <p className="text-lg text-gray-500 pb-7">
-              Whether you choose to learn a trade or choose to pursue formal education... what is important is choosing to run your best, and leave your footprint on the world.
+              Whether you choose to learn a trade or choose to pursue formal education... what is important is choosing to run your best race, and leave your footprint on the world.</p>
 
-              Our IGNITE Experience frees you from occupational wilderness. We take you on a journey to discovering a list of occupations suitable for your unique inner talents and abilities, and position you for a successful and fulfilled life.</p>
+              <p className="text-lg text-gray-500 pb-7">Our IGNITE Experience frees you from occupational wilderness. We take you on a journey to discovering a list of occupations suitable for your unique inner talents and abilities, and position you for a successful and fulfilled life.</p>
               <p className="text-v-green  text-primary my-4 font-semi-bold  ">
             “Tomorrow belongs to the people who prepare for it today“ - African
             Proverb
@@ -191,10 +184,13 @@ const igniteExperience = () =>
 
 
       <section className="py-16 xl:px-16 bg-v-pink">
-        <h3 className="text-sectionhead text-center font-semibold py-14">
+        <div className="max-w-7xl mx-auto">
+           <h3 className="text-3xl font-extrabold leading-tight text-gray-900 py-14 text-left ">
           At the end of this experience, you will;
         </h3>
-        <div className="grid w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
+          </div>
+       
+        <div className="grid max-w-7xl w-11/12 xl:w-full mx-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-20">
           <div>
             <div>
               <Image src={uniqueAttributes} alt="" />
