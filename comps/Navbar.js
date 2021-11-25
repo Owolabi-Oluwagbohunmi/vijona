@@ -56,7 +56,7 @@ const Navbar = () =>
             <li className="cursor-pointer" onClick={closeMobileMenu}>Who we are</li>
           </Link>
 
-          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} clas>
             <Link href="/ignite-experience">
               <div className="flex flex-row" onClick={closeMobileMenu}>
                 <li className="cursor-pointer">What we do</li>
