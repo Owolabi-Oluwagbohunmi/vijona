@@ -1,5 +1,4 @@
 import igniteExperience from '../comps/events-data'
-import workshop1 from "../public/assets/workshop1.JPG";
 import Image from 'next/image'
 import buildUrl from 'cloudinary-build-url';
 
@@ -25,6 +24,21 @@ const Events = () =>
     }
   })
   const contest4 = buildUrl("IMG_6965_k2n2nq", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop1 = buildUrl("3D3B3F79-22A7-4B89-BEEA-FA19A4721D7A_ocm2hc", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop2 = buildUrl("0F4630C2-5102-4255-AB12-CA973203ACE1_ir0bip", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop3 = buildUrl("e9aac104-789f-4c35-8279-7295471f8aa4_nlrloy", {
     cloud: {
       cloudName: "dbwk2jksa"
     }
@@ -236,7 +250,7 @@ const Events = () =>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" src="https://cdn.devdojo.com/images/may2021/clock.jpg"> */}
               </a>
               <div className="bg-gray-800 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-              <span>Event</span>
+              <span>IGNITE workshop</span>
               </div>
               {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
@@ -246,7 +260,22 @@ const Events = () =>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" classNameName="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
-                  <Image src={workshop1} width='300' height='200'/>
+                  <Image src={workshop2} width='300' height='200'/>
+                  </div>
+    
+              </a>
+              <div className="bg-yellow-400 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
+              <span>IGNITE workshop</span>
+              </div>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
+            </div>
+
+            <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+              <a href="#_" classNameName="block">
+                <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
+                  <Image src={workshop3} width='300' height='200'/>
                   </div>
     
               </a>
