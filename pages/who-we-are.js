@@ -21,16 +21,16 @@ const whoweare = () =>
         <title>Vijona | Who we are</title>
       </Head>
 
-      <div className="relative">
+      <div className="relative text-center">
         <div className="mix-blend-overlay">
           <Image src={housebuild} layout="fill" objectFit="cover" alt="Kids are running"></Image>
         </div>
 
-        <div className=" bg-black py-32  opacity-60 mx-auto text-center">
-          <h1 className="w-10/12 text-3xl lg:text-6xl font-semibold text-white">
+        <div className=" bg-black py-32  opacity-60 mx-auto">
+          <h1 className="text-3xl lg:text-6xl font-semibold text-white">
             The Vijona Africa Project
           </h1>
-          <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
+          <p className="text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
             Discover, Develop, Deploy
           </p>
          

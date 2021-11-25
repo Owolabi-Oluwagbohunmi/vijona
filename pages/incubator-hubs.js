@@ -28,6 +28,21 @@ const IncubatorHub = () =>
         <title>Vijona | Incubator Hubs</title>
       </Head>
 
+      <div className="relative">
+        <div className="mix-blend-overlay">
+          <Image src={housebuild} layout="fill" objectFit="cover" alt="Kids are running"></Image>
+        </div>
+
+        <div className=" bg-black py-32  opacity-60 mx-auto text-center">
+          <h1 className="w-10/12 text-3xl lg:text-6xl font-semibold text-white">
+            Pathway Programs
+          </h1>
+          {/* <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
+            Discover, Develop, Deploy
+          </p> */}
+         
+        </div>
+      </div>
 
 
       <section className="w-full bg-white">
@@ -94,17 +109,6 @@ const IncubatorHub = () =>
           </div>
         </div>
       </section>
-
-
-
-      <div className="">
-        <ReactPlayer
-          className="rounded-sm"
-          width="100%"
-          height="800px"
-          url="https://youtu.be/tUbUXpMipuk"
-        />
-      </div>
 {/* 
       <section className="w-7/12 xl:w-full items-center grid lg:grid-cols-2 gap-2">
         <div>
