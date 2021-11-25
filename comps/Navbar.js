@@ -70,7 +70,7 @@ const Navbar = () =>
               </div>
             </Link>
 
-            {dropdown && (<DropDown mobilemenu ={click}/>)}
+            {dropdown && (<DropDown mobilemenu={closeMobileMenu}/>)}
           </div>
 
 

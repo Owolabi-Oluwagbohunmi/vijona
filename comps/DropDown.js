@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MenuItemsDD } from "./DropDownMenuItems";
 import { useState } from "react";
 
-const DropDown = ({check}) =>
+const DropDown = () =>
 {
 
     const [click, setClick] = useState(false)

@@ -23,12 +23,13 @@ const IncubatorHub = () =>
       cloudName: "dbwk2jksa"
     }
   })
-  const brownpattern = buildUrl("brownpattern_yplzjd", {
+  const hub2 = buildUrl("IMG_9323_shmwlz", {
     cloud: {
       cloudName: "dbwk2jksa"
     }
   })
-  return (
+
+return (
     <>
       <Head>
         <title>Vijona | Incubator Hubs</title>
@@ -85,16 +86,16 @@ const IncubatorHub = () =>
             <div className="flex justify-center w-full lg:items-center">
               <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
-                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                  <Image src={hub2} layout="fill" objectFit="cover" />
                 </div>
 
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
-                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
                 </div>
               </div>
 
               <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
-                <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                <Image src={incubatorhub} layout="fill" objectFit="cover" />
               </div>
             </div>
           </div>
