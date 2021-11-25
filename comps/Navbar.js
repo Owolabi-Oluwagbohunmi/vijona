@@ -47,6 +47,12 @@ const Navbar = () =>
     })
   }, [])
 
+  const logocdn = buildUrl("vijona_2_ua4dlr", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+
 
   return (
     <div className="bg-white w-full h-24 fixed grid grid-cols-1 items-center min-w-max z-9999 ">
@@ -75,7 +81,7 @@ const Navbar = () =>
 
         <div className="xl:justify-self-center">
           <Link href="/" className="cursor-pointer">
-            <Image src={logo} width="112" height="40" alt="vijona africa logo" />
+            <Image src={logocdn} width="112" height="30" alt="vijona africa logo" />
           </Link>
         </div>
 
