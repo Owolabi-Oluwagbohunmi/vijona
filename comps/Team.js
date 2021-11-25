@@ -211,7 +211,7 @@ const Team = () =>
                   <div className="mt-3 space-y-2 text-center">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>Mrs. Esther David Sabo</h3>
-                      <p className="text-blue-600">Director</p>
+                      <p className="text-blue-600">Advisor</p>
                     </div>
                     <div className="relative flex items-center justify-center space-x-3">
                       <a href="#_" className="text-gray-300 hover:text-gray-400">
@@ -234,7 +234,7 @@ const Team = () =>
                   <div className="mt-3 space-y-2 text-center">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>Bishop Tony Dunn</h3>
-                      <p className="text-blue-600">Director</p>
+                      <p className="text-blue-600">Advisor</p>
                     </div>
                     <div className="relative flex items-center justify-center space-x-3">
                       <a href="#_" className="text-gray-300 hover:text-gray-400">
@@ -257,7 +257,7 @@ const Team = () =>
                   <div className="mt-3 space-y-2 text-center">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>Ranu Gupta</h3>
-                      <p className="text-blue-600">Director</p>
+                      <p className="text-blue-600">Advisor</p>
                     </div>
                     <div className="relative flex items-center justify-center space-x-3">
                       <a href="#_" className="text-gray-300 hover:text-gray-400">
@@ -284,7 +284,7 @@ const Team = () =>
                   <div className="mt-3 space-y-2 text-center">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>Kjel kiilsgaard</h3>
-                      <p className="text-blue-600">Director</p>
+                      <p className="text-blue-600">Advisor</p>
                     </div>
                     <div className="relative flex items-center justify-center space-x-3">
                       <a href="#_" className="text-gray-300 hover:text-gray-400">
