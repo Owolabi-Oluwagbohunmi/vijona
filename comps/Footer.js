@@ -20,9 +20,9 @@ const Footer = () => {
         <div className="flex flex-col font-light w-72">
           <div className="font-bold py-3">Sitemap</div>
           <Link href="/who-we-are">
-            <a className=" my-1">Who we are</a>
+            <a className="who-we-are">Who we are</a>
           </Link>
-          <Link href="/what-we-do">
+          <Link href="/ignite-experience">
             <a className=" my-1">What we do</a>
           </Link>
           <Link href="/events">
