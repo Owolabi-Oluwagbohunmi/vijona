@@ -34,19 +34,9 @@ const legal = () => {
 
         <div className="my-5">
           <h3 className="text-2xl font-semibold my-3">Executive Board</h3>
-          <p>Relindis Ukoha (Mbu), Olga Menang, Lucia Asiedu</p>
+          <p>Relindis Mbu, Olga Menang, Lucia Asiedu</p>
         </div>
 
-        <div className="my-5">
-          <h3 className="text-2xl font-semibold my-3">Design and Programming</h3>
-          <p>Domkate GmbH</p>
-          <p>Erich-kurz-Str.5</p>
-          <p>10319 Berlin </p>
-          <p>Germany</p>
-
-          <p className="mt-3">www.domkate.com</p>
-          <p>Business Manager: Feliz Andre Agobor</p>
-        </div>
 
         <div className="my-10">
           <h3 className="text-3xl lg:text-4xl my-5 text-v-green">Limitation of liability</h3>

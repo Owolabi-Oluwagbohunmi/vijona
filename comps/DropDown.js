@@ -12,7 +12,7 @@ const DropDown = () =>
 
     return (
         <>
-            <ul onClick={handleClick} className={click ? " hidden " : "shadow-2xl w-max absolute  top-20 list-none text-left -mx-4 bg-white rounded-xl"}>
+            <ul onClick={handleClick} className={click ? " hidden " : "shadow-2xl w-max absolute  top-18 list-none text-left -mx-4 bg-white rounded-xl"}>
                 <div></div>
                 {MenuItemsDD.map((MenuItem, index) => (
                     <li key={index} className=' rounded bg-v-bg hover:bg-navyellow cursor-pointer  p-4'>

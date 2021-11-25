@@ -1,17 +1,11 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import VijonaPeople from "../public/assets/vijonapple.jpg";
-import checkMark from "../public/assets/checkmark.png";
-import Incubator from "../public/assets/incubator.png";
-import Herocomp from "../comps/Herocomp";
 import Yellow from "../public/assets/yellow.png";
 import Purple from "../public/assets/purple.png";
 import Green from "../public/assets/green.png";
 import circleLine from "../public/assets/circleonline.png";
 import curly from "../public/assets/curly-black.png";
-import girls from "../public/assets/girls.png";
-import ImageCard from "../comps/ImageCard";
 import IgniteOne from "../public/assets/igniteone.png";
 import IgniteTwo from "../public/assets/ignitetwo.png";
 import Brown from "../public/assets/brownpattern.svg";
@@ -19,19 +13,46 @@ import Cta from "../comps/Cta";
 import ReactPlayer from "react-player";
 import CardText from "../comps/CardText";
 import CardTextt from "../comps/CardTextt";
+import brownppp from '../public/assets/brownpattern.png'
+import buildUrl from "cloudinary-build-url";
 
 const IncubatorHub = () =>
 {
+  const incubatorhub = buildUrl("bfd380f3-8dd4-4432-82a8-93f7a0c6fb6a_bdcirq", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const brownpattern = buildUrl("brownpattern_yplzjd", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <Head>
         <title>Vijona | Incubator Hubs</title>
       </Head>
 
+      <div className="relative">
+        <div className="mix-blend-overlay pt-24">
+          <Image src={incubatorhub} layout="fill" objectFit="cover" alt="Kids are running"></Image>
+        </div>
+
+        <div className=" bg-black py-32  opacity-60 mx-auto text-center">
+          <h1 className="text-3xl lg:text-6xl font-semibold text-white">
+            Incubator Hub
+          </h1>
+          {/* <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
+            Discover, Develop, Deploy
+          </p> */}
+
+        </div>
+      </div>
 
 
       <section className="w-full bg-white">
-        <div className="px-10 pt-32 pb-16 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
+        <div className="px-10 pt-28 pb-12 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="flex items-center justify-center w-16 h-16 mb-5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500">
@@ -39,32 +60,17 @@ const IncubatorHub = () =>
               </div>
               <div className="max-w-xl mb-6">
                 <div className="mb-6">
-                  <p className="inline font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none">Our Pathwhay </p>
-                  <p className="block font-sans text-5xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">Scholarships.</p>
+                  <p className="inline font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none">What You Need To Know </p>
+                  <p className="block font-sans text-4xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">About Our Incubator Hubs.</p>
                 </div>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">We have hand-crafted beautiful designs that will help your product or service shine.Drag&#39;n drop templates that allow you to build amazing landing pages in seconds!</p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  Our Pathway Scholarship Program is unique in that it is &lsquo;DEMAND&rsquo;
-                  based (driven by innate talents and abilities of each individual).
-                </p>
+                  We encounter brilliant young Africans with innovative inventions and solutions, but lack resources, material or even a workspace to develop and take their ideas to market.</p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  Our IGNITE Experience alumni create unique, relevant and SMART
-                  Occupational Life Plans for themselves.
-                </p>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  We focus on the path the alumni CHOOSE for themselves; be it to
-                  learn a trade, entrepreneurship or formal education, and create
-                  catalyst for them to achieve the dreams outlined in their
-                  Occupational Life Plans.
-                </p>
-
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  This way we give each scholarship recipient a chance to make a
-                  living in a relevant occupation they are passionate about; a pathway
-                  to innovation and lifelong fulfillment.
+                  Our incubator hubs work to bridge the gap in rural and urban
+                  townsteps. We play the role of a catalyst, empowering the young innovator to realize their dreams.
                 </p>
               </div>
-              <div className="max-w-xl mb-6">
+              {/* <div className="max-w-xl mb-6">
                 <p className="relative">
                   <a href="#_" className="inline-flex flex-col items-center font-semibold text-purple-700 transition-colors duration-200 cursor-pointer group">
                     <span className="flex items-center w-full">
@@ -74,7 +80,7 @@ const IncubatorHub = () =>
                     <span className="w-full h-0.5 translate-y-2 group-hover:translate-y-1 duration-200 ease-out transition opacity-0 group-hover:opacity-100 block bg-purple-600"></span>
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="flex justify-center w-full lg:items-center">
               <div className="flex flex-row items-end pr-3">
@@ -94,18 +100,7 @@ const IncubatorHub = () =>
           </div>
         </div>
       </section>
-
-
-
-      <div className="">
-        <ReactPlayer
-          className="rounded-sm"
-          width="100%"
-          height="800px"
-          url="https://youtu.be/tUbUXpMipuk"
-        />
-      </div>
-{/* 
+      {/* 
       <section className="w-7/12 xl:w-full items-center grid lg:grid-cols-2 gap-2">
         <div>
           <div>
@@ -132,7 +127,7 @@ const IncubatorHub = () =>
         </div>
       </section> */}
 
-      <section className="my-24">
+      <section className=" py-14 bg-v-brown">
         <div className="xl:flex  w-8/12 mx-auto ">
           <div className="w-8">
             <Image src={Yellow} alt="" />
@@ -219,7 +214,7 @@ const IncubatorHub = () =>
 
       <div className="">
         <Cta
-          ImageUrl={Brown}
+          ImageUrl={brownppp}
           heading="Donate a laptop + 1 year data subscription"
           text="Open a world of possibilities for one innovative young African"
           href="/"

@@ -6,6 +6,7 @@ import IgniteOne from "../public/assets/igniteone.png";
 import Link from "next/link";
 import ReactPlayer from "react-player";
 import buildUrl from "cloudinary-build-url";
+import purpleppp from '../public/assets/purplepattern.png'
 
 const pathwayScholarships = () =>
 {
@@ -20,8 +21,24 @@ const pathwayScholarships = () =>
         <title>Vijona | Pathway-Programs</title>
       </Head>
 
+      <div className="relative text-center">
+        <div className="mix-blend-overlay pt-24">
+          <Image src={pathway} layout="fill" objectFit="cover" alt="Kids are running"></Image>
+        </div>
+
+        <div className=" bg-black py-32  opacity-60 mx-auto w-full">
+          <h1 className=" text-3xl lg:text-6xl font-semibold text-white">
+            Pathway Programs
+          </h1>
+          {/* <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
+            Discover, Develop, Deploy
+          </p> */}
+         
+        </div>
+      </div>
+
       <section className="w-full bg-white">
-        <div className="px-10 pt-32 pb-16 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
+        <div className="px-10 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="flex items-center justify-center w-16 h-16 mb-5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500">
@@ -29,26 +46,25 @@ const pathwayScholarships = () =>
               </div>
               <div className="max-w-xl mb-6">
                 <div className="mb-6">
-                  <p className="inline font-sans text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none">Our Pathwhay </p>
-                  <p className="block font-sans text-5xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">Scholarships.</p>
+                  <p className="inline font-sans font-bold tracking-tight text-gray-900 text-6xl sm:leading-none">Our Pathwhay </p>
+                  <p className="block font-sans font-bold tracking-tight text-purple-700 text-6xl sm:leading-none">Scholarships.</p>
                 </div>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">We have hand-crafted beautiful designs that will help your product or service shine.Drag&#39;n drop templates that allow you to build amazing landing pages in seconds!</p>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-primary text-gray-700 text-justify pb-3">
                   Our Pathway Scholarship Program is unique in that it is &lsquo;DEMAND&rsquo;
                   based (driven by innate talents and abilities of each individual).
                 </p>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-primary text-gray-700 text-justify pb-3">
                   Our IGNITE Experience alumni create unique, relevant and SMART
                   Occupational Life Plans for themselves.
                 </p>
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="ext-primary text-gray-700 text-justify pb-3">
                   We focus on the path the alumni CHOOSE for themselves; be it to
                   learn a trade, entrepreneurship or formal education, and create
                   catalyst for them to achieve the dreams outlined in their
                   Occupational Life Plans.
                 </p>
 
-                <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
+                <p className="text-primary text-gray-700 text-justify pb-3">
                   This way we give each scholarship recipient a chance to make a
                   living in a relevant occupation they are passionate about; a pathway
                   to innovation and lifelong fulfillment.
@@ -67,15 +83,15 @@ const pathwayScholarships = () =>
               </div> */}
             </div>
             <div className="flex justify-center w-full lg:items-center">
-              {/* <div className="flex flex-row items-end pr-3">
+              <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
-                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
                 </div>
 
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
-                  <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
                 </div>
-              </div> */}
+              </div>
 
               <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
                 <Image src={pathway} layout="fill" objectFit="cover" />
@@ -91,7 +107,7 @@ const pathwayScholarships = () =>
             <div className="box-border text-sm font-semibold text-gray-700 uppercase">
               ...
             </div>
-            <h2 className="box-border mx-0 mt-6 mb-0 font-sans text-3xl font-bold leading-tight text-indigo-900 sm:text-3xl md:text-5xl">
+            <h2 className="box-border mx-0 mt-6 mb-0 font-sans text-3xl font-bold leading-tight text-indigo-900">
               No dream is too big, and every talent is valuable and needed in our communities.
             </h2>
           </div>
@@ -99,7 +115,7 @@ const pathwayScholarships = () =>
 
       </section>
 
-      <section className="px-2 py-32 bg-white md:px-0">
+      <section className="px-2 py-20 bg-white md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
@@ -107,7 +123,7 @@ const pathwayScholarships = () =>
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                   <span className="block text-indigo-700 xl:inline">Tell Your Story!</span>
                 </h1>
-                <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p>
+                {/* <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p> */}
               </div>
             </div>
             <div className="w-full md:w-1/2">
@@ -116,7 +132,7 @@ const pathwayScholarships = () =>
                   <ReactPlayer
                     className="rounded-sm mx-auto"
                     width="100%"
-                    height="500px"
+                    height="400px"
                     url="https://youtu.be/tUbUXpMipuk"
                   />
                 </div>
@@ -126,7 +142,7 @@ const pathwayScholarships = () =>
         </div>
       </section>
       <Cta
-        ImageUrl={PurplePattern}
+        ImageUrl={purpleppp}
         heading="Young girls and boys across Africa need sponsorship"
         buttonText="Coming Soon"
         href="/"
