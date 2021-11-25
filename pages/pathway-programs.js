@@ -6,6 +6,7 @@ import IgniteOne from "../public/assets/igniteone.png";
 import Link from "next/link";
 import ReactPlayer from "react-player";
 import buildUrl from "cloudinary-build-url";
+import purpleppp from '../public/assets/purplepattern.png'
 
 const pathwayScholarships = () =>
 {
@@ -141,7 +142,7 @@ const pathwayScholarships = () =>
         </div>
       </section>
       <Cta
-        ImageUrl={PurplePattern}
+        ImageUrl={purpleppp}
         heading="Young girls and boys across Africa need sponsorship"
         buttonText="Coming Soon"
         href="/"

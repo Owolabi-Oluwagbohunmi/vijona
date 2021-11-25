@@ -13,6 +13,7 @@ import Cta from "../comps/Cta";
 import ReactPlayer from "react-player";
 import CardText from "../comps/CardText";
 import CardTextt from "../comps/CardTextt";
+import brownppp from '../public/assets/brownpattern.png'
 import buildUrl from "cloudinary-build-url";
 
 const IncubatorHub = () =>
@@ -213,7 +214,7 @@ const IncubatorHub = () =>
 
       <div className="">
         <Cta
-          ImageUrl={Brown}
+          ImageUrl={brownppp}
           heading="Donate a laptop + 1 year data subscription"
           text="Open a world of possibilities for one innovative young African"
           href="/"
