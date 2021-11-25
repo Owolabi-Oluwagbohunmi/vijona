@@ -96,7 +96,7 @@ const Team = () =>
               Africans, to show in/out-of-school children the innate VALUE
               (talents and abilities) they already possess and create pathways
               for them to use that value to become self-sufficient via formal or
-              non-formal learning paths”
+              non-formal learning paths
             </p>
             {/*  */}
             <button
@@ -112,7 +112,7 @@ const Team = () =>
 
             <div className="text-primary text-center my-2 ">
               <p className="text-2xl">Relindis Mbu</p>
-              <p className="text-primary"> Founder & Executive Director</p>
+              <p className="text-primary"> Founder and Executive Director</p>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ const Team = () =>
                   <div className="mt-3 space-y-2 text-center">
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <h3>Jab Mouki Alexander</h3>
-                      <p className="text-blue-600">Country Coordinator- Camerron</p>
+                      <p className="text-blue-600">Country Coordinator- Cameroon</p>
                     </div>
                     <div className="relative flex items-center justify-center space-x-3">
                       <a href="#_" className="text-gray-300 hover:text-gray-400">

@@ -10,7 +10,7 @@ const Counter = () => {
         <p className=" w-8/12 sm:w-9/12 md:w-10/12 mx-auto my-6 ">First-Time Laptops awarded to date</p>
       </div>
       <div className="">
-        <h5 className="text-3xl xl:text-5xl  font-bold">$16,000</h5>
+        <h5 className="text-3xl xl:text-5xl  font-bold">$19,000</h5>
         <p className=" w-7/12 sm:w-9/12 mx-auto my-6 ">IGNITE Contest payouts</p>
       </div>
       <div className="">
