@@ -8,7 +8,7 @@ const donate = () => {
     <>
       <section className=" pt-20 ">
       <div className="relative text-center">
-          <div className="mix-blend-overlay pt-24">
+          <div className="mix-blend-overlay">
             <Image
               src={Donate}
               layout="fill"
@@ -27,7 +27,7 @@ const donate = () => {
           </div>
         </div>
       </section>
-<div className="bg-l-header p-10 w-2/4 mx-auto flex items-center justify-center shadow-sm h-auto" >
+<div className="bg-l-header p-10 w-1/4 mx-auto flex items-center justify-center shadow-sm h-auto" >
       <Script
           src="https://donorbox.org/widget.js"
           paypalExpress="false"
@@ -43,7 +43,6 @@ const donate = () => {
           
           width="100%"
         ></iframe>
-
 </div>
     </>
   );

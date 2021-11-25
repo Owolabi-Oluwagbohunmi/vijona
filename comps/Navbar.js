@@ -93,7 +93,12 @@ const Navbar = () =>
           </div>
 
           <div className={click?"grid grid-cols-2 gap-1 w-8/10 pt-8":"grid grid-cols-2 gap-1 w-full"}>
-            <button className='px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md w-max'>Donate</button>
+            <button className='px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md w-max'>
+              <Link href="donate">
+              Donate
+              </Link>
+              
+              </button>
             <button className='px-2 py-2 w-max bg-v-black text-white text-2x1 rounded-md'>Partner With Us</button>
           </div>
         </div>
