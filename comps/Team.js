@@ -127,7 +127,7 @@ const Team = () =>
 
             <div className="relative px-16 mx-auto max-w-7xl">
               <p className="font-medium tracking-wide text-blue-500 uppercase">OUR TEAM</p>
-              <h2 className="relative max-w-lg mt-5 mb-10 text-4xl font-semibold leading-tight lg:text-5xl">Our Team is made up of passionate Country Coordinators within <br />respective countries and an international Board of Directors
+              <h2 className="relative max-w-lg mt-5 mb-10 text-4xl font-semibold leading-tight lg:text-5xl">Our Team is made up of passionate Country Coordinators within <br />respective countries and International Advisors
               </h2>
               <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
                 <div className="flex flex-col items-center justify-center col-span-1">
@@ -155,9 +155,9 @@ const Team = () =>
 
                 <div className="flex flex-col items-center justify-center col-span-1">
                   <div className="relative p-5">
-                    <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-                    <div classNameName="relative z-20 w-full rounded-full">
-                      <Image src={mouki} width="300" height="300" alt="country coordinator cameroon" />
+                    <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
+                    <div className="relative z-20 w-full rounded-full">
+                      <Image src={mouki} width="300" height="300" alt="Country Coordinator - Ghana" />
                     </div>
                   </div>
                   <div className="mt-3 space-y-2 text-center">
@@ -199,6 +199,8 @@ const Team = () =>
                   </div>
                 </div>
 
+                <br />
+
                 <div className="flex flex-col items-center justify-center col-span-1">
                   <div className="relative p-5">
                     <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
@@ -224,9 +226,9 @@ const Team = () =>
 
                 <div className="flex flex-col items-center justify-center col-span-1">
                   <div className="relative p-5">
-                    <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-50"></div>
-                    <div classNameName="relative z-20 w-full rounded-full">
-                      <Image src={bishop} width="300" height="300" alt="director" />
+                    <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-50"></div>
+                    <div className="relative z-20 w-full rounded-full">
+                      <Image src={bishop} width="300" height="300" alt="Director" />
                     </div>
                   </div>
                   <div className="mt-3 space-y-2 text-center">

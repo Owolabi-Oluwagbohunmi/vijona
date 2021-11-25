@@ -2,17 +2,6 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import ReactPlayer from "react-player";
-import Herocomp from "../comps/Herocomp";
-import AboutImg from "../public/assets/about-img.JPG";
-import Discover from "../public/assets/discover-box.jpeg";
-import Develop from "../public/assets/develop.jpeg";
-import Deploy from "../public/assets/deploy.jpeg";
-
-import Mouki from "../public/assets/mouki.jpeg";
-
-import Isaac from "../public/assets/isaac.jpeg";
-
-import esther from "../public/assets/esther.jpeg";
 import Counter from "../comps/Counter";
 import Team from "../comps/Team";
 import buildUrl from "cloudinary-build-url";
@@ -20,7 +9,7 @@ import buildUrl from "cloudinary-build-url";
 
 const whoweare = () =>
 {
-  const kidsrunning = buildUrl("seth-doyle-78210_ijctn4", {
+  const kidsrunning = buildUrl("partner_jiz34y", {
     cloud: {
       cloudName: "dbwk2jksa"
     }
