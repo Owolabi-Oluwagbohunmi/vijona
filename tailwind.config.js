@@ -34,7 +34,8 @@ module.exports = {
         'v-brown': '#fffae5',
         'l-header': "#F9FAFC",
         'header-col':"#1D1E2C",
-        'text-legal': "#1D1E2C"
+        'text-legal': "#1D1E2C",
+        'donate-col': "#FBF2DA"
       },
       gridAutoColumns: {
         'gcols': 'minmax(0,2rem)'
