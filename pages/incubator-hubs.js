@@ -22,6 +22,11 @@ const IncubatorHub = () =>
       cloudName: "dbwk2jksa"
     }
   })
+  const brownpattern = buildUrl("brownpattern_yplzjd", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <Head>
