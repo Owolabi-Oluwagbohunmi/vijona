@@ -1,6 +1,7 @@
 import igniteExperience from '../comps/events-data'
 import workshop1 from "../public/assets/workshop1.JPG";
 import Image from 'next/image'
+import buildUrl from 'cloudinary-build-url';
 
 import React from 'react'
 import { useState, useEffect} from 'react'
@@ -8,6 +9,26 @@ import { useState, useEffect} from 'react'
 
 const Events = () =>
 {
+  const contest1 = buildUrl("DSC02090_wtom8f", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest2 = buildUrl("DSC02100_ktqjdh", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest3 = buildUrl("DSC01798_cdcscd", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest4 = buildUrl("IMG_6965_k2n2nq", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <section className=" pt-32 w-full py-12 bg-white sm:py-20">
@@ -46,7 +67,7 @@ const Events = () =>
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48" >
                       {/* <img className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-1.jpg" alt=""></img> */}
-                      <Image src={workshop1} alt="" />
+                      <Image src={workshop1} layout="fill" alt="IGNITE contest" />
                     </div>
                   </a>
                 </div>
@@ -83,7 +104,7 @@ const Events = () =>
                 <div className="flex-shrink-0">
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48">
-                      <Image src={workshop1} />
+                      <Image src={workshop1} layout="fill" />
                       {/* <img  className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-2.jpg" alt=""> */}
                     </div>
 
@@ -134,7 +155,7 @@ const Events = () =>
 
 
                 <div>
-                  <Image className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96" src={workshop1} />
+                  <Image className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96" src={workshop1} layout="fill" />
                 </div>
               </a>
             </div>
@@ -152,89 +173,89 @@ const Events = () =>
           <div className="grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
-                <Image className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src={workshop1} />
+                <Image className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src={contest1} layout="fill" alt="IGNITE Contest" />
               </a>
               <div className="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-                <span>Event</span>
+                <span>IGNITE contest</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56">
-                  <Image src={workshop1} alt="" />
+                  <Image src={contest2} layout="fill" alt="IGNITE contest" />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/workout.jpg"> */}
               </a>
               <div className="bg-pink-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-              <span>Event</span>
+              <span>IGNITE Contest</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" >
-                  <Image src={workshop1} alt="" />
+                  <Image src={contest3} alt="IGNITE conest" layout="fill" />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/food.jpg"> */}
               </a>
               <div className="bg-red-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-              <span>Event</span>
+              <span>IGNITE contest</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
-                  <Image src={workshop1} />
+                  <Image src={contest4} layout="fill" />
                 </div>
               </a>
               <div className="bg-blue-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
-              <span>IGNITE workshop</span>
+              <span>IGNITE contest</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56">
 
-                  <Image src={workshop1} />
+                  <Image src={workshop1} layout="fill" />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" src="https://cdn.devdojo.com/images/may2021/clock.jpg"> */}
               </a>
               <div className="bg-gray-800 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
               <span>Event</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" classNameName="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
-                  <Image src={workshop1}/>
+                  <Image src={workshop1} layout="fill" />
                   </div>
     
               </a>
               <div className="bg-yellow-400 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
               <span>IGNITE workshop</span>
               </div>
-              <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
+              {/* <h2 className="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_">Creating a Future Worth Living</a></h2>
               <p className="text-sm text-gray-500">This gala held in california chicago to raise funds for cameroon indigenes.</p>
-              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p>
+              <p className="pt-2 text-xs font-medium"><a href="#_" className="mr-1 underline">California</a> · <span className="mx-1">April 17, 2021</span></p> */}
             </div>
 
           </div>

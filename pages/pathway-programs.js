@@ -1,25 +1,19 @@
 import Image from "next/image";
 import Head from "next/head";
-import Yellow from "../public/assets/yellow.png";
-import Purple from "../public/assets/purple.png";
-import Herocomp from "../comps/Herocomp";
-import curly from "../public/assets/curly-black.png";
-import pathwayCircles from "../public/assets/pathway.png";
-import yellowOnline from "../public/assets/yellowonline.svg";
-import fatQuotes from "../public/assets/fat-quotes.svg";
-import Barbing from "../public/assets/barbing.png";
-import Welding from "../public/assets/welding.svg";
-import Sewing from "../public/assets/sewing.svg";
 import PurplePattern from "../public/assets/purplepattern.svg";
 import Cta from "../comps/Cta";
 import IgniteOne from "../public/assets/igniteone.png";
-import IgniteTwo from "../public/assets/ignitetwo.png";
 import Link from "next/link";
 import ReactPlayer from "react-player";
-import CardText from "../comps/CardText";
+import buildUrl from "cloudinary-build-url";
 
 const pathwayScholarships = () =>
 {
+  const pathway = buildUrl("IMG_8489_vklr74", {
+    cloud:{
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <Head>
@@ -60,7 +54,7 @@ const pathwayScholarships = () =>
                   to innovation and lifelong fulfillment.
                 </p>
               </div>
-              <div className="max-w-xl mb-6">
+              {/* <div className="max-w-xl mb-6">
                 <p className="relative">
                   <a href="#_" className="inline-flex flex-col items-center font-semibold text-purple-700 transition-colors duration-200 cursor-pointer group">
                     <span className="flex items-center w-full">
@@ -70,10 +64,10 @@ const pathwayScholarships = () =>
                     <span className="w-full h-0.5 translate-y-2 group-hover:translate-y-1 duration-200 ease-out transition opacity-0 group-hover:opacity-100 block bg-purple-600"></span>
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="flex justify-center w-full lg:items-center">
-              <div className="flex flex-row items-end pr-3">
+              {/* <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
                   <Image src={IgniteOne} layout="responsive" objectFit="fill" />
                 </div>
@@ -81,10 +75,10 @@ const pathwayScholarships = () =>
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
                   <Image src={IgniteOne} layout="responsive" objectFit="fill" />
                 </div>
-              </div>
+              </div> */}
 
               <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
-                <Image src={IgniteOne} layout="responsive" objectFit="fill" />
+                <Image src={pathway} layout="fill" objectFit="cover" />
               </div>
             </div>
           </div>
