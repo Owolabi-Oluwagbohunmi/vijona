@@ -14,8 +14,8 @@ const Hero = () =>
     < section className="w-10/12 mx-auto pt-32 grid grid-cols-1 lg:grid lg:grid-cols-2 md:space-x-28 space py-20">
       <div className="grid grid-cols-1 justify-items-start items-center">
         <div className="grid grid-cols-1 justify-self-center">
-          <h1 className="text-4xl font-bold">Who am I?</h1>
-          <h2 className="text-4xl font-bold pb-5">
+          <h1 className="text-4xl lg:text-7xl font-bold">Who am I?</h1>
+          <h2 className="text-4xl lg:text-7xl font-bold pb-5">
             What can I do?
           </h2>
           <p className="text-justify text-primary pb-3">
