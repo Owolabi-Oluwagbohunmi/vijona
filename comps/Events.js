@@ -67,7 +67,7 @@ const Events = () =>
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48" >
                       {/* <img className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-1.jpg" alt=""></img> */}
-                      <Image src={workshop1} layout="fill" alt="IGNITE contest" />
+                      <Image src={workshop1} alt="" width='300' height='200' />
                     </div>
                   </a>
                 </div>
@@ -80,19 +80,19 @@ const Events = () =>
                       </a>
                     </p>
                     <a href="#_" className="block">
-                      <span className="mt-2 text-base font-semibold leading-7 text-gray-900 sm:text-xl">
+                      {/* <span className="mt-2 text-base font-semibold leading-7 text-gray-900 sm:text-xl">
                         How to build the perfect landing page.
                       </span>
                       <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
                         If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
-                      </span>
+                      </span> */}
                     </a>
                   </div>
                   <div className="items-center hidden mt-6 sm:flex">
                     <div className="relative">
                       <p className="text-xs font-medium leading-5 text-gray-500">
-                        <a href="#_" className="hover:underline">John Doe</a>
-                        <span className="mx-1">·</span><time className="ml-1">January 21, 2022</time>
+                        <a href="#_" className="hover:underline">Nigeria</a>
+                        <span className="mx-1">·</span><time className="ml-1">July 22, 2022</time>
                       </p>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ const Events = () =>
                 <div className="flex-shrink-0">
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48">
-                      <Image src={workshop1} layout="fill" />
+                      <Image src={workshop1} width='300' height='200' />
                       {/* <img  className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-2.jpg" alt=""> */}
                     </div>
 
@@ -119,20 +119,20 @@ const Events = () =>
                         Contest
                       </a>
                     </p>
-                    <a href="#_" className="block">
+                    {/* <a href="#_" className="block">
                       <span className="mt-2 text-base font-semibold leading-7 text-gray-900 sm:text-xl">
                         How to build the perfect landing page.
                       </span>
                       <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
                         If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
                       </span>
-                    </a>
+                    </a> */}
                   </div>
                   <div className="items-center hidden mt-6 sm:flex">
                     <div className="relative">
                       <p className="text-xs font-medium leading-5 text-gray-500">
-                        <a href="#_" className="hover:underline">John Doe</a>
-                        <span className="mx-1">·</span><time className="ml-1">January 21, 2022</time>
+                        <a href="#_" className="hover:underline">Cameroon</a>
+                        <span className="mx-1">·</span><time className="ml-1">July 21, 2022</time>
                       </p>
                     </div>
                   </div>
@@ -155,7 +155,7 @@ const Events = () =>
 
 
                 <div>
-                  <Image className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96" src={workshop1} layout="fill" />
+                  <Image className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96" src={workshop1} width='300' height='200'/>
                 </div>
               </a>
             </div>
@@ -173,7 +173,7 @@ const Events = () =>
           <div className="grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
-                <Image className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src={contest1} layout="fill" alt="IGNITE Contest" />
+                <Image className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src={contest1}  width='300' height='200'/>
               </a>
               <div className="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>IGNITE contest</span>
@@ -186,7 +186,7 @@ const Events = () =>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56">
-                  <Image src={contest2} layout="fill" alt="IGNITE contest" />
+                  <Image src={contest2} alt="" width='300' height='200' />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/workout.jpg"> */}
               </a>
@@ -201,7 +201,7 @@ const Events = () =>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" >
-                  <Image src={contest3} alt="IGNITE conest" layout="fill" />
+                  <Image src={contest3} alt="" width='300' height='200' />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/food.jpg"> */}
               </a>
@@ -216,7 +216,7 @@ const Events = () =>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
-                  <Image src={contest4} layout="fill" />
+                  <Image src={contest4} width='300' height='200' />
                 </div>
               </a>
               <div className="bg-blue-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
@@ -231,7 +231,7 @@ const Events = () =>
               <a href="#_" className="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56">
 
-                  <Image src={workshop1} layout="fill" />
+                  <Image src={workshop1} width='300' height='200' />
                 </div>
                 {/* <img className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" src="https://cdn.devdojo.com/images/may2021/clock.jpg"> */}
               </a>
@@ -246,7 +246,7 @@ const Events = () =>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <a href="#_" classNameName="block">
                 <div className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56" >
-                  <Image src={workshop1} layout="fill" />
+                  <Image src={workshop1} width='300' height='200'/>
                   </div>
     
               </a>
