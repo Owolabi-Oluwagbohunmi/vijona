@@ -56,21 +56,21 @@ const Navbar = () =>
 
   return (
     <div className="bg-white w-full h-24 fixed grid grid-cols-1 items-center min-w-max z-9999 ">
-      <nav className={click ? "relative bg-black opacity-60 w-5/12 h-screen" : "w-10/12 mx-auto grid grid-cols-2 justify-items-start items-center xl:grid-cols-3"}>
-        <ul className={click ? "border-white absolute top-24 text-white grid grid-cols-1 gap-10 z-9999" : "hidden xl:grid xl:grid-cols-3 xl:space-x-0 xl:gap-1 xl:w-full"}>
+      <nav className={click ? "relative bg-black opacity-90 w-7/12 h-screen justify-items-center items-center" : "w-10/12 mx-auto grid grid-cols-2 justify-items-start items-center xl:grid-cols-3"}>
+        <ul className={click ? " absolute top-24 pl-6 text-white grid grid-cols-1 gap-10 z-9999 justify-self-center pt-60 w-full" : "hidden xl:grid xl:grid-cols-3 xl:space-x-0 xl:gap-1 xl:w-full"}>
           <Link href="/who-we-are">
             <li className="cursor-pointer" onClick={closeMobileMenu}>Who we are</li>
           </Link>
 
-          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} clas>
+          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={click? "cursor-pointer text-center ":"cursor-pointer text-center w-full"}>
             <Link href="/ignite-experience">
-              <div className="flex flex-row" onClick={closeMobileMenu}>
+              <div className="flex flex-row tex" onClick={closeMobileMenu}>
                 <li className="cursor-pointer">What we do</li>
                 {<FaCaretDown className="text-xs mt-1 justify-self-center" />}
               </div>
             </Link>
 
-            {dropdown && (<DropDown />)}
+            {dropdown && (<DropDown mobilemenu ={click}/>)}
           </div>
 
 
@@ -85,15 +85,15 @@ const Navbar = () =>
           </Link>
         </div>
 
-        <div className={click ? "absolute top-48 bg-black opacity-60 w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
+        <div className={click ? "absolute top-48 bg-black w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0 z-9999" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
           <div className="grid grid-cols-3 space-x-3 mx-auto">
             <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><FaTwitter /></Link>
             <Link href="https://www.instagram.com/vijonaafrica/" className="cursor-pointer"><FaInstagram /></Link>
             <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><FaFacebook /></Link>
           </div>
 
-          <div className="grid grid-cols-2 gap-1 w-full">
-            <button className='px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md'>Donate</button>
+          <div className={click?"grid grid-cols-2 gap-1 w-8/10 pt-8":"grid grid-cols-2 gap-1 w-full"}>
+            <button className='px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md w-max'>Donate</button>
             <button className='px-2 py-2 w-max bg-v-black text-white text-2x1 rounded-md'>Partner With Us</button>
           </div>
         </div>
