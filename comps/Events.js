@@ -144,7 +144,7 @@ const Events = () =>
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48" >
                       {/* <img className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-1.jpg" alt=""></img> */}
-                      <Image src={workshop1} alt="" layout="responsive" objectFit="cover" width='300' height='200' />
+                      <Image src={contest2} alt="" layout="responsive" objectFit="cover" width='300' height='200' />
                     </div>
                   </a>
                 </div>
@@ -153,7 +153,7 @@ const Events = () =>
                   <div className="flex-1">
                     <p className="inline-block py-1 pl-10 pr-4 mb-2 -ml-10 text-xs font-medium leading-5 text-white transform -translate-y-2 bg-indigo-600 rounded">
                       <a href="#_" className="hover:underline" rel="category">
-                        Workshops
+                        Contest
                       </a>
                     </p>
                     <a href="#_" className="block">
@@ -168,8 +168,8 @@ const Events = () =>
                   <div className="items-center hidden mt-6 sm:flex">
                     <div className="relative">
                       <p className="text-xs font-medium leading-5 text-gray-500">
-                        <a href="#_" className="hover:underline">Nigeria</a>
-                        <span className="mx-1">·</span><time className="ml-1">July 22, 2022</time>
+                        <a href="#_" className="hover:underline">In Progress</a>
+                        <span className="mx-1">·</span><time className="ml-1">Nov 2021</time>
                       </p>
                     </div>
                   </div>
@@ -195,7 +195,7 @@ const Events = () =>
                   <div className="flex-1">
                     <p className="inline-block py-1 pl-10 pr-4 mb-2 -ml-10 text-xs font-medium leading-5 text-white transform -translate-y-2 bg-indigo-600 rounded">
                       <a href="#_" className="hover:underline" rel="category">
-                        Contest
+                        Workshop
                       </a>
                     </p>
                     {/* <a href="#_" className="block">
@@ -210,58 +210,13 @@ const Events = () =>
                   <div className="items-center hidden mt-6 sm:flex">
                     <div className="relative">
                       <p className="text-xs font-medium leading-5 text-gray-500">
-                        <a href="#_" className="hover:underline">Cameroon</a>
-                        <span className="mx-1">·</span><time className="ml-1">July 21, 2022</time>
+                        <a href="#_" className="hover:underline">Coming Soon</a>
+                        <span className="mx-1">·</span><time className="ml-1">July 2023</time>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-
-
-
-              <div className="flex flex-col flex-shrink-0 w-1/2 overflow-hidden rounded-lg shadow-lg">
-                <div className="flex-shrink-0">
-                  <a href="#_">
-                    <div className="object-cover w-full h-32 sm:h-48">
-                      <Image src={workshop1} layout="responsive" objectFit="cover" width='300' height='200' />
-                      {/* <img  className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-2.jpg" alt=""> */}
-                    </div>
-
-                  </a>
-                </div>
-
-                {/* Up next we have here */}
-                <div className="flex flex-col justify-between flex-1 p-6 bg-white">
-                  <div className="flex-1">
-                    <p className="inline-block py-1 pl-10 pr-4 mb-2 -ml-10 text-xs font-medium leading-5 text-white transform -translate-y-2 bg-indigo-600 rounded">
-                      <a href="#_" className="hover:underline" rel="category">
-                        Contest
-                      </a>
-                    </p>
-                    {/* <a href="#_" className="block">
-                      <span className="mt-2 text-base font-semibold leading-7 text-gray-900 sm:text-xl">
-                        How to build the perfect landing page.
-                      </span>
-                      <span className="block mt-3 text-xs leading-6 text-gray-500 sm:text-sm">
-                        If you want to learn the tips and tricks to building the perfect landing page you&apos;ve got to follow these proven...
-                      </span>
-                    </a> */}
-                  </div>
-                  <div className="items-center hidden mt-6 sm:flex">
-                    <div className="relative">
-                      <p className="text-xs font-medium leading-5 text-gray-500">
-                        <a href="#_" className="hover:underline">Cameroon</a>
-                        <span className="mx-1">·</span><time className="ml-1">July 21, 2022</time>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
             </div>
           </div>
         </div >
@@ -289,7 +244,7 @@ const Events = () =>
                   <svg className="w-3.5 h-3.5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                   <span>Featured</span>
                 </div>
-                <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl"><a href="#_">Past Events and Ignite Experience Workshops</a></h1>
+                <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl"><a href="#_">Past Events and IGNITE Experience Initiatives</a></h1>
               </div>
             </div>
           </div>
