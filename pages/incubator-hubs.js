@@ -180,6 +180,7 @@ return (
                 Donate on our website at www.vijonaafrica.org (select: “Mary’s Design & Tailoring Shop” in the drop down menu).
                 
                 Thank you for your generosity."
+              
               />
               <CardTextt
                 url="https://youtu.be/M-FwUe8UBDE"
