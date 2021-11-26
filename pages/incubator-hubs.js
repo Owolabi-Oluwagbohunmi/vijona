@@ -174,15 +174,16 @@ return (
                 Vijona Africa has adopted Mary’s Workshop as our first Incubator Hub in rural Ghana.
                 We want to raise funds to expand Mary’s workshop and establish a sustainable design and tailoring ecosystem that will enable her to empower more girls in her village.
                 
-                Mary donated her land for this expansion project, and we received seed funds from one of our donors to lay the foundation for the new Workshop facility (see video).
+                Mary donated her land for this expansion project, and we received seed funds from one of our donors to lay the foundation for the new Workshop facility (see video)."
                 
-                All funds raised from this campaign will go towards:
-                - Completing construction of the new Workshop facility
-                - Furnishing the new Workshop facility
-                - Stock required input material for the first year of the new Workshop
-                - Provide relevant Marketing and Entrepreneurial training to Mary and her team to ensure sustainability and continuity of the Workshop
+                moretexthead ="All funds raised from this campaign will go towards:"
+
+                moretext2="- Completing construction of the new Workshop facility"
+                moretext3 ="- Furnishing the new Workshop facility"
+                moretext4="- Stock required input material for the first year of the new Workshop"
+                moretext5="- Provide relevant Marketing and Entrepreneurial training to Mary and her team to ensure sustainability and continuity of the Workshop"
                 
-                Donate on our website at www.vijonaafrica.org (select: “Mary’s Design & Tailoring Shop” in the drop down menu).
+                moretext6 ="Donate on our website at www.vijonaafrica.org (select: “Mary’s Design & Tailoring Shop” in the drop down menu).
                 
                 Thank you for your generosity."
               
@@ -201,21 +202,22 @@ return (
                 
                 We realized over the past couple of years that Awa would execute his projects either in the one room space he lives in with 2 of his siblings, or out on the veranda of someone’s house or have to pay to use a mechanic’s workshop. That along with insufficient funds to purchase adequate material for his projects, hindered his growth and progress.
                 
-                Vijona Africa is partnering with Awa to raise funds to acquire, remodel and equip a workshop space (Incubator Hub) for Awa and many other brilliant young innovators in the community.
+                Vijona Africa is partnering with Awa to raise funds to acquire, remodel and equip a workshop space (Incubator Hub) for Awa and many other brilliant young innovators in the community."
                 
-                Funds from this campaign will go towards
-                - acquisition, remodeling and equipping of a Science and Engineering Incubator Hub in Douala, Cameroon
-                - Year 1 operational costs to help establish a sustainable ecosystem around the Incubator Hub.
+                moretexthead = "Funds from this campaign will go towards"
                 
-                Donate on our website at www.vijonaafrica.org (select: “Awa’s S&E Incubator Hub“ in the drop down menu).
+                moretext2="- acquisition, remodeling and equipping of a Science and Engineering Incubator Hub in Douala, Cameroon"
+                moretext3="- Year 1 operational costs to help establish a sustainable ecosystem around the Incubator Hub."
+                
+                moretext4="Donate on our website at www.vijonaafrica.org (select: “Awa’s S&E Incubator Hub“ in the drop down menu).
                 
                 Thank you for your generosity."
               />
             </div>
           </div>
-          <div className="w-14 absolute ml-20 -right-6 bottom-48  hidden xl:block ">
+          {/* <div className="w-14 absolute ml-20 -right-6 bottom-48  hidden xl:block ">
             <Image src={Green} />
-          </div>
+          </div> */}
         </section>
       </section>
 
