@@ -17,7 +17,7 @@ const Events = () =>
       cloudName: "dbwk2jksa"
     }
   })
-  const contest2 = buildUrl("DSC02100_ktqjdh", {
+  const contest2 = buildUrl("competition_qe9kal", {
     cloud: {
       cloudName: "dbwk2jksa"
     }

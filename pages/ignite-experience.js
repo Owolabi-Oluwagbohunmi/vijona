@@ -69,7 +69,7 @@ const igniteExperience = () =>
               <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Gifted with self discovery <span className="block">Who am I</span></h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
-                <p>1. Innate VALUE; talents, and abilities from birth.Think criically and creatively </p>
+                <p>1. Innate VALUE; talents, and abilities from birth. Think critically and creatively </p>
     
                 <p className="block my-3">2. Lifelong paradigm shift</p>
 
@@ -99,7 +99,7 @@ const igniteExperience = () =>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Enabled to draft life plans</h3>
+              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Enabled to draft occupational life plans</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
                 <p>5. Actionable and SMART goals</p>
@@ -118,7 +118,7 @@ const igniteExperience = () =>
               <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Empowered to achieve their plans</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
-                <p>7. Effective programs, relevant trainings, mentorahip network, and exposure</p>
+                <p>7. Effective programs, relevant trainings, mentorship, network, and exposure</p>
                
 
               </div>
