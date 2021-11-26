@@ -1,14 +1,14 @@
+import Confirmation from "../comps/Confirmation"
 
-import { withRouter } from 'next/router'
 
 
 const confirmation = ({router}) => {
   return (
-    <div>
-      {router.query.headingText}
+    <div className="w-10/12 lg:w-8/12 mx-auto py-28">
+     <Confirmation/>
       
     </div>
   )
 }
 
-export default withRouter(confirmation)
+export default confirmation;
