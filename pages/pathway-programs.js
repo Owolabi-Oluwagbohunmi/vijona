@@ -128,7 +128,7 @@ const pathwayScholarships = () =>
         ImageUrl={purpleppp}
         heading="Young girls and boys across Africa need sponsorship"
         buttonText="Coming Soon"
-        href="/donate"
+        href="/join-us"
         text="You will soon be able to sponsor the occupational life plans of brilliant young Africans. - #Ubuntu"
       />
     </>
