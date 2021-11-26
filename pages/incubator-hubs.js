@@ -28,6 +28,11 @@ const IncubatorHub = () =>
       cloudName: "dbwk2jksa"
     }
   })
+  const hub3 = buildUrl("DSC02090_wtom8f", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
 
 return (
     <>
@@ -90,7 +95,7 @@ return (
                 </div>
 
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
-                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
+                  <Image src={hub3} layout="fill" objectFit="cover" />
                 </div>
               </div>
 
