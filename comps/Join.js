@@ -7,9 +7,16 @@ import { useState } from "react";
 import Donate from "../public/assets/donate.jpeg";
 import donateIcon from "../public/assets/heart.png";
 import volunteerIcon from "../public/assets/help.png";
+import buildUrl from "cloudinary-build-url";
 
 const Join = () => {
   const [showForm, setShowForm] = useState(false);
+
+  const partners = buildUrl("vijonapple_wfoptm",{
+    cloud:{
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <section>
@@ -27,7 +34,7 @@ const Join = () => {
         <div className="relative text-center">
           <div className="mix-blend-overlay pt-24">
             <Image
-              src={Donate}
+              src={partners}
               layout="fill"
               objectFit="cover"
               alt="Kids are running"

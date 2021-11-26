@@ -38,7 +38,7 @@ const pathwayScholarships = () =>
 
         <div className=" bg-black py-32  opacity-60 mx-auto w-full">
           <h1 className=" text-3xl lg:text-6xl font-semibold text-white">
-            Pathway Programs
+            Pathway Program
           </h1>
           {/* <p className="w-10/12 text-sm md:mb-5 md:text-base lg:text-2xl text-v-green font-extrabold">
             Discover, Develop, Deploy
@@ -48,7 +48,7 @@ const pathwayScholarships = () =>
       </div>
 
       <section className="w-full bg-white">
-        <div className="px-10 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-32">
+        <div className="px-10 ml-auto mr-auto max-w-7xl md:px-24 lg:px-12 lg:py-20">
           <div className="grid gap-5 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="flex items-center justify-center w-16 h-16 mb-5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500">
@@ -124,38 +124,11 @@ const pathwayScholarships = () =>
         </div>
 
       </section>
-
-      <section className="px-2 py-20 bg-white md:px-0">
-        <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-          <div className="flex flex-wrap items-center sm:-mx-3">
-            <div className="w-full md:w-1/2 md:px-3">
-              <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-                <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                  <span className="block text-indigo-700 xl:inline">Tell Your Story!</span>
-                </h1>
-                {/* <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">It&apos;s never been easier to take a step. Be the inspiration for tomorrow.</p> */}
-              </div>
-            </div>
-            <div className="w-full md:w-1/2">
-              <div className="w-full h-auto overflow-hidden shadow-xl rounded-2xl">
-                <div className="w-11/12 mt-40 mb-24 xl:w-full mx-auto xl:px-24">
-                  <ReactPlayer
-                    className="rounded-sm mx-auto"
-                    width="100%"
-                    height="400px"
-                    url="https://youtu.be/tUbUXpMipuk"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <Cta
         ImageUrl={purpleppp}
         heading="Young girls and boys across Africa need sponsorship"
         buttonText="Coming Soon"
-        href="/"
+        href="/donate"
         text="You will soon be able to sponsor the occupational life plans of brilliant young Africans. - #Ubuntu"
       />
     </>

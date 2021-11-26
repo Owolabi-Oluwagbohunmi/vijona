@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import PartnerImg from "../public/assets/partner.PNG";
+import Link from "next/link";
 import buildUrl from "cloudinary-build-url";
 
 const Partner = () =>
@@ -31,9 +32,11 @@ const Partner = () =>
           Sponsor the Occupational Life Plan of one young African.
         </p>
 
+        <Link href="/join-us">
         <a className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max">
           Ask How
         </a>
+        </Link>
       </div>
     </section>
   );

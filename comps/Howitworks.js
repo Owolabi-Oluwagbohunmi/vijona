@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Howitworks = () => {
   return (
@@ -11,9 +12,11 @@ const Howitworks = () => {
           Every individual is uniquely talented. We empower you to unleash your
           full potential so you can live your most fulfilled life.
         </p>
+        <Link href="/join-us">
         <a className="shadow-sm px-6 py-3 my-10 block bg-v-black text-white rounded w-max">
           Ask Us How
         </a>
+        </Link>
       </div>
       <div className="w-12/12">
         <div className="w-12/12 flex flex-col lg:flex-row  ">

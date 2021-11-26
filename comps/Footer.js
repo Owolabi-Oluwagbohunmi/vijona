@@ -28,7 +28,7 @@ const Footer = () => {
           <Link href="/events">
             <a className=" my-1">Events</a>
           </Link>
-          <Link href="/contact">
+          <Link href="/join-us">
             <a className=" my-1">Contact</a>
           </Link>
         </div>
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col font-light w-72">
-          <Link href="/join-us"><div className="font-bold py-3">Contacts</div></Link>
+          <Link href="/join-us"><div className="font-bold py-3">Contact</div></Link>
           <div className=" my-1">info@vijonaafrica.org</div>
         </div>
 
