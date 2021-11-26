@@ -6,15 +6,15 @@ export default function (req, res) {
     port: 465,     
     host: "smtp.gmail.com",
        auth: {
-            user: 'adetutuscale@gmail.com',
+            user: 'info@vijonaafrica.org',
             pass: process.env.password,
          },
     secure: true,
   });
   
   const mailData = {
-      from: 'adetutu@gmail.com',
-      to: 'adetutuscale@gmail.com',
+      from: 'info@vijonaafrica.org',
+      to: 'info@vijonaafrica.org',
       subject: `Message From ${req.body.fullname}`,
       text: req.body.message + " | Sent from: " + req.body.email,
       html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`

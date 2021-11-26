@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
           <div></div>
           <div className=" flex flex-row mt-5">
-            <div className="flex flex-row align-center justi">
+            <div className="flex flex-row align-center ">
               <Link href="/join-us">
                 <a className="w-max bg-vijyellow px-4 py-2 font-medium rounded-sm">
                   Ask Us How

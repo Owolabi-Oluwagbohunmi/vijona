@@ -28,7 +28,8 @@ const donate = () => {
           </div>
         </div>
       </section>
-<div className="bg-l-header p-10 w-1/4 mx-auto flex items-center justify-center shadow-sm h-auto" >
+<div className="bg-l-header p-10  mx-auto flex items-center justify-center shadow-sm h-auto" >
+  <div className=" w-3/4 xl:w-2/4 mx-auto">
       <Script
           src="https://donorbox.org/widget.js"
           paypalExpress="false"
@@ -44,6 +45,7 @@ const donate = () => {
           
           width="100%"
         ></iframe>
+        </div>
 </div>
 
     </>
