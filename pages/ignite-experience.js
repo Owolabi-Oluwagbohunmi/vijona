@@ -83,7 +83,7 @@ const igniteExperience = () =>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations What can i do</h3>
+              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations What can I do</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
                 <p>3. Relevant occupations that align with who they are</p>
@@ -140,7 +140,7 @@ const igniteExperience = () =>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">SKiiled Africans for Africa.</h3>
+              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">SKilled Africans for Africa.</h3>
               <p className="text-sm text-gray-500 lg:text-base">Outcome</p>
             </div>
 

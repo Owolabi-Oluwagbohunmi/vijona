@@ -12,15 +12,16 @@ const DropDown = () =>
 
     return (
         <>
-            <ul onClick={handleClick} className={click ? " hidden " : "shadow-2xl w-max absolute  top-18 list-none text-left -mx-4 bg-white rounded-xl"}>
-                <div></div>
+            <ul onClick={handleClick} className={click ? " hidden " : "shadow-2xl w-max absolute  top-18 list-none text-left -mx-4 bg-white rounded-xl z-9999"}>
+                
                 {MenuItemsDD.map((MenuItem, index) => (
-                    <li key={index} className=' rounded bg-v-bg hover:bg-navyellow cursor-pointer  p-4'>
+                    <li key={index} className={'rounded bg-v-black hover:opacity-60 cursor-pointer text-white z-9999" p-4'}>
                         <Link href={MenuItem.path} className=' px-10 block w-full h-full no-underline text-white py-10 ' onClick={()=> setClick(false)} >
                             {MenuItem.title}
                         </Link>
                     </li>
                 ))}
+                
             </ul>
         </>
     );

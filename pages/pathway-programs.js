@@ -15,6 +15,16 @@ const pathwayScholarships = () =>
       cloudName: "dbwk2jksa"
     }
   })
+  const pathway2 = buildUrl("e844b6e3-222d-4434-9daa-e84e4782b7cd_r5rcgj", {
+    cloud:{
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const pathway3 = buildUrl("dd8cf7a7-a3aa-426e-9b56-eb5da1bef15b_pj9bop", {
+    cloud:{
+      cloudName: "dbwk2jksa"
+    }
+  })
   return (
     <>
       <Head>
@@ -85,11 +95,11 @@ const pathwayScholarships = () =>
             <div className="flex justify-center w-full lg:items-center">
               <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
-                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
+                  <Image src={pathway2} layout="fill" objectFit="cover" />
                 </div>
 
-                <div className="object-cover w-full h-full rounded shadow-lg lg:h-32 xl:h-40 lg:w-32 xl:w-40 relative">
-                  <Image src={IgniteOne} layout="fill" objectFit="cover" />
+                <div className="object-cover w-full h-full rounded shadow-lg lg:h-44 xl:h-44 lg:w-32 xl:w-40 relative">
+                  <Image src={pathway3} layout="fill" objectFit="cover" />
                 </div>
               </div>
 
