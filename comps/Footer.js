@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col font-light w-72">
-          <div className="font-bold py-3">Contacts</div>
+          <Link href="/join-us"><div className="font-bold py-3">Contacts</div></Link>
           <div className=" my-1">info@vijonaafrica.org</div>
         </div>
 
