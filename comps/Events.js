@@ -211,7 +211,7 @@ const Events = () =>
                     <div className="relative">
                       <p className="text-xs font-medium leading-5 text-gray-500">
                         <a href="#_" className="hover:underline">Coming Soon</a>
-                        <span className="mx-1">·</span><time className="ml-1">July 2023</time>
+                        <span className="mx-1">·</span><time className="ml-1">July 2022</time>
                       </p>
                     </div>
                   </div>
