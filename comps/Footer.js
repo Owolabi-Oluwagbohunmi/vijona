@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="flex flex-row align-center justi">
               <Link href="/join-us">
                 <a className="w-max bg-vijyellow px-4 py-2 font-medium rounded-sm">
-                  Ask How
+                  Ask Us How
                 </a>
               </Link>
             </div>
