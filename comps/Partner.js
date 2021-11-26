@@ -6,8 +6,8 @@ import buildUrl from "cloudinary-build-url";
 
 const Partner = () =>
 {
-  const rocket =buildUrl("fe78e083a17664d9e116c4fa6ace4f6b_qzvmbm", {
-    cloud:{
+  const rocket = buildUrl("fe78e083a17664d9e116c4fa6ace4f6b_qzvmbm", {
+    cloud: {
       cloudName: "dbwk2jksa"
     }
   })
@@ -32,11 +32,13 @@ const Partner = () =>
           Sponsor the Occupational Life Plan of one young African.
         </p>
 
-        <Link href="/join-us">
-        <a className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max">
-          Ask How
-        </a>
-        </Link>
+
+        <div className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max cursor-pointer">
+          <Link href="join-us">
+            Ask How
+          </Link>
+        </div>
+
       </div>
     </section>
   );

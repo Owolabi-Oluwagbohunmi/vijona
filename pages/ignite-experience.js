@@ -58,7 +58,7 @@ const igniteExperience = () =>
       <section className="pt-20 pb-32 bg-v-brown">
         <div className="px-20 mx-auto max-w-7xl">
           <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Solution</h2>
-          <p className="mb-16 text-lg text-gray-500">Imagine if young africans are equipped early on in life.</p>
+          <p className="mb-16 text-lg text-gray-500">Imagine if young Africans are equipped early on in life.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 lg:gap-20">
             <div>
               <div className="flex items-center justify-center w-12 h-12 mb-4 text-red-600 bg-red-100 rounded-full">
@@ -83,7 +83,7 @@ const igniteExperience = () =>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
               </div>
-              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual Occupations What can I do</h3>
+              <h3 className="mb-2 text-xl font-semibold leading-tight text-gray-900 lg:text-lg">Exposed to contexual occupations What can I do</h3>
               <div className="text-sm text-gray-500 lg:text-base">
 
                 <p>3. Relevant occupations that align with who they are</p>
@@ -104,7 +104,7 @@ const igniteExperience = () =>
 
                 <p>5. Actionable and SMART goals</p>
                 
-                <p className="block my-3">6. Becoming self-advocates of their success</p>
+                <p className="block my-3">6. Become self-advocates of their success</p>
 
               </div>
             </div>
