@@ -32,12 +32,11 @@ const Partner = () =>
           Sponsor the Occupational Life Plan of one young African.
         </p>
 
-
+        <Link href="/join-us">
         <div className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max cursor-pointer">
-          <Link href="join-us">
-            Ask How
-          </Link>
+            Ask Us How
         </div>
+        </Link>
 
       </div>
     </section>

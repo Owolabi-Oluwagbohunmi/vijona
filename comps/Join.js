@@ -33,9 +33,9 @@ const Join = () =>
 
           <div className=" bg-black py-72  opacity-60 mx-auto w-full text-white">
             <h1 className=" text-6xl font-semibold text-white capitalize my-5">
-              Join us in actualizing this great feat
+              Join Us In Actualizing This Great Vision
             </h1>
-            <p className="text-xl block">We appreciate your generous heart</p>
+            <p className="text-xl block">#UBUNTU - I am because we are </p>
           </div>
         </div>
       </section>
