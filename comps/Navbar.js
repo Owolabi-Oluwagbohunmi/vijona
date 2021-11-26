@@ -87,9 +87,9 @@ const Navbar = () =>
 
         <div className={click ? "absolute top-48 bg-black w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0 z-9999" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
           <div className="grid grid-cols-3 space-x-3 mx-auto">
-            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><FaTwitter /></Link>
-            <Link href="https://www.instagram.com/vijonaafrica/" className="cursor-pointer"><FaInstagram /></Link>
-            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><FaFacebook /></Link>
+            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><FaTwitter className="cursor-pointer"/></Link>
+            <Link href="https://www.instagram.com/vijonaafrica/" className="cursor-pointer"><FaInstagram className="cursor-pointer"/></Link>
+            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><FaFacebook className="cursor-pointer" /></Link>
           </div>
 
           <div className={click ? "grid grid-cols-2 gap-1 w-8/10 pt-8" : "grid grid-cols-2 gap-1 w-full"}>
