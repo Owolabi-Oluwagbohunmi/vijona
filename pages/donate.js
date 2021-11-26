@@ -3,6 +3,7 @@ import Script from "next/script";
 import Donate from "../public/assets/donate.jpeg";
 import Image from "next/image";
 
+
 const donate = () => {
   return (
     <>
@@ -45,6 +46,7 @@ const donate = () => {
         ></iframe>
 
 </div>
+
     </>
   );
 };
