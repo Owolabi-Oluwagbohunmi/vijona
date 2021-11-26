@@ -38,7 +38,7 @@ const Form = () => {
           pathname: '/confirmation',
           query: { headingText: "Thanks! Your message was sent.", text: "I will get back to you really soon!" },
         })
-        setButtonText("Send");
+        setBtnText("Send");
         setSubmitted(true);
         setFullname("");
         setEmail("");
