@@ -31,7 +31,7 @@ const Join = () =>
             ></Image>
           </div>
 
-          <div className=" bg-black py-64  opacity-60 mx-auto w-full text-white">
+          <div className=" bg-black py-72  opacity-60 mx-auto w-full text-white">
             <h1 className=" text-6xl font-semibold text-white capitalize my-5">
               Join us in actualizing this great feat
             </h1>
