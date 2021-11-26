@@ -165,16 +165,16 @@ return (
                 leadText="Expand & Equip Mary’s Design & Tailoring Shop for girls in her Village"
                 paraText="Vijona Africa is partnering with Mary, a resident of a rural township in the Ashanti Region of Ghana called Drobonso to raise funds to expand her workshop so she can realize her dream of empowering helpless young girls in her village"
                 moreText="This is Mary’s story
-                Mary grew up poor, got pregnant at a young age, felt helpless most of her teenage into young adult years, but refused to let her humble background kill her go-getter spirit. She sold small relevant items around her village to raise capital to put herself through tailoring school in a nearby city. 
+                Mary grew up poor, got pregnant at a young age, felt helpless most of her teenage into young adult years, but refused to let her humble background kill her go-getter spirit. She sold small relevant items around her village to raise capital to put herself through tailoring school in a nearby city." 
                 
-                The selfless and impactful part about Mary’s story is that after her design and tailoring training in the city, she choose to return back to her village to start a tailoring workshop, so that other girls from similar backgrounds like her could make something of their lives.
+                testament1="The selfless and impactful part about Mary’s story is that after her design and tailoring training in the city, she choose to return back to her village to start a tailoring workshop, so that other girls from similar backgrounds like her could make something of their lives."
                 
-                Mary Launched her tailoring and design workshop (Sweet Mary Fashion Design) in a small wood box fixture (see video), and has been empowering young girls in her village for a few years now, training them not only in tailoring and design but also literacy and survival skills.
+                testament2="Mary Launched her tailoring and design workshop (Sweet Mary Fashion Design) in a small wood box fixture (see video), and has been empowering young girls in her village for a few years now, training them not only in tailoring and design but also literacy and survival skills."
                 
-                Vijona Africa has adopted Mary’s Workshop as our first Incubator Hub in rural Ghana.
-                We want to raise funds to expand Mary’s workshop and establish a sustainable design and tailoring ecosystem that will enable her to empower more girls in her village.
+                testament3="Vijona Africa has adopted Mary’s Workshop as our first Incubator Hub in rural Ghana."
+                testament4="We want to raise funds to expand Mary’s workshop and establish a sustainable design and tailoring ecosystem that will enable her to empower more girls in her village."
                 
-                Mary donated her land for this expansion project, and we received seed funds from one of our donors to lay the foundation for the new Workshop facility (see video)."
+                testament5="Mary donated her land for this expansion project, and we received seed funds from one of our donors to lay the foundation for the new Workshop facility (see video)."
                 
                 moretexthead ="All funds raised from this campaign will go towards:"
 
@@ -192,17 +192,17 @@ return (
                 url="https://youtu.be/M-FwUe8UBDE"
                 leadText="Science & Technology Hub for Innovative young IDPs in Cameroon"
                 paraText="Awa Blaise Chi is an 18 years old Internally Displaced Person (IDP) by the Anglophone crisis in Cameroon from the North to the commercial capital of Douala. He a genius in our opinion, with innovative ideas that are bound to enhance our human existence."
-                moreText="Awa started building and creating at the age of 7 and does not let his underprivileged background stifle his passion and vision. He lost a few years of school during the anglophone crisis, but he kept his passion for engineering alive throughout.
+                moreText="Awa started building and creating at the age of 7 and does not let his underprivileged background stifle his passion and vision. He lost a few years of school during the anglophone crisis, but he kept his passion for engineering alive throughout."
 
-                Awa’s brain is not adequately challenged at school, so he execute multiple after-school innovative project around his community. He has slowly assumed a leadership role amongst his mates, who join him on some of these innovative projects to develop their skills too.
+                testament1="Awa’s brain is not adequately challenged at school, so he execute multiple after-school innovative project around his community. He has slowly assumed a leadership role amongst his mates, who join him on some of these innovative projects to develop their skills too."
                 
-                See a few of the innovative projects he has worked on in the past in the video above.
+                testament2="See a few of the innovative projects he has worked on in the past in the video above."
                 
-                Vijona Africa empowered Awa in the past via our Pathway Sponsorship program. We paired him with a sponsor who was able to get him his first ever laptop and monthly stipends to go towards some material purchase for his innovative after-school projects.
+                testament3="Vijona Africa empowered Awa in the past via our Pathway Sponsorship program. We paired him with a sponsor who was able to get him his first ever laptop and monthly stipends to go towards some material purchase for his innovative after-school projects."
                 
-                We realized over the past couple of years that Awa would execute his projects either in the one room space he lives in with 2 of his siblings, or out on the veranda of someone’s house or have to pay to use a mechanic’s workshop. That along with insufficient funds to purchase adequate material for his projects, hindered his growth and progress.
+                testament4="We realized over the past couple of years that Awa would execute his projects either in the one room space he lives in with 2 of his siblings, or out on the veranda of someone’s house or have to pay to use a mechanic’s workshop. That along with insufficient funds to purchase adequate material for his projects, hindered his growth and progress."
                 
-                Vijona Africa is partnering with Awa to raise funds to acquire, remodel and equip a workshop space (Incubator Hub) for Awa and many other brilliant young innovators in the community."
+                testament5="Vijona Africa is partnering with Awa to raise funds to acquire, remodel and equip a workshop space (Incubator Hub) for Awa and many other brilliant young innovators in the community."
                 
                 moretexthead = "Funds from this campaign will go towards"
                 

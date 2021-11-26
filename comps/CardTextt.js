@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import ReactPlayer from "react-player";
 
-const CardTextt = ({ url, leadText, paraText, moreText, moretexthead, moretext2, moretext3, moretext4 }) => {
+const CardTextt = ({ url, leadText, paraText, moreText,testament1,testament2,testament3,testament4,testament5, moretexthead, moretext2, moretext3, moretext4 }) => {
   const [showMoreTextt, setShowMoreTextt] = useState(false);
 
   const handleShowMore = () => {
@@ -36,6 +36,16 @@ const CardTextt = ({ url, leadText, paraText, moreText, moretexthead, moretext2,
         {showMoreTextt && (
           <div>
             <p>{moreText}</p>
+            <br />
+            <p>{testament1}</p>
+            <br />
+            <p>{testament2}</p>
+            <br />
+            <p>{testament3}</p>
+            <br />
+            <p>{testament4}</p>
+            <br />
+            <p>{testament5}</p>
             <br />
             <p>{moretexthead}</p>
             <br />
