@@ -6,14 +6,14 @@ export default function (req, res) {
     port: 465,     
     host: "smtp.gmail.com",
        auth: {
-            user: 'info@vijonaafrica.org',
+            user: 'vijonaafrica@gmail.com',
             pass: process.env.password,
          },
     secure: true,
   });
   
   const mailData = {
-      from: 'info@vijonaafrica.org',
+      from: 'vijonaafrica@gmail.com',
       to: 'info@vijonaafrica.org',
       subject: `Message From ${req.body.fullname}`,
       text: req.body.message + " | Sent from: " + req.body.email,
@@ -24,7 +24,7 @@ export default function (req, res) {
       if(err)
         console.log(err)
       else
-        console.log(info);
+        console.log("welcome");
   })
 
   console.log(req.body)

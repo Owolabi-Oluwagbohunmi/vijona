@@ -13,9 +13,9 @@ const Partner = () =>
   })
   return (
     <section className="w-10/12 mx-auto pt-10 pb-10 relative">
-      <div className=" mix-blend-overlay">
+      {/* <div className=" mix-blend-overlay">
         <Image src={rocket} layout="fill" objectFit="cover" alt="a boy building an airplane"></Image>
-      </div>
+      </div> */}
 
       <div className="">
         <h3 className="text-sectionhead font-semibold py-5 text-center">
@@ -32,11 +32,15 @@ const Partner = () =>
           Sponsor the Occupational Life Plan of one young African.
         </p>
 
-        <Link href="/join-us">
-        <div className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max cursor-pointer">
-            Ask Us How
-        </div>
-        </Link>
+
+        <p className="shadow-sm mx-auto px-10 py-4 my-5 block bg-v-green text-white rounded w-max cursor-pointer">
+          <Link href="/join-us">
+            <a>
+              Ask Us How
+            </a>
+          </Link>
+        </p>
+
 
       </div>
     </section>
