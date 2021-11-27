@@ -79,8 +79,8 @@ const Navbar = () =>
           </Link>
         </ul>
 
-        <div className="xl:justify-self-center">
-          <Link href="/" className="cursor-pointer">
+        <div className="xl:justify-self-center cursor-pointer">
+          <Link href="/" >
             <Image src={logocdn} width="112" height="30" alt="vijona africa logo" />
           </Link>
         </div>
