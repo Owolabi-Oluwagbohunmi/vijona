@@ -19,6 +19,7 @@ const whoweare = () =>
 
       <Head>
         <title>Vijona | Who we are</title>
+        <meta name="description" content="EVERYONE... rich or poor, girl or boy, in school or not in school is born with unique innate VALUE; talents and ..." />
       </Head>
 
       <div className="relative text-center">

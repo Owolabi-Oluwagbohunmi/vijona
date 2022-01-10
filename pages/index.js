@@ -5,15 +5,18 @@ import Hero from "../comps/Hero";
 import Howitworks from "../comps/Howitworks";
 import Partner from "../comps/Partner";
 import Pledge from "../comps/Pledge";
+import icon from "../public/vij_logo.ico"
 import styles from "../styles/Home.module.css";
-
+ 
 export default function Home()
 {
   return (
     <>
       <Head>
         <title>Vijona | Home</title>
+        <meta name="description" content="Convert your UNIQUE innate talents and abilities into marketable solutions and services for your..." />
       </Head>
+
       <div className="font-openSans h-max">
         <Hero />
       </div>
