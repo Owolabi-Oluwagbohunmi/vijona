@@ -5,6 +5,11 @@ import Header from "../comps/Header";
 const privacy = () => {
   return (
     <>
+    <Head>
+        <title>Vijona | Privacy Policy</title>
+        <meta name="description" content="Vijona Africa is committed to protecting our donors’ privacy. Our donors expect " />
+        <meta httpEquiv='content-language' content='en' />
+      </Head>
       <Header mainText="Privacy Policy" />
       <section className="w-10/12 lg:w-8/12 mx-auto my-28">
       <div className="my-10">

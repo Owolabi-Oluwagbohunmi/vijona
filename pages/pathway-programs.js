@@ -29,6 +29,8 @@ const pathwayScholarships = () =>
     <>
       <Head>
         <title>Vijona | Pathway-Programs</title>
+        <meta name="description" content="Our Pathway Scholarship Program is unique in that it is ‘DEMAND’ based (driven by innate talents and abilities of each individual)." />
+        <meta httpEquiv='content-language' content='en' />
       </Head>
 
       <div className="relative text-center">
@@ -95,16 +97,16 @@ const pathwayScholarships = () =>
             <div className="flex justify-center w-full lg:items-center">
               <div className="flex flex-row items-end pr-3">
                 <div className="object-cover w-full h-full mb-6 rounded shadow-lg lg:h-48 xl:h-56 lg:w-48 xl:w-56 relative">
-                  <Image src={pathway2} layout="fill" objectFit="cover" />
+                  <Image src={pathway2} layout="fill" objectFit="cover" alt=""/>
                 </div>
 
                 <div className="object-cover w-full h-full rounded shadow-lg lg:h-44 xl:h-44 lg:w-32 xl:w-40 relative">
-                  <Image src={pathway3} layout="fill" objectFit="cover" />
+                  <Image src={pathway3} layout="fill" objectFit="cover" alt="" />
                 </div>
               </div>
 
               <div className="object-cover w-full h-full rounded shadow-lg lg:h-64 xl:h-80 lg:w-64 xl:w-80 relative">
-                <Image src={pathway} layout="fill" objectFit="cover" />
+                <Image src={pathway} layout="fill" objectFit="cover" alt=""/>
               </div>
             </div>
           </div>

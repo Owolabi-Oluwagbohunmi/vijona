@@ -4,6 +4,11 @@ import Header from "../comps/Header";
 const legal = () => {
   return (
     <>
+    <Head>
+        <title>Vijona | Legal Notice</title>
+        <meta name="description" content="Vijona Africa is a non-profit organization whose non-profit status is recognized by the California tax office, USA. Its current exemption certificate can be viewed here (in English)." />
+        <meta httpEquiv='content-language' content='en' />
+      </Head>
       <Header mainText="Legal Notice(Imprint)" />
       <section className="w-10/12 lg:w-8/12 mx-auto my-28">
         <div className="my-10">

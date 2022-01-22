@@ -183,7 +183,7 @@ const Events = () =>
                 <div className="flex-shrink-0">
                   <a href="#_">
                     <div className="object-cover w-full h-32 sm:h-48">
-                      <Image src={workshop1} layout="responsive" objectFit="cover" width='300' height='200' />
+                      <Image src={workshop1} layout="responsive" objectFit="cover" width='300' height='200' alt=""/>
                       {/* <img  className="object-cover w-full h-32 sm:h-48" src="https://cdn.devdojo.com/images/march2021/slide-2.jpg" alt=""> */}
                     </div>
 
