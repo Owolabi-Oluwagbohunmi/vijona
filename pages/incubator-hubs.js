@@ -38,6 +38,8 @@ return (
     <>
       <Head>
         <title>Vijona | Incubator Hubs</title>
+        <meta name="description" content="We encounter brilliant young Africans with innovative inventions and solutions..." />
+        <meta httpEquiv='content-language' content='en' />
       </Head>
 
       <div className="relative">

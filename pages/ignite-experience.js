@@ -22,6 +22,8 @@ const igniteExperience = () =>
     <>
       <Head>
         <title>Vijona | IGNITE Experience</title>
+        <meta name="description" content="A self-discovery and occupation envisioning journey" />
+        <meta httpEquiv='content-language' content='en' />
       </Head>
 
       <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen">

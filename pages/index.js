@@ -14,7 +14,7 @@ export default function Home()
       <Head>
         <title>Vijona Africa | Home</title>
         <meta name="description" content="Convert your UNIQUE innate talents and abilities into marketable solutions and services for your..." />
-        <meta http-equiv='content-language' content='en' />
+        <meta httpEquiv='content-language' content='en' />
       </Head>
 
       <div className="font-openSans h-max">
