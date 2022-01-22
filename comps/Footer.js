@@ -91,7 +91,7 @@ const Footer = () =>
           <div className="font-bold">Follow Us</div>
 
           <Link href='https://www.twitter.com/VijonaAfrica'>
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <div className=" cursor-pointer pt-1.5">
                 <svg
                   width="21"
@@ -110,7 +110,7 @@ const Footer = () =>
           </Link>
 
           <Link href="https://www.instagram.com/vijonaafrica/">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <div className="pt-1 cursor-pointer">
                 <svg
                   fill="#ffffff"
@@ -126,7 +126,7 @@ const Footer = () =>
           </Link>
 
           <Link href="https://www.facebook.com/VijonaAfrica/">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <div className="pt-1.5 cursor-pointer">
                 <svg
                   width="8"
@@ -145,7 +145,7 @@ const Footer = () =>
           </Link>
 
           <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
             <div className=" cursor-pointer">
               <svg
                 fill="#ffffff"

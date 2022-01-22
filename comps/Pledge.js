@@ -77,7 +77,7 @@ const Pledge = () =>
             Yes YOU! Join the movement! Take the pledge …
             and act on it.
           </p>
-          <a className=" bg-v-green text-white p-3 rounded-lg w-max text-xs">Take the Vijona Africa community pledge</a>
+          <a className=" bg-v-green text-white p-3 rounded-lg w-max text-xs" href="#">Take the Vijona Africa community pledge</a>
         </div>
       </div>
     </section>

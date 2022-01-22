@@ -87,10 +87,10 @@ const Navbar = () =>
 
         <div className={click ? "absolute top-48 bg-black w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0 z-9999" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
           <div className="grid grid-cols-4 space-x-3 mx-auto">
-            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><a target="_blank"><FaTwitter className="cursor-pointer"/></a></Link>
-            <Link href="https://www.instagram.com/vijonaafrica/" className="cursor-pointer"><a target="_blank"><FaInstagram className="cursor-pointer"/></a></Link>
-            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><a target="_blank"><FaFacebook className="cursor-pointer" /></a></Link>
-            <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA" className="cursor-pointer"><a target="_blank"><FaYoutube /></a></Link>
+            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><a target="_blank" rel="noopener"><FaTwitter className="cursor-pointer"/></a></Link>
+            <Link href="https://www.instagram.com/vijonaafrica/" rel="noopener" className="cursor-pointer"><a target="_blank" rel="noopener"><FaInstagram className="cursor-pointer"/></a></Link>
+            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><a target="_blank" rel="noopener"><FaFacebook className="cursor-pointer" /></a></Link>
+            <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA"   className="cursor-pointer"><a target="_blank" rel="noopener"><FaYoutube /></a></Link>
           </div>
 
           <div className={click ? "grid grid-cols-2 gap-1 w-8/10 pt-8" : "grid grid-cols-2 gap-1 w-full"}>
