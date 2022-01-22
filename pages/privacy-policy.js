@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import React from "react";
 import Header from "../comps/Header";
 
