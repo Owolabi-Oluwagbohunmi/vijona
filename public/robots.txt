@@ -1,0 +1,7 @@
+# Block all crawlers for /join-us
+User-agent: *
+Disallow: /join-us
+
+# Allow all crawlers
+User-agent: *
+Allow: /
