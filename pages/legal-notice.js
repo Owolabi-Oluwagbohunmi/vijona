@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/head";gi
+import Head from "next/head";
 import Header from "../comps/Header";
 
 const legal = () => {
