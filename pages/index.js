@@ -12,9 +12,12 @@ export default function Home()
   return (
     <>
       <Head>
-        <title>Vijona Africa | Home</title>
-        <meta name="description" content="Convert your UNIQUE innate talents and abilities into marketable solutions and services for your..." />
+        <title>A Non-Profit Organisation (NGO) for Africa. Assuring The Talents of The Future."</title>
+        <meta name="description" content="Vijona Africa is an African-American Non-Profit Organisation(NGO) that grooms young Africans leaders through its' three step program." />
+        <meta name="robots" content="index follow" />
+        <meta charset="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <div className="font-openSans h-max">

@@ -17,10 +17,13 @@ const whoweare = () =>
   return (
     <div className="pt-24">
 
-      <Head>
-        <title>Vijona | Who we are</title>
-        <meta name="description" content="EVERYONE... rich or poor, girl or boy, in school or not in school is born with unique innate VALUE; talents and ..." />
+      <Head>      
+        <title>Unlocking and Maximizing Innate Talents</title>
+        <meta name="description" content="Vijona Africa was founded to help change the narrative for young Africans, to show in/out-of-school children the innate VALUE (talents and abilities) they already possess and create pathways for them to use that value to become self-sufficient via formal or non-formal learning paths" />
+        <meta name="robots" content="index no-follow" />
+        <meta charset="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <div className="relative text-center">
