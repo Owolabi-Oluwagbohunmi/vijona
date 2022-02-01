@@ -2,11 +2,21 @@ import React from "react";
 import Script from "next/script";
 import Donate from "../public/assets/donate.jpeg";
 import Image from "next/image";
+import Head from "next/head";
 
 
 const donate = () => {
   return (
     <>
+      <Head>
+        <title>Donate | Change a life</title>
+        <meta name="description" content="$1 can secure the future." />
+        <meta name="robots" content="index nofollow" />
+        <meta charset="UTF-8"></meta>
+        <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </Head>
+
       <section className=" pt-20 ">
       <div className="relative text-center">
           <div className="mix-blend-overlay">

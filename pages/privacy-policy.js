@@ -10,6 +10,10 @@ const privacy = () => {
         <title>Vijona | Privacy Policy</title>
         <meta name="description" content="Vijona Africa is committed to protecting our donors’ privacy. Our donors expect " />
         <meta httpEquiv='content-language' content='en' />
+        <meta name="robots" content="noindex nofollow" />
+        <meta charset="UTF-8"></meta>
+        <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <Header mainText="Privacy Policy" />
       <section className="w-10/12 lg:w-8/12 mx-auto my-28">

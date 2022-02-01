@@ -28,9 +28,13 @@ const pathwayScholarships = () =>
   return (
     <>
       <Head>
-        <title>Vijona | Pathway-Programs</title>
+        <title>Pathway Programs | Giving Scholarship recipients a chance to earn a living in a relevant Occupation</title>
         <meta name="description" content="Our Pathway Scholarship Program is unique in that it is ‘DEMAND’ based (driven by innate talents and abilities of each individual)." />
         <meta httpEquiv='content-language' content='en' />
+        <meta name="robots" content="index nofollow" />
+        <meta charset="UTF-8"></meta>
+        <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <div className="relative text-center">

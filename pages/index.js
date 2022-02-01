@@ -12,8 +12,8 @@ export default function Home()
   return (
     <>
       <Head>
-        <title>A Non-Profit Organisation (NGO) for Africa. Assuring The Talents of The Future."</title>
-        <meta name="description" content="Vijona Africa is an African-American Non-Profit Organisation(NGO) that grooms young Africans leaders through its' three step program." />
+        <title>Vijona Africa | Home to “Tomorrows future leaders"</title>
+        <meta name="description" content="Vijona Africa is an African-American Non-Profit Organisation(NGO) that grooms young African leaders" />
         <meta name="robots" content="index follow" />
         <meta charset="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />

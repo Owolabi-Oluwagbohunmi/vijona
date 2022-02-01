@@ -37,9 +37,13 @@ const IncubatorHub = () =>
 return (
     <>
       <Head>
-        <title>Vijona | Incubator Hubs</title>
+        <title>Incubator Hubs | Empowering Young Innovators</title>
         <meta name="description" content="We encounter brilliant young Africans with innovative inventions and solutions..." />
         <meta httpEquiv='content-language' content='en' />
+        <meta name="robots" content="index nofollow" />
+        <meta charset="UTF-8"></meta>
+        <meta httpEquiv='content-language' content='en' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <div className="relative">
