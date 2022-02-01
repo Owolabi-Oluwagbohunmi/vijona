@@ -58,7 +58,7 @@ const pathwayScholarships = () =>
               </div>
               <div className="max-w-xl mb-6">
                 <div className="mb-6">
-                  <p className="inline font-sans font-bold tracking-tight text-gray-900 text-6xl sm:leading-none">Our Pathwhay </p>
+                  <p className="inline font-sans font-bold tracking-tight text-gray-900 text-6xl sm:leading-none">Our Pathway </p>
                   <p className="block font-sans font-bold tracking-tight text-purple-700 text-6xl sm:leading-none">Scholarships.</p>
                 </div>
                 <p className="text-primary text-gray-700 text-justify pb-3">
