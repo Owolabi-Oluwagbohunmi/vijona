@@ -15,7 +15,7 @@ export default function Home()
         <title>Vijona Africa | Home to “Tomorrows future leaders"</title>
         <meta name="description" content="Vijona Africa is an African-American Non-Profit Organisation(NGO) that grooms young African leaders" />
         <meta name="robots" content="index follow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>

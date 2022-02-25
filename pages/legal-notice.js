@@ -10,7 +10,7 @@ const legal = () => {
         <meta name="description" content="Vijona Africa is a non-profit organization whose non-profit status is recognized by the California tax office, USA. Its current exemption certificate can be viewed here (in English)." />
         <meta httpEquiv='content-language' content='en' />
         <meta name="robots" content="noindex nofollow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>

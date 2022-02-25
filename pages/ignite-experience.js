@@ -24,7 +24,7 @@ const igniteExperience = () =>
         <title>IGNITE Experience | Self-Discovery</title>
         <meta name="description" content="A self-discovery and occupation envisioning journey" />
         <meta name="robots" content="index nofollow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>

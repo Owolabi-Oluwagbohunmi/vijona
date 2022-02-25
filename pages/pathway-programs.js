@@ -32,7 +32,7 @@ const pathwayScholarships = () =>
         <meta name="description" content="Our Pathway Scholarship Program is unique in that it is ‘DEMAND’ based (driven by innate talents and abilities of each individual)." />
         <meta httpEquiv='content-language' content='en' />
         <meta name="robots" content="index nofollow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>

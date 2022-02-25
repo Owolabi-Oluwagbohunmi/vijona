@@ -41,7 +41,7 @@ return (
         <meta name="description" content="We encounter brilliant young Africans with innovative inventions and solutions..." />
         <meta httpEquiv='content-language' content='en' />
         <meta name="robots" content="index nofollow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>

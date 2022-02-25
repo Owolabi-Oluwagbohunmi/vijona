@@ -21,7 +21,7 @@ const whoweare = () =>
         <title>Who We Are | Unlocking and Maximizing Innate Talents</title>
         <meta name="description" content="Vijona Africa was founded to help change the narrative for young Africans, to show in/out-of-school children the innate VALUE (talents and abilities) they already possess and create pathways for them to use that value to become self-sufficient via formal or non-formal learning paths" />
         <meta name="robots" content="index follow" />
-        <meta charset="UTF-8"></meta>
+        <meta charSet="UTF-8"></meta>
         <meta httpEquiv='content-language' content='en' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
