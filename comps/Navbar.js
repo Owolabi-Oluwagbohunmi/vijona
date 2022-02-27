@@ -1,27 +1,36 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import Link from "next/link";
-import { FaAlignJustify, FaTimesCircle, FaCaretDown, FaInstagram, FaTwitter, FaFacebook, FaYoutube } from "react-icons/fa";
-import { buildUrl } from 'cloudinary-build-url'
+import {
+  FaAlignJustify,
+  FaTimesCircle,
+  FaCaretDown,
+  FaInstagram,
+  FaTwitter,
+  FaFacebook,
+  FaYoutube,
+} from "react-icons/fa";
+import { buildUrl } from "cloudinary-build-url";
 import DropDown from "./DropDown";
 
-
-const Navbar = () =>
-{
+const Navbar = () => {
   const logo = buildUrl("vijona-black_q6q0wc", {
     cloud: {
-      cloudName: 'dbwk2jksa'
-    }
-  })
+      cloudName: "dbwk2jksa",
+    },
+  });
 
-  const [click, setClick] = useState(false)
-  const [dropdown, setDropDown] = useState(false)
+  const router = useRouter();
 
-  const handleClick = () => setClick(!click)
-  const closeMobileMenu = () => setClick(false)
+  const [click, setClick] = useState(false);
+  const [pathName, setPathName] = useState('');
+  const [dropdown, setDropDown] = useState(false);
 
-  const onMouseEnter = () =>
-  {
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const onMouseEnter = () => {
     if (window.innerWidth < 1270) {
       setDropDown(true);
     } else {
@@ -29,8 +38,7 @@ const Navbar = () =>
     }
   };
 
-  const onMouseLeave = () =>
-  {
+  const onMouseLeave = () => {
     if (window.innerWidth < 1270) {
       setDropDown(false);
     } else {
@@ -38,31 +46,57 @@ const Navbar = () =>
     }
   };
 
-  useEffect(() =>
-  {
-    window.addEventListener('resize', () =>
-    {
-      setClick(false)
-      console.log('page refresh')
-    })
-  }, [])
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setClick(false);
+      setPathName(router.pathname);
+     
+    });
+  }, []);
+
+  console.log("current path",router.pathname)
+
+  
 
   const logocdn = buildUrl("vijona_2_ua4dlr", {
     cloud: {
-      cloudName: "dbwk2jksa"
-    }
-  })
-
+      cloudName: "dbwk2jksa",
+    },
+  });
 
   return (
-    <div className="bg-white w-full h-24 fixed grid grid-cols-1 items-center min-w-max z-9999 ">
-      <nav className={click ? "relative bg-black opacity-90 w-7/12 h-screen justify-items-center items-center" : "w-10/12 mx-auto grid grid-cols-2 justify-items-start items-center xl:grid-cols-3"}>
-        <ul className={click ? " absolute top-24 pl-6 text-white grid grid-cols-1 gap-10 z-9999 justify-self-center pt-60 w-full" : "hidden xl:grid xl:grid-cols-3 xl:space-x-0 xl:gap-1 xl:w-full"}>
+    <div
+      className={`bg-white w-full h-24 fixed grid grid-cols-1 items-center min-w-max z-9999 `}
+    >
+      <nav
+        className={
+          click
+            ? "relative bg-black opacity-90 w-7/12 h-screen justify-items-center items-center"
+            : "w-10/12 mx-auto grid grid-cols-2 justify-items-start items-center xl:grid-cols-3"
+        }
+      >
+        <ul
+          className={
+            click
+              ? " absolute top-24 pl-6 text-white grid grid-cols-1 gap-10 z-9999 justify-self-center pt-60 w-full"
+              : "hidden xl:grid xl:grid-cols-3 xl:space-x-0 xl:gap-1 xl:w-full"
+          }
+        >
           <Link href="/who-we-are">
-            <li className="cursor-pointer" onClick={closeMobileMenu}>Who we are</li>
+            <li className="cursor-pointer" onClick={closeMobileMenu}>
+              Who we are
+            </li>
           </Link>
 
-          <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={click ? "cursor-pointer text-center " : "cursor-pointer text-center w-full"}>
+          <div
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+            className={
+              click
+                ? "cursor-pointer text-center "
+                : "cursor-pointer text-center w-full"
+            }
+          >
             <Link href="/ignite-experience">
               <div className="flex flex-row tex" onClick={closeMobileMenu}>
                 <li className="cursor-pointer">What we do</li>
@@ -70,49 +104,102 @@ const Navbar = () =>
               </div>
             </Link>
 
-            {dropdown && (<DropDown mobilemenu={closeMobileMenu} />)}
+            {dropdown && <DropDown mobilemenu={closeMobileMenu} />}
           </div>
 
-
           <Link href="/events">
-            <li className="cursor-pointer" onClick={closeMobileMenu}>Events</li>
+            <li className="cursor-pointer" onClick={closeMobileMenu}>
+              Events
+            </li>
           </Link>
         </ul>
 
         <div className="xl:justify-self-center cursor-pointer">
-          <Link href="/" >
-            <Image src={logocdn} width="112" height="30" alt="vijona africa logo" />
+          <Link href="/">
+            <Image
+              src={logocdn}
+              width="112"
+              height="30"
+              alt="vijona africa logo"
+            />
           </Link>
         </div>
 
-        <div className={click ? "absolute top-48 bg-black w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0 z-9999" : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"}>
+        <div
+          className={
+            click
+              ? "absolute top-48 bg-black w-full h-open-menu text-white grid -grid-cols-1 justify-items-center items-center gap-0 z-9999"
+              : "hidden xl:flex xl:flex-col xl:justify-self-end xl:gap-2"
+          }
+        >
           <div className="grid grid-cols-4 space-x-3 mx-auto">
-            <Link href="https://www.twitter.com/VijonaAfrica" className="cursor-pointer"><a target="_blank" rel="noopener"><FaTwitter className="cursor-pointer"/></a></Link>
-            <Link href="https://www.instagram.com/vijonaafrica/" rel="noopener" className="cursor-pointer"><a target="_blank" rel="noopener"><FaInstagram className="cursor-pointer"/></a></Link>
-            <Link href="https://www.facebook.com/VijonaAfrica/" className="cursor-pointer"><a target="_blank" rel="noopener"><FaFacebook className="cursor-pointer" /></a></Link>
-            <Link href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA"   className="cursor-pointer"><a target="_blank" rel="noopener"><FaYoutube /></a></Link>
+            <Link
+              href="https://www.twitter.com/VijonaAfrica"
+              className="cursor-pointer"
+            >
+              <a target="_blank" rel="noopener">
+                <FaTwitter className="cursor-pointer" />
+              </a>
+            </Link>
+            <Link
+              href="https://www.instagram.com/vijonaafrica/"
+              rel="noopener"
+              className="cursor-pointer"
+            >
+              <a target="_blank" rel="noopener">
+                <FaInstagram className="cursor-pointer" />
+              </a>
+            </Link>
+            <Link
+              href="https://www.facebook.com/VijonaAfrica/"
+              className="cursor-pointer"
+            >
+              <a target="_blank" rel="noopener">
+                <FaFacebook className="cursor-pointer" />
+              </a>
+            </Link>
+            <Link
+              href="https://www.youtube.com/channel/UCKOY7iXPT4x1VjZXgqUeLFA"
+              className="cursor-pointer"
+            >
+              <a target="_blank" rel="noopener">
+                <FaYoutube />
+              </a>
+            </Link>
           </div>
 
-          <div className={click ? "grid grid-cols-2 gap-1 w-8/10 pt-8" : "grid grid-cols-2 gap-1 w-full"}>
+          <div
+            className={
+              click
+                ? "grid grid-cols-2 gap-1 w-8/10 pt-8"
+                : "grid grid-cols-2 gap-1 w-full"
+            }
+          >
             <Link href="donate">
-              <button className='px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md'>
+              <button className="px-2 py-2 bg-v-yellow text-white text-2x1 rounded-md">
                 Donate
               </button>
             </Link>
-            <Link href="/join-us" >
-              <button className='px-2 py-2 w-max bg-v-black text-white text-2x1 rounded-md'>Partner With Us</button>
+            <Link href="/join-us">
+              <button className="px-2 py-2 w-max bg-v-black text-white text-2x1 rounded-md">
+                Partner With Us
+              </button>
             </Link>
           </div>
         </div>
 
         <div className="justify-self-end xl:hidden" onClick={handleClick}>
           <Link href="/">
-            {click ? <FaTimesCircle className='text-2xl text-white mx-auo' /> : <FaAlignJustify className='text-2xl' />}
+            {click ? (
+              <FaTimesCircle className="text-2xl text-white mx-auo" />
+            ) : (
+              <FaAlignJustify className="text-2xl" />
+            )}
           </Link>
         </div>
       </nav>
     </div>
-  )
+  );
 };
 
 export default Navbar;

@@ -23,6 +23,8 @@ module.exports = {
         vijyellow: "#fbb040",
         navyellow: "#FFF9DC",
         viblue: "#008CDB",
+        vilblue: '#EAEFF2',
+        vidblue:'#1CADD7',
         "v-yellow": "#FBB040",
         "v-green": "#ed1c24",
         "v-black": "#000000",
@@ -40,7 +42,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "linear-gradient(to right bottom, rgba(43, 108, 176, 0.9), rgba(43, 108, 176, 0.9)), url('../public/assets/donate.jpeg')",
+          "linear-gradient(to right bottom, rgba(0, 0, 0.4), rgba(0,0,0, 0.7)), url('../public/assets/workshop2.JPG')",
       },
 
       gridAutoColumns: {
