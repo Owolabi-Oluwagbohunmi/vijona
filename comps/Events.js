@@ -10,6 +10,7 @@ import workShop from "../public/assets/workshop2.JPG";
 import location from "../public/assets/location.svg";
 import date from "../public/assets/date.svg";
 import time from "../public/assets/time.svg";
+import users from "../public/assets/users.svg";
 import { useState, useEffect} from 'react'
 
 
@@ -146,18 +147,18 @@ const Events = () =>
                   height="15"
                   priority
                 />
-                <p className="ml-3 text-white">26 July 2022</p>
+                <p className="ml-3 text-white">July 26 - 29</p>
               </div>
               <div className="flex items-center mr-10">
                 <Image
                   className="z-1"
-                  src={time}
+                  src={users}
                   alt="Taking the pldege to serve"
                   width="15"
                   height="15"
                   priority
                 />
-                <p className="ml-3 text-white ">10am Prompt</p>
+                <p className="ml-3 text-white ">14-18 years</p>
               </div>
             </div>
           </div>
