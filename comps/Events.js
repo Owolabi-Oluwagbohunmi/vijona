@@ -11,6 +11,8 @@ import location from "../public/assets/location.svg";
 import date from "../public/assets/date.svg";
 import time from "../public/assets/time.svg";
 import users from "../public/assets/users.svg";
+import unitedChildren from "../public/assets/united-children.jpeg";
+import squareroot from "../public/assets/squareroot.png";
 import { useState, useEffect} from 'react'
 
 
@@ -168,11 +170,61 @@ const Events = () =>
         </div>
       </section>
 
+
+      <section className="w-10/12 mx-auto bg-white my-20 ">
+        <p className='text-xl my-5'>Our Upcoming IGNITE Experience worshop kicks off on the 26th of July  2022 in Lagos State</p>
+        < p className='text-xl my-5'>The IGNITE Experience focuses on three(3) key strategy steps namely: Discover, Develop, and Deploy.</p>
+<div className="my-8">
+  <h3 className='font-bold my-5 text-2xl '>Action Paths</h3>
+  <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-3 '>
+  <ul className="list-disc">
+    <li className='my-4'>Discover WHO THEY ARE</li>
+    <li className='my-4'>Discover Occupations that align with who they are</li>
+    <li className='my-4'>Create a UNIQUE Occupational Life Plan</li>
+  </ul>
+  <ul className="list-disc">
+    <li className='my-4'>Think Critically </li>
+    <li className='my-4'>Relevant Trainings(LIVE) - cross sector</li>
+    <li className='my-4'>Showcase innate talent(s) for prizes</li>
+  </ul>
+  <ul className="list-disc">
+    <li className='my-4'>A chance to win their first laptop</li>
+    <li className='my-4'>A chance to realize their dreams via sponsorship</li>
+    <li className='my-4'>Be ready to take on the world more confidently</li>
+  </ul>
+  </div>
+
+</div>
+
+<section className=' my-10'>
+  <h4 className='font-bold text-2xl'>Our Sponsors</h4>
+  <div className=' grid gap-10 my-6  grid-cols-4'>
+  <Image
+                  
+                  src={squareroot}
+                  alt="Squareroot Academy"
+                 
+                  priority
+                />
+                 <Image
+                  
+                  src={unitedChildren}
+                  alt="united-children"
+                  
+                  priority
+                />
+
+  </div>
+</section>
+
+
+      </section>
+
       
       
 
       <section className="py-6 xl:px-16 bg-v-brown pb-14">
-        <h3 className="text-sectionhead text-center xl:text-left font-semibold py-14">
+        <h3 className="text-sectionhead text-center  xl:text-left font-semibold py-14">
           Impact Videos
         </h3>
         <Slider {...settings}>
