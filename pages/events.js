@@ -14,6 +14,13 @@ export default function events() {
       cloudName: "dbwk2jksa",
     },
   });
+
+  const logo = buildUrl("vijona-black_q6q0wc", {
+    cloud: {
+      cloudName: "dbwk2jksa",
+    },
+  });
+
   return (
     <>
       <div>
@@ -84,11 +91,15 @@ export default function events() {
               </div>
             </div>
           </div>
-          <button className="text-white bg-v-yellow py-5 px-5 rounded-sm mt-40">Support Event</button>
+          <button className="text-white bg-v-yellow py-5 px-5 rounded-sm mt-40">
+            Support Event
+          </button>
         </div>
       </section>
 
-      <div className="bg-white h-96 ">sponsors</div>
+      <div className="bg-white h-96  w-11/12 mx-auto border">
+        
+      </div>
     </>
   );
 }
