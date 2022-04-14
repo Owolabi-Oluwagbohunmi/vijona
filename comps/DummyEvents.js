@@ -1,7 +1,44 @@
 import Image from 'next/image'
-
+import Head from "next/head";
+import buildUrl from "cloudinary-build-url";
 
 const DummyEvents = () => {
+  const contest1 = buildUrl("DSC02090_wtom8f", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest2 = buildUrl("competition_qe9kal", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest3 = buildUrl("DSC01798_cdcscd", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const contest4 = buildUrl("IMG_6965_k2n2nq", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop1 = buildUrl("3D3B3F79-22A7-4B89-BEEA-FA19A4721D7A_ocm2hc", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop2 = buildUrl("0F4630C2-5102-4255-AB12-CA973203ACE1_ir0bip", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+  const workshop3 = buildUrl("e9aac104-789f-4c35-8279-7295471f8aa4_nlrloy", {
+    cloud: {
+      cloudName: "dbwk2jksa"
+    }
+  })
+
   return (
     <>
     <section className="pt-20 w-full py-12  sm:py-32 bg-white "> 
