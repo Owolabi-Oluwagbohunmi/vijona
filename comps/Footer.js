@@ -61,7 +61,7 @@ const Footer = () =>
         </div>
         <div className="flex flex-col font-light w-72 h-auto">
           <div className="py-3">
-            You can help shape the future and dreams of young Africans by
+            You can help shape the future and dreams of underprivileged youth by
             partnering with us or donating.
           </div>
           <div></div>

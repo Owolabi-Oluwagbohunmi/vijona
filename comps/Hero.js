@@ -24,9 +24,8 @@ const Hero = () =>
           </p>
           <p className="text-justify text-primary"> 
             We are igniting critical thinking, encouraging imagination and creativity in learning, awakening sleeping
-            giants, unleashing the full potential in young Africans, and
-            giving them the audacity to dream outside the box. The future
-            of a continent relies on who they are and what they can do.
+            giants, unleashing the full potential in underprivileged youth, and
+            giving them the audacity to dream outside the box.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-2 pt-3 md:grid md:grid-cols-3 w-12/12 pb-6 text-white">

@@ -55,10 +55,10 @@ const whoweare = () =>
               unleashed, and developed into marketable services, products, and
               solutions.
             </p>
-            <p className="text-primary">
+            {/* <p className="text-primary">
               The youth bubble in Africa can become an asset for the continent
               with the right believe system, training and exposure.
-            </p>
+            </p> */}
           </div>
           <div>
             <ReactPlayer

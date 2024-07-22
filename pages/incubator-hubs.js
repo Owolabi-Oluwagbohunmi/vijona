@@ -76,7 +76,7 @@ return (
                   <p className="block font-sans text-4xl font-bold tracking-tight text-purple-700 sm:text-6xl sm:leading-none">About Our Incubator Hubs.</p>
                 </div>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
-                  We encounter brilliant young Africans with innovative inventions and solutions, but lack resources, material or even a workspace to develop and take their ideas to market.</p>
+                  We encounter brilliant underprivileged youth with innovative inventions and solutions, but lack resources, material or even a workspace to develop and take their ideas to market.</p>
                 <p className="text-base text-gray-700 md:text-lg text-justify pb-3">
                   Our incubator hubs work to bridge the gap in rural and urban
                   townships. We play the role of a catalyst, empowering the young innovator to realize their dreams.
@@ -231,7 +231,7 @@ return (
         <Cta
           ImageUrl={brownppp}
           heading="Donate a laptop + 1 year data subscription"
-          text="Open a world of possibilities for one innovative young African"
+          text="Open a world of possibilities for one innovative youth"
           href="/donate"
           buttonText="Donate"
           alt=""

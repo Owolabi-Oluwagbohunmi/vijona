@@ -23,7 +23,7 @@ const Howitworks = () => {
           <div className="bg-v-green text-center py-4 w-max text-white rounded">
             <h4 className="text-cardHead font-bold my-5">O1</h4>
             <p className="text-primary mx-auto  my-5 px-2 ">
-              Discover the occupation(s) that align with who you are
+              Discover relevant occupations that align with who you are
             </p>
           </div>
           <div className="bg-v-yellow text-center  py-4 text-white rounded">

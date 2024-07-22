@@ -132,10 +132,10 @@ const pathwayScholarships = () =>
       </section>
       <Cta
         ImageUrl={purpleppp}
-        heading="Young girls and boys across Africa need sponsorship"
+        heading="Underprivileged boys and girls need sponsorship"
         buttonText="Coming Soon"
         href="/join-us"
-        text="You will soon be able to sponsor the occupational life plans of brilliant young Africans. - #Ubuntu"
+        text="You will soon be able to sponsor the occupational life plans of brilliant youth from underprivileged communities. - #Ubuntu"
       />
     </>
   );

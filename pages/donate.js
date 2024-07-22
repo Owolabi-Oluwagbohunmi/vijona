@@ -33,7 +33,7 @@ const donate = () => {
             We appreciate your generosity
             </h1>
             <p className="text-xl block">
-            Thanks for impacting the destinies of young African boys and girls
+            Thanks for impacting the destinies of underprivileged boys and girls
             </p>
           </div>
         </div>

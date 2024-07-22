@@ -24,7 +24,7 @@ const Aboutus = () =>
             </h3>
             <p className=" text-justify xl:text-left text-primary md:3/4 xl:w-10/12 pb-3">
               Vijona Africa was founded in 2018 to play a role in transforming the
-              mindset and reengineering the believe system of young Africans.
+              mindset and reengineering the believe system of underprivileged youth.
             </p>
           </div>
 
@@ -33,8 +33,7 @@ const Aboutus = () =>
               Our Vision
             </h4>
             <p className=" text-justify xl:text-left text-primary md:3/4 xl:w-10/12">
-              We see a future with empowered and relevantly upskilled young
-              Africans championing every facet of the African narrative…
+            Economically empowered youth living self-sufficient and productive lives
             </p>
 
             <div className="my-10">
@@ -42,10 +41,10 @@ const Aboutus = () =>
                 Our Mission
               </h4>
               <p className=" text-justify xl:text-left text-primary md:3/4 xl:w-10/12">
-                Show young Africans the innate value they already possess, expose
-                them to contextual/relevant occupations that align with who they are
+                Show underprivileged youth the innate value they already possess, expose
+                them to relevant occupations that align with who they are
                 and create incubator channels that will enable them become
-                innovators and pioneers for their continent and world.
+                innovators and pioneers.
               </p>
             </div>
           </div>
