@@ -48,7 +48,7 @@ const donate = () => {
       <iframe
           src="https:/donorbox.org/embed/vijona-ignite-workshops-1"
           name="donorbox"
-          allow="paymentrequest"
+          allowpaymentrequest="allowpaymentrequest"
           seamless="seamless"
           frameBorder="0"
           scrolling="no"
