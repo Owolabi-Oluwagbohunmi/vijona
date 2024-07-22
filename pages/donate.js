@@ -1,3 +1,4 @@
+
 import React from "react";
 import Script from "next/script";
 import Donate from "../public/assets/donate.jpeg";
@@ -44,8 +45,9 @@ const donate = () => {
           src="https://donorbox.org/widget.js"
           paypalExpress="false"
         ></Script>
-        <iframe
-          src="https://donorbox.org/embed/vijona-ignite-workshops-1"
+        {/* eslint-disable-next-line no-unknown-property */}
+      <iframe
+          src="https:/donorbox.org/embed/vijona-ignite-workshops-1"
           name="donorbox"
           allowpaymentrequest="allowpaymentrequest"
           seamless="seamless"
