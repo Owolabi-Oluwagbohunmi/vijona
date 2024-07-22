@@ -45,11 +45,10 @@ const donate = () => {
           src="https://donorbox.org/widget.js"
           paypalExpress="false"
         ></Script>
-        {/* eslint-disable-next-line no-unknown-property */}
       <iframe
           src="https:/donorbox.org/embed/vijona-ignite-workshops-1"
           name="donorbox"
-          allowpaymentrequest="allowpaymentrequest"
+          allow="paymentrequest"
           seamless="seamless"
           frameBorder="0"
           scrolling="no"
