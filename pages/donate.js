@@ -51,7 +51,9 @@ const donate = () => {
           seamless="seamless"
           height="900px"
           width="100%"
-          allowpaymentrequest
+          scrolling="no"
+          frameBorder={0}
+          allowpaymentrequest="allowpaymentrequest"
         ></iframe>
         </div>
 </div>
